@@ -1,0 +1,11 @@
+{
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt3AK3ZS1h9Kv7mBr5ZmZ\nZKEV8+feuVp0zmMMvZo311pC4+YQzeIw5E3CT2XhTTrbtdCAzxtfvEkWz+3Z9Bxx\nXI9aTcH3D9RY92LkdxB5IHkFEMcZRXX/U/rKrZ9vpbse+dFQ/wYErHzfbeKIXEj7\nKm/1QXYWdT3p69u8xbMDsCEdLzthReH6r+iqJSBoT9xZUNnKtQPGuL8PkHTFo3ax\nPSOjjwJYb8d4hIPG5/UOWam5SS4Sm4xwcU60sxKLVRGxunOtjAYeF7EVznL8ezy0\n5c1nqQG0xpPv7M4cgAHjS/LBImF09aIJBx/U5zDkxJQ6ZUhzSVMw3OAadyLjyRID\nwwIDAQAB\n-----END PUBLIC KEY-----\n",
+  "metadata": {
+    "commonName": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "organization": "República Digital - Infraestructura Soberana",
+    "country": "VE/LATAM",
+    "validFrom": "2026-11-06T16:00:51.609Z",
+    "validTo": "2036-11-03T16:00:51.611Z",
+    "fingerprintSha256": "388aea805c10a69f43d7edf87ee56e626cb8decafb696d381a5b1a1b665c3ad0"
+  }
+}

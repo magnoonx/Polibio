@@ -1,0 +1,24 @@
+{
+  "name": "polibio-ecosystem",
+  "version": "1.0.0",
+  "description": "Plataforma Soberana de Documentación Oficial, Criptografía PKI, Blockchain e IA Local",
+  "author": "Polibio Sovereign Security Team",
+  "license": "Proprietary",
+  "scripts": {
+    "start": "node orchestrator.js",
+    "start:all": "node orchestrator.js",
+    "db:init": "node scripts/init-db.js",
+    "status": "node -e \"fetch('http://localhost:8000/api/health').then(r=>r.json()).then(console.log).catch(console.error)\"",
+    "test": "node test_confidentiality.js && node test_user_iam.js && node test_e2e_mls.js && node test_dept_templates.js",
+    "test:templates": "node test_dept_templates.js",
+    "test:templates:e2e": "node test_dept_templates_e2e.js",
+    "test:cluster": "node test-cluster-e2e.js",
+    "test:iam": "node test_user_iam.js",
+    "test:confidentiality": "node test_confidentiality.js",
+    "test:mls": "node test_e2e_mls.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
+

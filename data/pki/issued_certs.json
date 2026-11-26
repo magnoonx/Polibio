@@ -1,0 +1,378 @@
+[
+  {
+    "serialNumber": "POL-1A1B19765B3-26F131",
+    "subject": {
+      "commonName": "Dra. Elena Vasquez",
+      "role": "Directora General de Despacho",
+      "department": "Dirección Superior",
+      "organization": "Gobierno Institucional",
+      "email": "elena.vasquez@polibio.gob",
+      "clearanceLevel": 5
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-06T16:00:51.636Z",
+    "validTo": "2027-11-06T16:00:51.636Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuxRHcV64lVLzYq6bUZtT\nx7dLG94L2Zd2+E8R2XdSSAg/NmVqVlXomaJxGT4cfwHLzonwI2xrpmrOD4uFCW6d\nbFaaZgH52GkXieafhhlpZ9FuqkfoKjyKjcAgRB0nRch0aFQv5td2hQ+g3WDfEXO2\n4waafRcrXoqOlb8km/8s1GlRd8Gn6XChZAsGDpxSCC/pzio8zr9hcSHRNutUPSl6\nA2U8VFeNwMGJKPaiF/YPVxNUihAEfQbzeSuBDG5G3ObR5gB54qcEOVG6GkHMjNvI\nX4erIP1JDdKKwAdsNj8nTqs+hO9eYf+AHvdKLAdxlckrUHvZR53VOh2fNMofiYxb\ncwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "939789f83a0b826a3a7019789fc272b13071d2ec41a9dfeedf7a382b821f75c1",
+    "status": "ACTIVE",
+    "caSignature": "DfqXtjecO4sNYQ1vlNOea9WzKsnlLv6wMaDDWDex4M2u/Z39KYcq7NJVdF8nBWjPt2oN1njMVMtaLdpI/U+hQ8aECR0cpCz3WAYxO5skK1yTkP3PZM9d/PJ0oWdBthOArXvJDZBF9M2o6Oj16nyLe8W3Dn56q1D/fSAZXIDp5A8bHIF4wgIX9XPhJh8Dn8wZem3APccVek2AnFTaYNnrBB6SvbpSBbw4gt2lV643rTPYfgp3bah0tduCbTFAKV+saKMCPKFG7VPY7GKabJ2jkCL63olKSvEMg2Blt21VPSrpXsvAkpJarP/kxODlvQvVohaQo4n+Q7+0hf7f2fI9kQ==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7FEdxXriVUvNi\nrptRm1PHt0sb3gvZl3b4TxHZd1JICD82ZWpWVeiZonEZPhx/AcvOifAjbGumas4P\ni4UJbp1sVppmAfnYaReJ5p+GGWln0W6qR+gqPIqNwCBEHSdFyHRoVC/m13aFD6Dd\nYN8Rc7bjBpp9Fyteio6VvySb/yzUaVF3wafpcKFkCwYOnFIIL+nOKjzOv2FxIdE2\n61Q9KXoDZTxUV43AwYko9qIX9g9XE1SKEAR9BvN5K4EMbkbc5tHmAHnipwQ5Uboa\nQcyM28hfh6sg/UkN0orAB2w2PydOqz6E715h/4Ae90osB3GVyStQe9lHndU6HZ80\nyh+JjFtzAgMBAAECggEAXGC3pIYy3F2BHF3/CS2LkcdzObgMHu6ZiyS0Oi+e/D3C\nRRCQEUDLoi2h7maKuLaA1qSrZTqQ77S2uttYnp818fzTsgJQxqmiO3CbniKnN2Il\n5MSsIksR2cwgwrGopl9FCA1mN/V2K19bvmUq0VnT2cf1ekZ6Hm2J2ezwXW2ETAA5\n3372WfnmWQ7mRy3PibSQEwKg5e0RY6MTiBMYtDgGz9dGvK1VUn04SSH2iOGAxzIq\nI0U5UcT53DqrdVBTZnxFRdjf/uLuVXMBxCwlOv9w08kzXpmLvAD2/pujfyBT6SZ0\nJgbMGPGiBz1/lK/JHL7fJEuEH6LdKyyP/G5OMK42nQKBgQD2K3/10P6hDocI6Zd2\nDd7hPEdc9ikOoRWftYesHO3efQBfbrMOy7bYKbhNynDIxDSp3ulQhBdOp7Iafh1r\nMTiobi8XYM0fci1bHBad2yMBueSenqvwPwet0tLiutIqfmlfT/yVK4Ddm7AMjwsu\nOo/4IAXGdI2EhhrzLEuVqq8R/wKBgQDCjLe9SBfRSCweaoZq/nkICQriFplTuIWM\nkUfeUbVE1VhrOLo27qlYS9gZTnk5/YJyILhaWE/yZW864aXvbc5SFI7cju+YQVzV\n4V7nJDL9HivIb4faPLucfm99ftQlWQeAPGF/kB3LBSy1twg/0vFvga6y0NtU1Ajp\nh89IDNyOjQKBgQCu1vh8S+L92waXkukLZRCe4qRA52kDxe9IzrK80JM1yYyBO2ub\nn56O6xrGzXjLb2eEGxmVISw4pix+WoJkhsIaBqAVt6AYrIyAQHPjzCeR60jwS/wM\nl4fJsoorlMr+eWg31OStwgc13oTsdpBXViq47W2MpW156ZGskxJgC6lqWwKBgDJq\nMscLIpjqIfyz0Cdz0Dtj1H0oLA2E+J6nmz8iX136B1KpvZ+0kw+9f793FXUQm7gl\ngIBw+C6xWHSiutRj2R5uE2NWawJCleMa5vPw7oGnSuNC+6pzKI7yOMQFlMYk3wu9\nGerrlrzgl2hziOC5MjWaHoJaGyxNUg3qUq2yH4mVAoGAGE4X6DjRUF7H1an409cH\n5hlXd3UOF+ILplEu2/bRNM38kYQcN9igatHra1mXRDM7ED8uq5hRzPZCSfXJMdHn\nMkv53+67X1W1IRU4AozAqQzMmo34s+G1vqvdu0cVpPiyHgkl1WLPvEe9lEMhiajT\nKhP7lP79Jcd9ebS19AQYA2o=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B19765CD-2DAFC3",
+    "subject": {
+      "commonName": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación y Presupuesto",
+      "department": "Planificación",
+      "organization": "Gobierno Institucional",
+      "email": "carlos.mendoza@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-06T16:00:51.661Z",
+    "validTo": "2027-11-06T16:00:51.661Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqhW94gSEZOr/sg2u7Mn0\ndZxOcnfzqOytDwHRHEPW42R5WbJajUpZgjJQrBMvxwaBumP7zOhzFjErZbVMxBXZ\nH9CzR4IPsQrxv+X9VyYiQt0Je22Y9ppUBVmXnNUuT58TSwy0B8E3Of7U6cPmraXh\na4DOvQNhp73JWvJFdr+nbtJ1+suz/48GKgj6ks/REHLAnV3N9xFBWq1ItflhQado\nbz+5aqGEUmpRNr5sQgMR374t4w3RgUo/kxd5T9EmFv7N9+z8cAemvZ9o+uEYOjGI\nEBn5dHJzl5Mm5UHA6HAINKpnA7sgds0DZEZvcu+cVj/wzxVqVINtt3U5aUBNPlOA\nqwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "c5f32c37811989793663ee8d708283856a51cdca817d6efc1dfd29eba1d66ddb",
+    "status": "ACTIVE",
+    "caSignature": "U8xTLouK4I+URP4sLig+k0zbhyMY1Mc/E+K35NUNDfSDnF+xR34Kt8WH3zHKqHS4tnr1KTRzAC20VtdTyeeBHzsZ9a7SdIuP/NwW4Sx9aB6Vj229t3SJJTYg/mY0zC1jeLCyYULflPW0J+BlN52P1vxU+Gv/2Md8Z8KqeM7133PTEGTC+g2RTextBtvMq3tsQyOHMv74GSwFyTwDGQFgcitS5h38xOnAz4UPcl9qOaIdkV5VWRjzNrnfuQYFv1KSbOmFU5S3Xi69q7guD/50gpIOs7/KZ42odptd0DcwjL7mVaiDWqwtU2CKyYVwzvDyP0oCM+kl8H1MOLso9qxf/A==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqFb3iBIRk6v+y\nDa7syfR1nE5yd/Oo7K0PAdEcQ9bjZHlZslqNSlmCMlCsEy/HBoG6Y/vM6HMWMStl\ntUzEFdkf0LNHgg+xCvG/5f1XJiJC3Ql7bZj2mlQFWZec1S5PnxNLDLQHwTc5/tTp\nw+atpeFrgM69A2Gnvcla8kV2v6du0nX6y7P/jwYqCPqSz9EQcsCdXc33EUFarUi1\n+WFBp2hvP7lqoYRSalE2vmxCAxHfvi3jDdGBSj+TF3lP0SYW/s337PxwB6a9n2j6\n4Rg6MYgQGfl0cnOXkyblQcDocAg0qmcDuyB2zQNkRm9y75xWP/DPFWpUg223dTlp\nQE0+U4CrAgMBAAECggEALxjpJSJyFM3b8w6F7yy3JDAdquXbU14CR+MNaAHDCeGD\nFtrj5zb81SggnZ2Mf9Sl7JqOGb4OTEleRoIvGSchogU096qktLYenjBN+ClnmFND\nsml1T2gJtxeJe5Suh765ZXFFktYmeEk/5OFpyZDi/FVFKiK7Emtjy+rFYG4Oq4lo\njJD5pdy+ywPtUQv4GS+gI59+Xj9kI6n4ZVnA/FbJMfoBCBdrsHwWnDw0lvVn6yNz\n/q/CXYV/chTOvHhUffAi2J80SwrmCRvwdWbNJDw8V8rsRjqFq++k31H/Tea02GM+\nLC0qiJ/H6Wwz0nQ5g01yYXhQ1V21J6GeG9OU6MhkGQKBgQDn2BkjrJ7ysw0PS9Vo\n4aK09rXLNq4PTTFH90tUKL09nYdr1uhX6j3aNJDWpHmeN3p+3SGCjH1GAgZLSDmf\nKvtXg6/n8fKKui1mafbQ2VQEYfthYUprnzYfhl8t685L//7Og8cLZTSXstHG45Ru\ntVpr0OOGdir+eXY+BCAdHofr8wKBgQC7zlxXTqo9LnOk9MK9e8LbuGEgBPTFO77a\ndkS58csPyYc52PsBUAFPtb5w2BnDqZIxNhKM/kSmHihzhaQGqvHlXR/J8UuuB/Ia\nspy6HwRtKJUaVVG+7wcELtxi+8HLytAcH3H7IS3EW4YIyw4D9QdvsXAeAaWOH7SL\nhfEubu3eaQKBgChp4vf0/0APNheUgH7n1hT1bHsf7Pd93TlOQjNJZrN24kRKEfZB\nPsbqotTHluudgBzdLxoyoyOw9qfozyKPu4Bl1CP6aO0FxyQzFHMTbzHUYp12+CIK\nfsTAB5dZo3xcA268SdYSrjhDU4333cfulPR2VTL7JkN1qMbmsTJiQA9BAoGAL+zV\nO6JjZwF3mVysZVYzv4YpotYg8EPyzCTqHNlLDFhNHcH1K7yS2Rhz5LAAwyF+oPg/\ne6NXOVzwzaoI1XrCB9nfxtTAj0SPz6hMvmIz6vc0NWgYWDT/AV5D9y5voeW7fbG4\nkHFDEJyac5v9k5zvrN0G02FwMfh9Ri2EAmlkYiECgYEAslZsUFmmSho0w5QD5Cbl\na5//7jnBDXat6CTdYTDG7gcpsX9aIFelPicSM0rDkCzm7rrk/uFn7doU2sN1+7sB\nywW7NDwtrNwfbsBA3/smYp67Olnc4SuuPh0FH4Ns/Ved4nsMR3Q7EXshQjBqRnj0\n26pX1ZM74mFWV/41Wt6vr3Q=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B19765FB-79CCF7",
+    "subject": {
+      "commonName": "Ing. Sofia Ramirez",
+      "role": "Auditora Jefe de Seguridad de la Información",
+      "department": "Auditoría y Criptografía",
+      "organization": "Gobierno Institucional",
+      "email": "sofia.ramirez@polibio.gob",
+      "clearanceLevel": 5
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-06T16:00:51.707Z",
+    "validTo": "2027-11-06T16:00:51.707Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnw46IBeMWS1qDI3Xqgk+\nYwK5kxUGHdp9wH0DP2qSonPrPEfEw2EeY4iesmCN1XdUhjImr7+tderRlkJ0eOQK\nYeEs0rk/wXJS4qAwPo6+DiWz8X/3yzpe3yJwVoa4Yn4uzwhISmYTS8ATtqSxbDnW\nN6rLjODhnbdMIUyKCTxTwQs78oJnTmKjqX6mY8GqGORUZp7o9+SFKbzg6q/zIevA\nI8uOjSv3jmc5RK9iwstIoOGv7gk3uAqE0TwHXnIsL4d4mlgRVllGQnQL+FjRjXNj\nNHEj02f7H+3cBaE9EJWUJPhcraGie3k0SbPngIxfXzP+ErKbL0We602L5UM90V1X\n0wIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "bddbb70a85ac6fdd2e20195ac74d461485093a838866eb792b3b1a0cf9a4ba9c",
+    "status": "ACTIVE",
+    "caSignature": "V5TNuLZJfl32jH9a8XB4kyvZIqj6tLFLHj3ysNKNJBScH/FiAq1iMEkyHAxgdNDleyoCbphZVjd+A220WEvLb94xLBkf+Q5E4ovWvj9oSDQ4FcacWCNMuVdxN9mUGqs2CzebQ5JVg0ql3zPo+UNM4aMFO5DBLB8aFYCSE7YE8uB8E3INq+Xp3Z773tqMzJ4PhOj0ish5BV4ugr+FT516/Xc8FRhuP5XCp1HlzXnn9x7r5PRs9j1CX+e+QBQQdgmzSfNHSZXRXqD0OeeP7yvU8capqfS3Jk+O0340rm+pGMfObm3eLNcUORRM7nG4ENPoDU/jU9kERvRIcUwNdF26Bg==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCfDjogF4xZLWoM\njdeqCT5jArmTFQYd2n3AfQM/apKic+s8R8TDYR5jiJ6yYI3Vd1SGMiavv6116tGW\nQnR45Aph4SzSuT/BclLioDA+jr4OJbPxf/fLOl7fInBWhrhifi7PCEhKZhNLwBO2\npLFsOdY3qsuM4OGdt0whTIoJPFPBCzvygmdOYqOpfqZjwaoY5FRmnuj35IUpvODq\nr/Mh68Ajy46NK/eOZzlEr2LCy0ig4a/uCTe4CoTRPAdeciwvh3iaWBFWWUZCdAv4\nWNGNc2M0cSPTZ/sf7dwFoT0QlZQk+FytoaJ7eTRJs+eAjF9fM/4SspsvRZ7rTYvl\nQz3RXVfTAgMBAAECggEAF4FNu7JfLkqU0ngft+QX0R/09rRzq/O/A7Q1x6hjNRi2\nWbktbcYrbIAjG69DJpm05wQATZag9r0V7gOyHK9ujVpuelGgB2FyuET9/DCyC3ss\n5XKI1wKwRH9dZJwSIZQOLNBHhp8hGN+wyhv6kEjXzHA0FoShMuKEoKMj/wtoQS3B\nMCbZ5cuLw9KU7V3OeaKBkgvp0pyEo6XxXRJ7W4hYye4a7JZK3fexpZ4Y6S38Mloo\nacJEBNK2IGNhlhwgVHTgdQmfyrpVdpZC1D6Z9c/7u19CPyVWXwpcjWjiC6x2HhLH\n/+6EfALkVEW017quCJ8t2baaO9UR9qj96ppkJJnFOQKBgQDMDkY9iY3WjYzcEMhO\netlzdkWicYzdpZfmT1sjIVJQaF92RRbTscjtK7uUf8y+JnHv1Q5qfz5TJq5XK3l1\nq0Bb6AlPW0YhdWNe+3tMa3diHR1AKRkMbpYsp0mR9Hs5b3kfXMtsJq9py8eEraz1\nZU6F+HcmnvRm1c5Ix5XpMThVRQKBgQDHi2ubwXZsAyr/RSFhjZNRhvm5mTuTh1qV\ngGaJld9KFbFF3Av0ub0ngaikztoiHQOlqspiCQO69GSPTc7pTghWPhuP7zrJoxIr\n4J+3FFi98V7lNs8JpN+V/87QjNMfuUDNwFDgA8Mlu6SDPrr+/s6lMwpfEAFYVsKt\nM2WFE6hONwKBgBvxzH666ri6M9MjXTsaKdNdHBYt9LuZ5N5+eZ2q/4nRcVlSBtlA\n3KJWPd8NTW2w+CN/CvVcrZ1Xi8KWSpDpveuYMEY02rrUR6KHUBBcG0JNeGcD+dEx\nB9HfqvyY/ZMVCAJag+Uwuw8DADTUT/5fPEyuhSq90/yNRS3EX2xK+Er9AoGBAJAR\nrEbPXkXL375gViKNyiBhuGl1Jdt1LUSlaOLLT2S41r3eis9NTzF33p/nLPzWP+zb\nq7UuVwAjNXt1rP8rNL+3pcS874/nadY+HnJbgVraKy6I7OBEpp0xDUvrcP8FjLFA\nueOTM9FJchTENNSoeeAyQrmx35a9RV8xrYlwUOLvAoGAGN5Mcfifgxf+N/Kj1H91\n/mUCfd32nBky0nEK8gbhyhNJzGlH9SD/Iu76x7Rz6cZQYbw1JBhvpgWpvDi7SbV/\na+JODlRVv4tNxMZaIlr7QkXbVxlGV/haCcHyJj+raxJ8iImZt8erk+umLqaBy8JS\nsdzPXNZqZqXUiULhnqisXRE=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B1976618-83980F",
+    "subject": {
+      "commonName": "Abg. Roberto Gomez",
+      "role": "Consultor Jurídico Adjunto",
+      "department": "Consultoría Jurídica",
+      "organization": "Gobierno Institucional",
+      "email": "roberto.gomez@polibio.gob",
+      "clearanceLevel": 3
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-06T16:00:51.736Z",
+    "validTo": "2027-11-06T16:00:51.736Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArnWM2z0YheQiuUanbjvY\n/fytQ7i9vqcKQJXIdjiAd98uwlbM8VTOLkAEyiXPwA4ug7ewgrK5kVAOOFcSdneV\nwOmbUNeIyF6g/bK+XYYWAW3SDSc63f7ZTL6g+ePVfXYxzV4v4QCGWy5AC3dSUKdw\nwIpkg00UoI6YxyXB9MiaIXl2JeXGSBy8C6wnpI3XZRpX7jeWQTe52sGFsFFuVAS4\ntzQobxNecSiidw5KkTIRxU6euIh1RlGVuoUoRhOc4LpZrMclcm03TiREpD4+4V+E\nxgzK1hA4nfKEujjXdDZPdS1hLkxp6+MmxjyvSs/jxzr1UET9qCbp1Suwez1z9eQw\nWQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "16a37b477f79c3ac4ff0f48c4a0f80d5cbb384c9088767e3a74f4e7b9ff6437e",
+    "status": "ACTIVE",
+    "caSignature": "gsUTHaD4NXNS2mzfi8oiDWVGv8enFD9Mz37oAJcxnlnnDiN7lYbNia9Mq139gOT5W2eDwsrtJcpHzlwOThZCr4y5JEmEZt24Q1+XfUc2/dRDiLKhWRiEW24lBGlQvWlDQm3LaoZQMpjyylhCLyixxj4f4/MUELku3RTUbQf/6R6xAKC7X3TlgcKlTqBg0thbYiy8Czw/Dbvltj7G4kkcvakVIceYW220r5WOq3JwFSPP8O118MddddckaXEakF+w8e3jUbFlEBAsgyWqQAYg7Xuu/+NUpqnJu+TgEdJttT3JR1NDsHkekPJhVnOWRxEgKGIoKL2NlJXjvccfxAAziQ==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCudYzbPRiF5CK5\nRqduO9j9/K1DuL2+pwpAlch2OIB33y7CVszxVM4uQATKJc/ADi6Dt7CCsrmRUA44\nVxJ2d5XA6ZtQ14jIXqD9sr5dhhYBbdINJzrd/tlMvqD549V9djHNXi/hAIZbLkAL\nd1JQp3DAimSDTRSgjpjHJcH0yJoheXYl5cZIHLwLrCekjddlGlfuN5ZBN7nawYWw\nUW5UBLi3NChvE15xKKJ3DkqRMhHFTp64iHVGUZW6hShGE5zgulmsxyVybTdOJESk\nPj7hX4TGDMrWEDid8oS6ONd0Nk91LWEuTGnr4ybGPK9Kz+PHOvVQRP2oJunVK7B7\nPXP15DBZAgMBAAECggEAI3snUlhu4h43nLBcsXvtAhzvXShXuMxutptv6XFM2XRT\n5XTzWfqqMzhUcQt3IOORfLrxZGd2e7IJLlaxG9Ru6czpCGxJdpzeR7KgalNwqso7\nz+6EV61y4tubUC9Q1mMhNlgbSzrI2IcDwgE6xcoEEbijwBt/YDcYJdqNQ5w/0qIz\n3xijvVQYqvTwVp2w9eP+DQtJ2+JnTRUIJn4QSUjfFjuHWdUfXfV493zKQLSSuJVv\nxByHYvTHWumzPepceCIvqim0/BIx5x71Rp/zfXSiG+yP0B7jKrc300YHwKUduq2d\ngNyeGhSFsIKT9rjHXevlMvV1iGlHQS9ahYzGQhi13QKBgQDjVJOUJzDPfu3U+grN\nmkAP93d2ZniSIYN6Lp49iLQhU6Hqd+bNJSIulqXRozMBFN/N9gTpR+W7Z9Ftj3tx\n3O/RcOpIqDo/+orsK1TDVcxaIrW5U9/4J3hqtv44/875tf/dDxkajSI4qAeHIH7E\ncIVaon6YjF0hpytjiyQze8EDbQKBgQDEdgM+1F88WO58xoYtU+0g8yNPJvfFzccF\nn8hya9hpz0eYD8JRTwFcCYPQK8NpMLEIei0Wn2EJ0AAFEcQjkoWjHJAxEWAUADE0\nXzWRPakx/joukcaNZwhCLHzPKMZ/GQZDkGqNwRHhe/be0bKguZWx5wMt4K3AZGHx\nZDdQWpThHQKBgAGesaqFmPhxjBpPadJLPhefCM/kLQnFiV1OhbwkhDwUj3vPPOrL\nT/ILCsVyp0NjtbCPBzvuUjnCpKBmPFf0XhUc+95mrHuWOnUyXdlCfEFMLAVVDqyD\nA32nLiqT0BLBdEBMAj7JMKw8rkkNNzoJHzolHEfUADnkKg/8htaDFD4FAoGAW/CW\niDq+7vD3evE1LdVO7dKbPZmQ7sLkVt914QZTWwEkEied2otMqZPSWgOBCaM91ifH\nHgUsVnk+6SBtV/BkFfdyC2SEQBfu7wF3gicHHVxKQiz6bIZBOSa0qgX9DtHZOplF\nJF2sTofC+nfMTqdLRNxFgpzY82aG537s2+/oKIkCgYEA2kuvj49q0YCRAfR0yjTp\nskZMPRzZL0H/t6sm2Li0samvG/OYpAqHdu8M9UehGh2fygDzrQ/Qm3St7ZsPsMgX\nrlKvuCqcFqNBgbHXiKtixS6yQoSZF7ILC5plKnTXvHBJO8TKOOzeNgOGl/xezZ7z\naLjOHX1IsgjfjYwlo41iGjE=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B6F61BF1-3D14F0",
+    "subject": {
+      "commonName": "Ing. David Duarte",
+      "role": "Director de Informática",
+      "department": "Dirección de Operaciones",
+      "organization": "Gobierno Institucional",
+      "email": "oficial@polibio.gob",
+      "clearanceLevel": 5
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-07T17:02:24.753Z",
+    "validTo": "2027-11-07T17:02:24.753Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs4v7DLhjVFFEPmm+6tia\nDzZ4ze5n0VIMvvxT7VnM0LvasCh4skV2JjBk2uzlFQZj0Dsa5URmBvGKT4Npatlo\nlQoPv6oKc3qxfJ9QWf/TcsezcIpx9KZNZMnl+kk5hSVOONO30Y24nKS9Q3I9v8e1\nP/qUs49+JmsSN3dGUJf4UoQOJL+HW4NsDbQbkecnbe1qClT8T5SGkGqNjTZsle7K\njSt9gNa1OM4rjIlPQ7GeseyvnD3GNNn/MCCXytTODPZKkYnoa3cJRCk0c1WL6AO6\nAsQj07m93R15g8ljrZmvKNXuUlM++WfDrDwNHSJunAn7pjR5py+hcvvZxDTfTs+R\newIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "09be43f107e7f269ee3c8a789edc1f37a0e2bff38fa8d1eb42a364fff7b34e33",
+    "status": "ACTIVE",
+    "caSignature": "ExQLiGAdw+Q5HsZclqDmg5jkIP3kJAgKOv8GyWTitEw9Y7TlctMlLd/q5bE7+TRavYLGsZb6iqg6XrhJ7DPrnHrlXdwFHCwZor+0XuYkOD8oqvx0WMjgCIElWI3KByZzwOmdYMJGdyHqwL0ahla95pitw/j2bhtcQn1SYBosknaOME4vMz6n80cxuT2OWrqhHdHeTNfL2IaRe7i2ZM5vAn5AkRgc+j8aKV6t/FmWnJLLoN6lQw1o3QtimTPFuqEi5LDyVc5las+FE9jpmzCeAVjk0+nWj20s5vY9qDBvqTWHSaWdRnRFoKHn2zOKN2MTasmtOfnJk7rB9GrzBJGG3A==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzi/sMuGNUUUQ+\nab7q2JoPNnjN7mfRUgy+/FPtWczQu9qwKHiyRXYmMGTa7OUVBmPQOxrlRGYG8YpP\ng2lq2WiVCg+/qgpzerF8n1BZ/9Nyx7NwinH0pk1kyeX6STmFJU4407fRjbicpL1D\ncj2/x7U/+pSzj34maxI3d0ZQl/hShA4kv4dbg2wNtBuR5ydt7WoKVPxPlIaQao2N\nNmyV7sqNK32A1rU4ziuMiU9DsZ6x7K+cPcY02f8wIJfK1M4M9kqRiehrdwlEKTRz\nVYvoA7oCxCPTub3dHXmDyWOtma8o1e5SUz75Z8OsPA0dIm6cCfumNHmnL6Fy+9nE\nNN9Oz5F7AgMBAAECggEABM3Ogkkesz9XZZobtxnjiVuqQMxLr9CTsbp7nmKkNcOI\n9uSmUhLEtgHeePMUsArTOduS/SZm2nG1Ayqfc/HsN+ykfjrU+8EBJbX3huju5efM\n98pkgSi/8l3qjtdNuC/G14NmrC8wDNTlkXvphguYYGVafDFvLST5QE2rLnXaeY6u\nfnlQhC0tnp1tAoJ3hlOwdQf9hTNIgPnhTitIG6UUYAzytACsfUSCKAwRo+cAylXJ\nmz5wszOb0J4Z3KHIDu4DoenGuzYPJDeeBf/SFfhtkZTDrRQk6EJaaG0LSU+nffGn\n+a1iHt7dUFm0FSlTI9uR7fIpDgAMrhgVaafzKbD5IQKBgQDbLz4AHe5xCznTHVL3\nxIWXvLX9OkMUCtRKmm8Hb2az42EHsnq86L+cd9YFFFqdcUxJvPklR9zhc7pu0F5e\nHp80WAA/Tt5F1qeN5LY7OrGrK1CjzVkrjS2/3061ELNkE91CQlGtcqn50aa1VIzK\nvgYCb247BdmUpGCpA3McOS3M2wKBgQDRtFkENmZdgzzNLFC7aGg3z0Vr9326BVkx\n7tMIv0lhnK1e0bwuVsXdeKxT5c+j/G+lAoTNEXEtwyCGKU5C3HIDeaRt6b+ehiRA\novAu6PT7NEEq7viy9Lmu3webp6OHp6xm9XS2ymlgj5zxwO7xum90uOootS0SjYcK\n1SSgUUAf4QKBgQCKZydoXX4eJa+Kzp6AU7jj2sa0MyD+O+RXg3MOp9qbRr4TZTE5\nrmKoA8fCB1s8xbkdatWMI/em6TPVG4ArQHzZSaRGVZ/nS6cb40rq1aIw6rYN6PIg\nnRJBcVm63ePZEu4JE+WNd7U7SZZSNCR/NUSILyLU5FnDEZTzxHjgXn68NwKBgGl9\nl+oOk6AnDMcJq/MaqpKoqfuOHKkfV6dOxMp5r6hy8KPqTgfhjtfChK4PxUxxCJix\nk6y1QYILzqiuzrfDvXcSEi1YkRRl1obNcJWoitRzjPTUEjez9FSLzX/37MOpDYkd\noQDzAd+ZXxIeRBVF/BtzihfATFQw7eX9ItejB+cBAoGAF40PRKLPRkdgeabgk5tR\n1+9bCX6MhVJwUv9H8JkwRXlWmZ+gAf414GQltGZLfeRU8h51sK01sq37FDZCiklv\n1DRii9YAQ3lXrRjbXoHJKWJ1SHx3q0CXOhiOPdz5BHugjUQeacsq+PnjCLOZvbPT\nrUX5TpIYScsO16uVgooZekw=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B739D8E3-FE73A3",
+    "subject": {
+      "role": "Director de Seguridad de la Información",
+      "department": "Tecnología y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-07T18:16:24.035Z",
+    "validTo": "2027-11-07T18:16:24.035Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkOYTuh3ykYBkZJFWA1/p\nt6gq089eK8DQb8fPjQgglPTPrA/sEt4SdhWFuqYRad6DQtRpcdocNYduz0K6de3b\nTNDiYkInXWQ4OqTIn4h7trT8EF5llch1k9XxptLNdAhJ2YBNIW9SBOlPXlNFnPXk\nPIYeMZPRGkqsGW05vMiNDY5vGFUPRxoRziBafWO/51k0Ox2bhRzQMw/3rx6dYdcv\n6Ve8NWf5ltzgJnc42oB9XA9jI55BIHw7tpemcgpdt2W/iYxoBPchc9WIK6FRpgsS\nh2KumCiYolzOqkOLL+ZGZH7levLy2CYFcL7cF29wj5y9SAWM1apDPZ+oytm5J8Jq\nzwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "72ff75920f72d19b2c87a94dad56a6af897f70b3ab38981d11493f20b81ea8be",
+    "status": "ACTIVE",
+    "caSignature": "QTFQpi1/0ALxLdFfyeTtIRuWEFAqVGvUov3pWgyidBvg//PuOHHinj+LYPvgDOOD33m+NsFjtAaTouH+v+GP+toCPOQ48TresAOdSklYLcsh2oi1VxsaN4wUnt3ROZ/D/WaWJbCEawFmdKon7xRs22JJLog9PqS5BMv0kjQhixb+x224jbgoGLJBLOuWJ61z8AD+1W3OZyO9Azn3WfXo/4PTzcd6kYmY7Sz8UyBEqddijp0NfeznnM9KvrTE1LSi76f8uLDy/cYfYI22RgPWD5brFN6sl/6kXU46dJmOCKNJSWdZAdqV8Xip+ttU2WAxaICO+RqQF3ptFgw4KhE/Wg==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQ5hO6HfKRgGRk\nkVYDX+m3qCrTz14rwNBvx8+NCCCU9M+sD+wS3hJ2FYW6phFp3oNC1Glx2hw1h27P\nQrp17dtM0OJiQiddZDg6pMifiHu2tPwQXmWVyHWT1fGm0s10CEnZgE0hb1IE6U9e\nU0Wc9eQ8hh4xk9EaSqwZbTm8yI0Njm8YVQ9HGhHOIFp9Y7/nWTQ7HZuFHNAzD/ev\nHp1h1y/pV7w1Z/mW3OAmdzjagH1cD2MjnkEgfDu2l6ZyCl23Zb+JjGgE9yFz1Ygr\noVGmCxKHYq6YKJiiXM6qQ4sv5kZkfuV68vLYJgVwvtwXb3CPnL1IBYzVqkM9n6jK\n2bknwmrPAgMBAAECggEAITkHq+Ri8jaYjjB+or5ylaAS1cbVpj2K7R5IueLzqYOq\nPB7Yd4kAfZ+4rk+WbYpN2VxfovGqByH65726iACWCDpatcHKSdEJTXTr5RxDlWRQ\n6SXjr+CrCM8EncX2wpSF7j9LMA/Yo/SktJFuRCti/feYY7CrQJZ/eEMBeoYXRVSb\nSyU6id3A2B5u0P3cey+0jJPHp2Q1sT8jt4HyYlJ2UxKo68B1OShfepvmNxTirPif\n+N6ClrTyhHkxtGEiFCyPjjRpl5TSj1PJECvBpZejFa5udPdoZVvw06xh/oK4r08y\nU8b6dA//VQQNy9Rge8uynN0CaVD7LJvrJCfRqgDbwQKBgQDGe+tz3vnJERNpzCab\nknI8F0qy+PzF6Y+tZRHwJJwzaTDQ5uR4Zgn/Fltgrg+M1w8oks/D7v18ozXWw2QG\n4SSt/HGeGX6E7fiALAWDSQO9dxtKjBBjl4iFWZGdwOzaWiGc/YuDGuZ02tNPG/Ig\n2yXFsT1tbBFkSdzs2Sfb9Y45QQKBgQC64w3lZRsM4fbNYqVn+6lYEWsz7mcmPq+P\nC9z+QrF5IYoqchrq5pF3BORrQCjG2bxUmyx0d4glka3XqaBx/OzAK+cuD5TjxGyg\nNmJe09qXWyD2ZKLLI3D8TtfOMLO0fxnZn/UgLYL4xcTumGs9HXdtvr0p298sJuCY\nUcPBaZkQDwKBgDWwCUUjWA9SBh1E8mB8YVftuO/mN4FVJt7xCsQZMwMY/fJTshL7\nDtMn+fmRu3UOKvR/maFXAMv43bREz8aomaJSOW1ZWgac0+3fenJDirZyBDjK4BgA\nQhZH3wJ7z9VUMelkD5ub6CBNnIC2f2zxuiraQVJau+2TqSWLq6NsrVbBAoGAKVcK\nfuDjn/DoKDyW/C52Ik4QGbe1x4b8TLdCFlhoa7QYnRUKkUWZjeteH79chcgqWcjN\nh6HdUvorq1YRcMWTFVtg0xaNR+juYm5FSlawtuRooThXrnnTh2xlXm31gorPDA3P\nKmQG4cLVsjWzGxzGi1cy/uxtLJYY/nivxbv3KM8CgYApUebarBLolqGyLO39pRGr\nQW2PZKVo0KYzkke9FkptC+jbJ8KkwWenxljNidNNbxfhgu/g2NkkYJ/5jqejcEAP\nP/7ovWH8Klpt9Td3tWTdszwEU0veccxxzNRocEHfaLiEssU5/uHsGJKmJkipPFIe\nSqIEgtntKcpLEwuXsuWZmg==\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B7624579-C0EC18",
+    "subject": {
+      "role": "Director de Seguridad de la Información",
+      "department": "Tecnología y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-07T19:00:33.274Z",
+    "validTo": "2027-11-07T19:00:33.274Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtQo9cRe3m/eO6VzinlVx\nBwVquiOLo2Num7s0Qpr9uRLdsNYfIpDod/zDWhUIoHJKsOx+JgPF/Qt1XxVXXlT9\neFcuAkPYKMBGavFQ8Kl6u7eovq8uNFnVd7A+q6s4b0X+4NTBfuOluaXjOH4dKyIb\n6IejtjksZbLHTa3FhTUlSt6lC2xzLIEI55tFGN0OrmTuDCxN8Lu+lHHz6r2iYV4v\npUV5GL5tDLAOyHYaxjlkm8s2pECqgCNCdS0gZ/X9kxi/mJaS9zWgjNZkgW8sIngw\nRO+hhvgpZHx4/rX91kOt4wP8GJZz4sQ73MhF5DskBtF+1/GRizJ35T4Yot45pcw4\nJQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "65258ee4dac2dbd7c32cc9e52ab8a779f92024ae169a86e4e80864f7c5f3cdc8",
+    "status": "ACTIVE",
+    "caSignature": "H+2eV51VlowF9HyiYuUfNzlXC/K7cQ66AJgoymQ7603fCggTgh/dw/RT4qw85SoMu3a7yCN0t9GuV/hllmNTG1eKTlSBYfhOfGTLdioekU9CewiXt5T6qk81BFygcwwI+l7NC/JRMBkLtTpjZImhtBKdSegqmZrHFjRnq+L9poeM2n4Z4W69CgAly8dNHAXzSWC2BejZe0UKwWjwDCTXGWVRh3PApEPsS3gZorx4JHYvUUN1DciVLvJ7KoRnlxMv+5F/bAnQJFn4aDU64kXH4OaTFv5CGX+lmbOYmc6gl7w3vSs4A4QX0iHIGCjZZ1+uDSa1X/IjbQKO4TwYLI0WFA==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1Cj1xF7eb947p\nXOKeVXEHBWq6I4ujY26buzRCmv25Et2w1h8ikOh3/MNaFQigckqw7H4mA8X9C3Vf\nFVdeVP14Vy4CQ9gowEZq8VDwqXq7t6i+ry40WdV3sD6rqzhvRf7g1MF+46W5peM4\nfh0rIhvoh6O2OSxlssdNrcWFNSVK3qULbHMsgQjnm0UY3Q6uZO4MLE3wu76UcfPq\nvaJhXi+lRXkYvm0MsA7IdhrGOWSbyzakQKqAI0J1LSBn9f2TGL+YlpL3NaCM1mSB\nbywieDBE76GG+ClkfHj+tf3WQ63jA/wYlnPixDvcyEXkOyQG0X7X8ZGLMnflPhii\n3jmlzDglAgMBAAECggEAR5q6PH3V+FFM7A358Af5QX6p/N9MPp54RA4iGGn3Cnlk\nx6mY/PH1kGef2IRTOiqaUinnpx988p3SmX32ZXAWJL/OicTNvSh3cZrqmZVe3tpA\nWtMs4jXZ0ZIa54k8M/6qVcCwm4BsruXm3hQ7czD1et4TKWKppbu1Sor9gbdIfbix\nnNvn/8FVKOyfWXuuup8jOJBBTNDvaJTd286H22RGiPwvGxkXNZxDRCd5NB7A8gvJ\nldFF/YbAc0SxP5i/sVpHeyDAHxbfeJ244sOAmG6Xkep/hIanLMNoZN6y5pMcOJ0+\nGI8qThzkB9jpdI5853gIULwBlR3IBN0vGYlRHBoHzQKBgQDaEu/p/pKVKKiHAC5I\nCUrjTTCVNREYuv5FCovjxmZvlPipmBd0kn8h6WZpzMgmnF7EZHqlSSo+I2DDdKWG\nmi7LCBDEyWFxDKV5RfYSa876O7g0n6CZPoTtFjcAkTXP/qWb/EOVlcrY/0SzvGui\nNROuJgY587ecm7KtEctn2A1LOwKBgQDUhnsV4OnzDpT0sNgsu1ga9zQdqCiqW5PV\n5lLVQIzZ9NZTSYqS2Dy1cTORX+r3GUg0VFjSUKIvljgMMzkVwp/5giuam3bUnY+W\nOTAVGhyxafPtbARHxYzVQXWom8vgUwbG2Cz0gmmCQ6JP+whZiOzWdwjRwjXhULPs\nNNsNZvaUHwKBgHTFkSxWQf2XAO8RPLccKrqeObab7OS2NLOZmyDDu1Rii+icZWrp\niyQIi+t5WW+7ac92EmpxTCpr3UOsMXprE0Vqszf8sa3MXMscmFBy5CkAU3nyRBfq\n71jY/WjTWOJgdCObqEDwLeeWgR5Rdb0s+LXW7JyZkadNhBbCoY2gljXDAoGAewbG\nZennRE6ip+tfmLVy0VldD/XyZHvS3rYQKWbOorV7BIfD8jG/IwG+6l7uM9Cs3a4e\nJNGMsaNyGo3kc9ZQqS1TdJKefYIgRsQgM3cEOSeujzhCWhHf7uuP4uUdZmRpvd4S\nWBDOZxwj78zQDpSXFaeesV6NtjrzjL8kN2PtRd0CgYEAiQpIQr9hCqMyj6B8DwDE\niuiGLnJdUe0S7L0ioK1VTlikft61Kyl+K8tBI3wvBsvS3i5twyxpYi2R8/N3B65j\ndkpUjAtkI1/VbzanFAROS2ZR0VhnPCDvl75PW1kzQBAFGT6RkbD5CSw+zjsHyhl1\n6FVXgImdCh0/yi32NrVCvlU=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B77D8B91-14C7CF",
+    "subject": {
+      "role": "Director de Seguridad de la Información",
+      "department": "Tecnología y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-07T19:30:20.690Z",
+    "validTo": "2027-11-07T19:30:20.690Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhCK4KoxrovKwcSbcclnL\nmHP14dYP1v2R2oVQtWPyTfXUf0PNBi/3jh7ZS3NBxT9H3S3iCC8HOTmH3MV1J5wN\nqujAaW9VPC6PLqq5EICnMEqnDWh4BXmOzbn2xlPtdrbi+sggZjTNBZW5u7eZRxjT\nnyHvEi2CIk55R33wjiHlSxV2gI4XB0nNI3fbIUU+rPBgVvXUBfb64L5Slgda8NX7\nzrVYueIAibB74JE70aQKgMBvielHKqFzi0PuYUDiOfpovqD9fghUsfzXQ8aZzbVe\nP9pFRngdJKXYFPk8jmF6CsnqaXWRhzmCO0R7VqjIU/EXZW4hjL4ANYScLmluPfp2\nwwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "0d139ee2d0fdcfed074577a408ebf99484e81ed3f0507b09ca3f9febaf53f3f5",
+    "status": "ACTIVE",
+    "caSignature": "JZ8irInszIg5EqvTba6dvC8EfEQe9wmuQ9cpycPEGt8Reuq1WWKOtgahs+4KTnwwG8FmzbyAVyiRK2DnK4tC/ZLV82xwdQ7RrAl451U1MCmLkhuybNGPYU/Ur+c8mlvk8eZ3IyWrVUSNeOWjj5QooRijHD3T+NqN3qDTwwvQllFAFqWZsniDoLqOWPQcPY+zv5iz8w9/Afd7eqSyLOoVwiP3sg1SfeLq/ZUMVvNbEm30viUAmM+n+4fnBgauoK4q6Pp+PpJSKqoZJCJvmZMdxPPRllcVFd3nDI/fsCB2wNs/xHMyRiHRI/yTU1QQcvOtJxQaRxeFa3ObrndLbSEP4Q==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCEIrgqjGui8rBx\nJtxyWcuYc/Xh1g/W/ZHahVC1Y/JN9dR/Q80GL/eOHtlLc0HFP0fdLeIILwc5OYfc\nxXUnnA2q6MBpb1U8Lo8uqrkQgKcwSqcNaHgFeY7NufbGU+12tuL6yCBmNM0Flbm7\nt5lHGNOfIe8SLYIiTnlHffCOIeVLFXaAjhcHSc0jd9shRT6s8GBW9dQF9vrgvlKW\nB1rw1fvOtVi54gCJsHvgkTvRpAqAwG+J6UcqoXOLQ+5hQOI5+mi+oP1+CFSx/NdD\nxpnNtV4/2kVGeB0kpdgU+TyOYXoKyeppdZGHOYI7RHtWqMhT8RdlbiGMvgA1hJwu\naW49+nbDAgMBAAECggEAOF5vXodk67DIoJzJcmboOfNOM7eULk0iSayRz7ABkEyN\nCHWuIzOXUiPK4ysaJcFnMO3//SnC1SC72uzJm8ow8nY0j0YVgIUERA5EwMuBh1Jx\njYDBouRGjXEF23m2VeyTTBTP7Yoc5IMJJxGd6/ylWr+pM4ICgAwmJN+PHbNMFAlJ\nBiyc8hzhXqtGoEM+wO9/4an/Ybl4X1qb/QGK6DjKJdb+JZpP+BsiDwIRT7zOT1tg\n2bjhG0w+2l7NJzLsNpsHmlqiGwDBVv5d3wCZEk2uWNPm1ncYO/qQYphr0XgoNID7\nzd52As6ZkOwxeAcDYZJLcCzUEr4jOA+soD+XN/2B0QKBgQC4JmWSRK2hfJ+jyW6z\nka96p24hw+OgTKnD0FeVcQIYo2zaFFDzY46ptOi5yp99gbd+dWb1n9vcJyxFYOar\naDGNMG2K61nBRvy91ocvTwjwF7T1YhqIgisgqtzwN2rL0ZesuRB1fIDhKuIwWSx3\nc8+QkLdau2tjwKmAVtWkfVewFQKBgQC3sO3xWcl2uLsMu4lFUDHRZv4ePDUkCMNO\n4YuV3m+1/BRk0df7dF/PQehYQb9A1Ihq+xxz+CA0IL1cuhoyVkmUP+RB05zTxdYi\nymJgDE0DPWMDI10PueBVPsYvkhjbHw1tvCr8DjHzWXldLFOJsir3kATOjLzmtvCj\nhnKqF8NpdwKBgQCSwC6jkM2Z6pnBya3JtmjUYwdWKyiEP3Puk2KouiVEg0Akzpnw\nTD+NqJjqLrpJJ42WXnMNfTaVzDXwmBdbM66BaL1zPrkJWMvjcUnL/r0NsKbKAkNI\n1AsQfnmRiWg3QzEPOXAPYIfIaQdWJkpUa1tXRqyHxuH+3bN2jjy1WBoAPQKBgGu8\ng/I4fSb6tgqDu8FBhdaRl53YJjraQOL0+k+OROrxzGxNf2XmHYOL3mBVP30gqlpE\nqa2C7DBmu2m1ZUP8w+8FgjTxjlvO/wcsuIIo9MpfqMDgbuaYWHDm/opMH/P0xIWG\nBZgMI1PdOIdjRiPOsdC9UXRrqyeOSJlAc+Q7R8uFAoGAQMa7+mABswqJwlqs69EC\n3pJH4we8qrISnCnEjVEmqN5M8it0mbxEwLEdgk8Gc5KAtbkD5peuAMA+5Yg41yc5\nNh/kwObYb/6lOS38u2PplUBsBFmMENjeYp4xFoFBcOP97WYRdZ6dRmX34TK9XRe5\nre7WIHqZi3qdtc3ChIy9mp0=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1B781CD8F-239AF8",
+    "subject": {
+      "role": "Director de Seguridad de la Información",
+      "department": "Tecnología y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-07T19:34:59.727Z",
+    "validTo": "2027-11-07T19:34:59.727Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqwKWHEHcANi7Ad6gJJRg\nzfHAfxKzmHPv09lihH19pI/Ufs0a1OdPNvEttF9wsjQUX2GpkoAqw/5kUy4GruDF\nO2L59MUdc9ZtPgwC0AUs/xwbaEucFUZM8c/kXxG4+Ak6YuF273PS/BDbjA4Im6lE\nZLYDBd0d6Gn88freSWLLk+oknntcaVkLGRvKaMtWia4UbYZ4AsBatgxe8CPBxH7C\nZCvE1/iWivQPtCAT9nIvYQOfwi+toGezSIWIFfQkQXwVRAk4731k3uCFQrHim922\ngd/LVqjKHF6y3Jr7aYaMkaceZFxGt7l5OZ3jshbwtOxHRF+i0ciyZ41mYmVm9rXZ\nBwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "bbb05e9d20f0998a4094b92feca0b547101debfd853708978cc5f8ae0baf4876",
+    "status": "ACTIVE",
+    "caSignature": "T1IpnkAI6sygKID78sUoN68NksE7hcCCLj1qdMIZwBuDtQVoYpcPOs/CrlU3Z7uYwmJlRRPaBcEfsc/3mlpPt+17yLpcswvaKeCP0a/otJ7mQJOgrHiG/ZJBdw+SYOhPCnSZrP3sZZQZb61vJw+EPbx3hh/3a1AJekGTXfkddH7IGTNFtMkUuCAX1TQhD1FacuRlh1Nq1FltLzPYQW/Sm7W/lXj/bYITzfI4SynsmbTr/T8FVEApccP/uBiK25BxED1/drkDz1cDSBQBR4kwLq1Ebh2h118WLaclz1S9vVm2AZxxrAcZM2FkJuaQEhH+lFw99K0OXr+DRshw4dWBuw==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCrApYcQdwA2LsB\n3qAklGDN8cB/ErOYc+/T2WKEfX2kj9R+zRrU50828S20X3CyNBRfYamSgCrD/mRT\nLgau4MU7Yvn0xR1z1m0+DALQBSz/HBtoS5wVRkzxz+RfEbj4CTpi4Xbvc9L8ENuM\nDgibqURktgMF3R3oafzx+t5JYsuT6iSee1xpWQsZG8poy1aJrhRthngCwFq2DF7w\nI8HEfsJkK8TX+JaK9A+0IBP2ci9hA5/CL62gZ7NIhYgV9CRBfBVECTjvfWTe4IVC\nseKb3baB38tWqMocXrLcmvtphoyRpx5kXEa3uXk5neOyFvC07EdEX6LRyLJnjWZi\nZWb2tdkHAgMBAAECggEARP+JpoQSKstHhOUY0zmE54NLylm22eOpV95FiDSD3cJk\nl/bUhSOBDCd6a+T4OQaXU7a5bxFEcAjz3LXc33F0UtZICPEBRaw2Los1FU6JTbM/\nAbFEHDdds1FQkOU7LuS2SJA05z9h2O9KTfOZmIjOvh3MEXEacJxXASFZz91LS3XK\n/ZmBNaUR6ojc64EmJQfVl6hqnM2Ek3niQDfr59WWL3BvtkDyQwltXHChUfRg77JD\n6ml+re0FtTOn9wlruyid68sRYQHpIejKRwAR8wRukJ5O4A6MNl1MD468LZ77bqFw\nt9y1ABcYHk5vnAUpl6L9sjS32zIwBFiFhRIZKgkWnQKBgQDqQsEHFGjfrRexV+FW\ng9tucsX1dCMrm0uhtCpb0kWWiPWh305Qb1UDXRo23lEY8w1Eu1/ie2VztZ/UDzIa\nsHsXuiDtyxY/pyGPaUhUfR9XVk8u9C7f4RGEzjVUgd4ttSc5T5tKA58VoYcU887Y\nN1R+KXuc3+Vzjqs74BS2+I4ggwKBgQC64TXCH/kzpm0KKu6fGwLBA8yVu9lYZUpN\n/Agmxc4iPNKmNJxY1273cuQO/wJMChtIvJwOKirBAwJPYvRzWWtvugYjuoKNUY6o\nekjWYFJXW1f/wXYGeRy4cEIsGRMkJIQLdv8VuOFDE0ZFeei36ngNNjAuZP+4okP7\ntBiBDl+2LQKBgEB0fYflJbXlek9hTq7vOMD681zFx6eH4xdq6vy4rkztAii3uGSJ\nPWrfgwb1xHqI5W2z4H4AVbmwj3lZdP/C7xtoKwdCiayZ37IF1dDpXGY7aS4SIZOX\n6aoQ0rudv/PzlAdA0AldVbgt6WzqaE81ahoMb+aJ9CgHaTXgQdLWMMThAoGAGHrx\n+NkJYvu1IvTWx17ZcIFX5nFyGkNChY6zXqjgxNlk2sLfjD/EWIPjXheHrIBSbKfQ\nZYaejSQgxFd5IDchfMRIk5uWCH8bifRi4DpD7w+XKnikRlrNKVgDQxWRzVU/OuU+\nqxDJ6Wh39xfuJVGAonJrw1gVq5EOCMXhw94nKY0CgYBYZRQ/X4WOCU3Y4txJYOao\nvdIYw4+BpfPCV22qtQtXiJZt9xeoXzgkWAhfpZ24Gt1ffNQk+qYiiv10izXjmmDL\n7lK1fNaL9rvMOupg3qNazR9VEALGSjWvgBIeIFbW/GW8dMX0a4oPxzUyVJ99Pqsu\n4XMw4Af/wZJwshBzcR6qMA==\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BB8D19A5-DDE398",
+    "subject": {
+      "commonName": "Mariana Silva",
+      "role": "Asistente Administrativo",
+      "department": "Administración General",
+      "organization": "Gobierno Institucional",
+      "email": "mariana.silva@polibio.gob",
+      "clearanceLevel": 2
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T14:25:48.966Z",
+    "validTo": "2027-11-08T14:25:48.966Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJffgCjCH0W0NpFFWeBL\nLJ6XBvADZvqom9y5sE1SI4WKXkSOOQVfS0dwwepNRP66Yq0pImHbbdTxae//nz0v\njzP8X7GMSEEMuSiZi5ef8NEIiXlD0pcexxlZdWoPyO71vthXxGXKcm0YceI77Lno\nfyCff2Nco3oBsOUXYNmek2+RHMtdgXZcwORFoMPuaRYVPjCpHkRXbb6YpX/juKoc\nzr8yJ8O9BvqrCMV2qXBxeF2erztnSLQodBBOxr9B3a5lBKADhhyvBZ2HmZQWB92P\nGiVm8PjV6i8Ch14ruQpJpTkUvyEppBfC9sHbYYLDChzcc8E2+c4WMh1D77XpNE9/\nCwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "9060070a16954ac290bdba6cd4ff3a599d038e485396aff2233c4b7a72605207",
+    "status": "ACTIVE",
+    "caSignature": "HkSv103HeWVfjCZJBj4dgV2sHBCtJMm9bunhG/TxwxARBqjzkmCigybtNcOMKoufW+2kLXboeYxM8Qak2a82oO9ERciaSm3LsADL9/IXyW4tbmxOz1QVaSGf0LM/dyP/qFcfAnZcTcc+FRI096/ondRTFhqTq3TApcuoU8cr1JUAkTT9xMIYqtMoHpnqdGg+OzAY5Jg3whLZ1GH4T6XppiFBvsep2GPj/zEHHtvoyFsOEpA5zSFK9NlkwNNGSoHfAH5AAIw9U/WafIt2EcvwLSHHajeoptbsy1HqCrEnwspjqzzrKOT8FjflJF8x6Xvid7nakiRLcLYbokT2q1yyGA==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCol9+AKMIfRbQ2\nkUVZ4EssnpcG8ANm+qib3LmwTVIjhYpeRI45BV9LR3DB6k1E/rpirSkiYdtt1PFp\n7/+fPS+PM/xfsYxIQQy5KJmLl5/w0QiJeUPSlx7HGVl1ag/I7vW+2FfEZcpybRhx\n4jvsueh/IJ9/Y1yjegGw5Rdg2Z6Tb5Ecy12BdlzA5EWgw+5pFhU+MKkeRFdtvpil\nf+O4qhzOvzInw70G+qsIxXapcHF4XZ6vO2dItCh0EE7Gv0HdrmUEoAOGHK8FnYeZ\nlBYH3Y8aJWbw+NXqLwKHXiu5CkmlORS/ISmkF8L2wdthgsMKHNxzwTb5zhYyHUPv\ntek0T38LAgMBAAECggEAD1/6Tp0TnE0mXYDrYCznmM7FsH5G8Sc+z9KrTyazV5tK\nvm9mFlElGvUNlWxMAP9x+U8YBz4BXYd5P1NXGSs39nP5OgjeZYsjy+b7Sb2uz661\n0UOxKbgFDdyD9K89d/JC5aqj0RIEtQwPRKOAb4WXbFs0myYb6/9TvtFwS7F3mAkD\nPcwGPbn53HDzaRst6HxQIyghj0VAHJjBsE4hbeva4CHNU+qqF/hU/dI0raxhldty\nLuNOtx5GE00Lx0z1QJb3km+EEdjlSKcxWxfNoigZlM/vADHo9Hk4Wbxuoq1sbmK3\n/o33bwu1O92UvySncsCivvDSDG9w2myosb8t0MNBoQKBgQDk0wzZUwZcYune88QS\nmWFbgyC0mJxD3jzFFCRIaBZAwIvg91S09KvVXXa+6nxUzFDr/4mut6W29QQUFf7r\nRZcSUPvLiZdZAe7Y+lmAlo28RfdNasf18CSb+99P5yLkXaWg13mj3UXBvGj0wNpr\nVfviPOR0uIaI8V07A6bAxbeTgwKBgQC8nZ1VTc+Jh6JmPriu9wvDuCNe6ryiX4Z4\nAIDpWs1zUIF/JaPb1ya65/cWjin4igY+IxSKOzu9A+WiEzUp5URnvoDJyhuL6v1w\nEr5HdZP32tNjDJAHmGbik9t6DjXngDWaZniT7OScaq90ddJLOMP3EBLxfTX2qDLz\ni5NcLVOn2QKBgFcn0+MK7odN3YpgCrSS2zRB87kVz59CDJ98Fn3Ft4QeUqjzS75I\n2xI/sTTylzytPb1F7akwpdvT4yPLZPcz4GDHm8BgvdbXF6RpZqHFtmKZu6IvI86X\nEzqeauZCQVX+HVHwAJLbevBZ1Rg0RH1RmMkJLHMQvZ13YW1S7LbMGCoFAoGBALRr\nTBFKEehrPpPxETYECFPaMrNbdL8ZAwaM7MLK4dWZP5XBCoGCx4Bn3PnNWSZt2NTd\nN4uWZ2lBbgnft63wqcNW/diIJFttl6n5s9ulA7pFroiDfs5VIK1BY+LX7wYXpK6h\nsFtHcdKRVm3fOh5MGV+eF5C6BcGAWOSQMZAtp2TZAoGBAMquINDoc0w35EnDju81\nP/S4ud7enQUmpYCxa8/Zg/MwRpoKiwbR4SUIx+0Xoeq2t91mON+LXjCJMYVH3Rdv\niUzhm6dlHXQNQfK8rKUfnmW0ugufktZTM/QfXALby0hrTLp/WFPo11I9CeziJKAy\ncblR2EXKXqi6cM0m4cg+Yzyb\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BB8D1AAA-18A64C",
+    "subject": {
+      "commonName": "Juan Ciudadano",
+      "role": "Acceso Público General",
+      "department": "Atención al Ciudadano",
+      "organization": "Gobierno Institucional",
+      "email": "ciudadano@polibio.gob",
+      "clearanceLevel": 1
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T14:25:49.226Z",
+    "validTo": "2027-11-08T14:25:49.226Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmnH/MgOUydzRvc9NYUac\nIbFZ95vxAKjeyg8g2Rcgvv78Zxd7apzc8Ojnm0JvSQBuD2Ox7m5gjK1CsA8TKNpY\nf0PKud2vNunaM6qw/4IV8fIHezT9xecvIllk/5tegujDvvMLN4lhsWuFy1Iebj3E\naCpZ5qYBFoRMr3cQPPN3xldoqW4jn1r256NVBPrmBJQzMheDNIszRkvp2GcH/iWR\n0oHUYXiq72nOIAfGqvb3O1v9A39SptUXNTGbnvpnYPkuglK5pmihwAZp7qxAc715\nLveBia4j/EJewZvzPsjcbdV/I5A/LKk3sQ5OSmKmI2LkwB0gLpEvfc7AVWmkK90i\nsQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "671b413404f5bd3271ef4d3f12f9bc3e2a2034dceb290600b34c0fef49d65303",
+    "status": "ACTIVE",
+    "caSignature": "hYIIOn7LXWMx3ZsnY8pa0Qey4F0ZQgExXPbgvnHEdAt3s2LGdLPTaREPhTtlQC1iJrWYSe/QUQu4fLKltKmIOu9EJ3lbHCxAfzoOUtzreCM5f2POR3r9/DcG8B8vzljGAZLQfYB9vH/kn+y5biwB4jol05dZcHvacRdDeRk4XSnkHF7L6uRegnP24OTgSlNR8fACrcf/odLv418biqzpgbne/d5tVp8vF8rlsQ3bR30RCRzvyUDsyFZedIBPChztX0qy3zggdsRMoBv+R0+yWMMXMVuP7dY0aXNZJvr5NW6VY8fPi9ZpPb1LlkT0wuQ6QlEdbnd29zIQDMqS6MxDfg==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCacf8yA5TJ3NG9\nz01hRpwhsVn3m/EAqN7KDyDZFyC+/vxnF3tqnNzw6OebQm9JAG4PY7HubmCMrUKw\nDxMo2lh/Q8q53a826dozqrD/ghXx8gd7NP3F5y8iWWT/m16C6MO+8ws3iWGxa4XL\nUh5uPcRoKlnmpgEWhEyvdxA883fGV2ipbiOfWvbno1UE+uYElDMyF4M0izNGS+nY\nZwf+JZHSgdRheKrvac4gB8aq9vc7W/0Df1Km1Rc1MZue+mdg+S6CUrmmaKHABmnu\nrEBzvXku94GJriP8Ql7Bm/M+yNxt1X8jkD8sqTexDk5KYqYjYuTAHSAukS99zsBV\naaQr3SKxAgMBAAECggEAKfY7Dc2nSUkzu0xti7ZxiT30Ya/+xN0c2u1NUW5VOU9y\nKFha8dZ4uQOumaJtNfpl7Mx7dXqLxOz2J3uRCxJ35Ov4UpOGnXbgEBWaTXF8oOXP\nXoxBPtnXFpAPPttpzEuNk33ZWFd9MYUzLtC679zcVijbkC0eMo3zf+DrioPj0QFW\nd84hic6YMrLb90a6f3kn0bI9ZFfOX+qyoa/ekDEz6HQQuoDzmoAvsKJY2g6bS6WD\n7roYjdAXWzGHDufxXQYgKCqMtEyMpzsfmm3rnymIgmI0YnKMBNvgb7sSaEkkMroJ\n6sKPesvR3yInLbnKtUfDZ4OZ2Xb70nnTnP6h7gYD+QKBgQDSW0m9F70bg6gMKRbY\nuJZVV2LhtmQyv9vvipigjO95WZOcmuzrX1Lh+KInNcW9edpZhXzuTZ5ETVhkfZr5\nnXNA2dSxAc7GK4L1ZYNX3d5+ZgRUFBm2LABDvmmiuxk6QwZpzFPn8e1AI9QNZj1B\nLLDFLb3D4/RTnAOKlDY45jQGVwKBgQC79P694ujn4U59ejsm8Vzo8PXqk/WtkqSB\nCpJGbmztv5SS1RmmRFMo/H60PcpaEneNSlZdcuHsl/TJgzWdtk2yVXCJE5Mk74Y0\nIejmjpu6WP+7cFyjiQGl/OgKP3y7NtMoP+i4OiP2PngSI2uikZ4SWutunxS+/dzz\nO+u/+RaqNwKBgGeRkKWsKWyBjtyl4lzDzSiphMLStVSTR+sRlwH9Qe7CXr4NPTbJ\n0Rn2+4dIn1ohw5Kt+Yuu5YyFdE7N1N6vWc6FMYYQ+MhzJeBCob9COsiK2/i1iM87\nrMmt137Klaos09yFQI6De6dHvKD4RJJxOXtrgPIQqvv7ZXb2cBflp5mzAoGAbko8\nkL/tWuNiY06uFxPaKPX710IrD0bVMMM7QgjZ8khQrjhNbLr68Tn4P1tiuafMbyQH\nuZ4H5ATmprhPZdPrk5F/D3BlD29dmImtWFymFJrUtPAh6/Qg+32Dyz+luVVaYmvd\n6vxyzbOqUTpnlmVMFAk1zRub2NauKCwpEeTf39ECgYA65IIgyLVrx/1de8RPfeYB\njIxlVgQ5tDK9mt3QGclF+C4rP08Kt69Q7eW1Zm2VUqFnt4xp++S4ECNlLMK2UuYe\n0vkXtotCABEqsLcjgGpH0w3fTXoxnrRv6oL0MRPCBZTZVtikKh8CiUf3t+XJzPar\ndo0EOMcoLR/BcHMhKs2a2g==\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BB8D1CEC-63E6F3",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794147949627@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T14:25:49.804Z",
+    "validTo": "2027-11-08T14:25:49.804Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqcNgLu82Df2UlFkK99Sc\nAHVytoFUQ+uR5qQz8PmD+OHzIpPeuUCpILuolZZFSTlfWpw/fBWrza9+vgiBlaBc\nhNYadF+pxd8bMU4vgG9dyfdV0v1T45e0vuMrLrWvgQB62avPkphPO6BOjUEO8npY\nPWL6gpUJnoU8P467o3FAnF+LRPyltMTfs9ejEfSctgoHDbANTkLYD6Lv9n0Etq67\niyX578j6dVc4KPP3hLkKH+VYhCUqh79/DzrjrriuTrozeHxHvCwl5u4WRSACGsUy\nZ608Iqilwded31sdHSs73ZdvfpL66OKhGKywaTwtGQzRtz4EngSnXG8iYI4pL2tV\nyQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "55a54827fee93a1f0f72e6f6bc580654a029094fa9db17a16452ca64f6350bc2",
+    "status": "ACTIVE",
+    "caSignature": "PZBRzlJgI8aleCzK63uk9nXzJm0G6ESZUvVITOtekcEYddx5B62umzfhulSHYqU7wdvWJeauOr9KDljQA5PMD2WnsunwlnFRAOZPONHIA+DOi5dtaZJg7pQhdekcOPIjaO/GntyTgYyxLzHHzGmjBW68SbRVPGFu11C9l6B4FP/T6oauOlAlIz8jJuRY0Hsw+76Nxzxy8v2RA9CqCuqBE9Oej8yGmb7U7OBlSsDawqC/fvb4UlnqphvqXLPXtEMUGcaoUN9VZqyEsM+MUv9R6YWLpwvfVYM19h3zA15ldxnZHncMFHqbHqIhtiq00cjf2ldLiYAYijgvoCTUlXt8Bg==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpw2Au7zYN/ZSU\nWQr31JwAdXK2gVRD65HmpDPw+YP44fMik965QKkgu6iVlkVJOV9anD98FavNr36+\nCIGVoFyE1hp0X6nF3xsxTi+Ab13J91XS/VPjl7S+4ysuta+BAHrZq8+SmE87oE6N\nQQ7yelg9YvqClQmehTw/jrujcUCcX4tE/KW0xN+z16MR9Jy2CgcNsA1OQtgPou/2\nfQS2rruLJfnvyPp1Vzgo8/eEuQof5ViEJSqHv38POuOuuK5OujN4fEe8LCXm7hZF\nIAIaxTJnrTwiqKXB153fWx0dKzvdl29+kvro4qEYrLBpPC0ZDNG3PgSeBKdcbyJg\njikva1XJAgMBAAECggEABQndlFMI/I4Qz3zbkpq6tRhHSvOodbobitgHiyDKuhOx\nuM5g+0hYJLaxJJxwysEzS3ANAdCuWFTbuwXrW66mZFJq91aCBlOOfe6DQil8BAMt\nZs1aRKxjYtGA/fpKPtbN7qE28FPJMTy7LB3Y1NlM/mhuRTspbY0oij3hI5MYTvPK\nEc4AoRFaeqQSM1HCR03L1id1sRvAlPopu3IiKIUVH/3rTO7cTsG0wxkQta9Gka1O\n4QmFy2TWXckc25v96UGxMkEoV9C1b6J3YejTY/TJoI4ApzNaD7jJg0sVn4Q6MSrL\n+ifpO1io95tcXeOB9D+wDGE4RZI/bwJD67FURANoMQKBgQDmJXcYfsX1IWJy8ZR2\nmA5Rrb+FOZ0/p3FW8RBNKPownhpbTqMFCfrLfpLMoojMP28cw0+xS2xz713OTmfA\nMyTG7OXgG7jFbx1Sn8zwrGHgsby8oWPiXf3mbJI8Rm2MNMuqEBfHV3DoHdUiNWDO\nV+wVKQvyQpTKdNAJ93U8X35zUQKBgQC81WpIroEjqL4ngP/6SElOwe8z7D/mljFG\nKF5fyBvfCDefHA1EMIunaAVcd9DSvDPk4J1MPFLP0UcxSA29baVjVum33R3YjQSI\n1P1ZjMRFzeAmpAecoyirNuOKX56l2g2KkyIZXDBaVTL+6TvHjIOenxrwBInF8BFX\n0dfl8Jds+QKBgQDFjP1I0nEb9FcscT/N+MG5zNmsAwN+wz0fsvcaNIVlvCDFpZ97\nUNCtYm2iKBYitISs/N3oQuTKM3qi/1xBd+Umt+yuTT1yg+l4peDl6iJuHEL069fw\nVFwAMcvo309jXWJBDWVL4DvzksADiCwbkw78LuqpPgu4KUL2eypv80x4sQKBgHPw\nXJdPfT6Vplq+22uh4lCWxfUNQpai9JHsyzTnuiUP+IaaRJLvc29PcKs7bV1V7E7E\nkg9yoi2ygpGBed4qafc6L7mR63c/7d7NVtgak4+APfW7lGjZzGiDBOW6m7+cx9+j\nQrZrYcy0ruDP9sIoRc+oRHPFdYmwQhW3Y2VseKyRAoGBAKJVjlP0Nr+wAytu/Axh\ngpUYqq1FqMq0BrDB3ClnRofFurn/8FqXWR6chhCcspH6xxG1v5ZuruBl5t8zKc0v\np2Xdl8V19mHEkkhUBnNd/1Emf8BQa2hIWmZrFUvWE+BVgSB6zCr+tmBHMAzC9sF1\nGYRErtvMPtM0MV9I1iARKKVL\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BB8D8156-B91A5D",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794147975356@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T14:26:15.510Z",
+    "validTo": "2027-11-08T14:26:15.510Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqrcYTrF4xX52DBrjMtKb\nNbyDmedg6HXIXeLaTmm0YdGZ4/7dJ13D6hmbgvH4o7ttnz5S6Z1n9ZRFlgQfEYVg\nu8FBFndayus6CAVuph7rVMuuDd+qzxrI7z9SeYMDAXqgEbjatlq26iyPuOIVa65z\nS3q4z31TlNxZN38Ze1kJmovbGJSdmqyfI6Ja25xhgszlaFKxpKxY8Q7bAffxhHEH\np1dIm7gyNUIzJaaJOc0LKw+VPU4iUoLhK93pLcXj4zZEM1KAWSP+ygPvr8v5zqZZ\nV1yBCNd+qGwiNLAo7asI5Coss6BJI0m3x2v5bGq9o+LBAGTE1/5dT8WKdBEFDFHD\nwQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "5a6df0057eb068ca695b17213d9b472fd9f325c5888d0971a63b8b5dd57b8c30",
+    "status": "ACTIVE",
+    "caSignature": "OEYJJ/P1l9MMiSgEsLPuiZFDva6NA6FqeB6ZfuxqmE7J0p9ggVwyKhRMDXwM3u8gvyAHgS8xq1bPItv/D1rLPxBccm0NvB6SdN0/hdB94jdn90mILSiouvKxnKjCQkzxMMqCeDVTf730MSyk0zIzSLrDQlMbw9dXJuEbpLAbbx21QOg5QgA+RqOTMcZRResRGAQLvmpPlZlg0qxSXlu/uOsl1RP/tZZkKc6Equ56yeK+HUnN5oExSyjjUi1gvkSHAau43xlFVgMyrMBjJOrlOB4TMzQwZsQqWur2S0QGex2KteQMg0pkm1IPgD4+b1tZP4eViHyYQ4kXrsaxXLk15g==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCqtxhOsXjFfnYM\nGuMy0ps1vIOZ52Dodchd4tpOabRh0Znj/t0nXcPqGZuC8fiju22fPlLpnWf1lEWW\nBB8RhWC7wUEWd1rK6zoIBW6mHutUy64N36rPGsjvP1J5gwMBeqARuNq2WrbqLI+4\n4hVrrnNLerjPfVOU3Fk3fxl7WQmai9sYlJ2arJ8jolrbnGGCzOVoUrGkrFjxDtsB\n9/GEcQenV0ibuDI1QjMlpok5zQsrD5U9TiJSguEr3ektxePjNkQzUoBZI/7KA++v\ny/nOpllXXIEI136obCI0sCjtqwjkKiyzoEkjSbfHa/lsar2j4sEAZMTX/l1PxYp0\nEQUMUcPBAgMBAAECgf9th4vQ8YzLKZgTrCyZLwbmM008MXe7rdYgZqwqIyfYmuJh\npeO+nipUyJk+KoGci2SKBzKrMJLCvZ7n4T0NwMWPsS5Re8KE7ucMvm9/pdbXUNcb\nj6XHuyewWLBRxfzntgV9WVz6Irm5BV4xAN09eW//vX1VotM9byLOuH1g5n+C56vr\nXQlWqNU/MT4kLnfmqq5EsborQytKtKfwWGRve6xHf/EOeFulungeILlPj2XgJv6N\njmSfL4QRiD3ZPH1FeszznMzuz5WkIhtRsS2hlmmlmrgQ/gZvlXP2dwJt7DOickjr\nS+4LWSXvEXc3h2K+ie6VHb5UvMJg0WFW/kCK320CgYEA2hlD1Yd6160FHrHqbfuo\noXO+vVFMmMtCbWrkynXXq7c5ujniWjCrBCqPFyJyCqf0Ns49/gD5/8UjSIx5q7c1\nc/0psSuSN6wogNAGFKrt1ybmqNEiLAejYpQP1C8SWS1n9QuFdpQ7re77m5On3f0n\nT9gh9Hyc1IZwGlpfqLhdfB0CgYEAyGHXq1DX5HGCXYrWBIs3nthUDwj3k6ShQh0c\nxG16aGMuvwArszUpgpsWIk8Fu6Ttl8g2zSYpM5xs/lT1+EHfMPOqK3RP5l0H20Vl\nRBmQsiP3BxlgPIetQbKtn1UbZ4obkqeWk672XAL2kA6KmqWuTxGWFKDEwRsKOOn2\nkzaJLPUCgYEA0wYNF2bt2g7j3E5DSMVt5UGrtVwbY9+PV3VNCAQ7eD9hkKl/NMrQ\nPci8CKNgeqUFa53kZ4ckXXCucfzRoO80vhSfKXjCEjH2QqSErayxUjKmjYNEsBt3\n3+Lo6eHdvAFuC7BpI1HL6MBKHL8idm0Cg4PZXsjPqeamQylcU1CHy5UCgYB7csPC\neEi5JTDyXhEhtX7rrkyDArw7ykXKjFLntKaf3tKyuvExM4RCQTcupc5bXu09AAy6\n8FKbyDfhrAfpDPPqnYLtyHdc7V1kuej8Pl/FT6DlT73ZLKERg3mxWmZKsGvyOqrq\nivSdlPm/oCXFxmKPtb7nMHBmozj1/TV6VjPGbQKBgEHOzqcisUSpMUMtqYi3IT4H\niO1ZiXJ4VZTB0uDm+TvWLyM2RSsbVLy2owpwKAi9BOeuIcC6yCZvBbfgewu6kpu2\nrEJ0EjkjckiJllo1afwEzxJ+4Lajb1nYCO7su2ZPZ6LILWS0XdS9/KqeR82km6Uv\nkwBT9zOKVBXyzTxD3ZV0\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BB9D24A2-241702",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794149000147@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T14:43:20.354Z",
+    "validTo": "2027-11-08T14:43:20.354Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo15Q5HnpPHQ1lxLQxMrz\nwmrFnVYts6F06wjrEX77nKxmc3FC0ybBoSs4LgXJTaZkRl/ymlHUjmvTNBp9dJn5\nbr3mhTVIwX2BpeSePNluEOVe/pY8v5zk507eplToMYGrth4AtPAOWADUROlrYZoV\nHPFqtUOYICuKNtcaE6N8sOvKgOarStA1kgIdGxkFSLd01Pd92/TlwvQgv1gH2lI2\nRvz2UKTsUMABl+xQWwYmtvXcUDmFBx77ziIS6JqMDknR1hjYqJzBJEkR1RK6x8XL\nQ0WQvVjeUSjjFPKswJOCkdG3ZSE4ZvS7ZEAeDALT+ssLhMNgjCIIre/cFpqWGwjH\n8wIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "5e9bf3075765a9bf33769bac001de819fcbea95cc1bd28092213bff839e66329",
+    "status": "ACTIVE",
+    "caSignature": "REMnbiVYB+docbZO34ysHYix9qqvkOIO1J00/iGjqqzLvfeUDOKvwtp8xaswAgttP8piFkYvTIqXbgJ1lXqziE9joG/anibNuP13lrDB0I0VHwVqw/HxDAJSoo7PS0HzyxFOlsIOPItqBS3z3fk+DhGoHqatyTcwAsQ/7tlJwnooEngr8LnYizTJs4cqEv/2SRPFbNVpLBk45nopK46pRamksE8ql28nlKyllltNZvtlLu1fggrZt8JkxOJBYp3XgcoQCftUeul6/8EhayPi+axzirKP9Wdz3DZxc+d4U4e4H6p4QwMS2k+bWHxbMoVHv0QGXbRyQU7pPjYx2dDVjQ==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjXlDkeek8dDWX\nEtDEyvPCasWdVi2zoXTrCOsRfvucrGZzcULTJsGhKzguBclNpmRGX/KaUdSOa9M0\nGn10mfluveaFNUjBfYGl5J482W4Q5V7+ljy/nOTnTt6mVOgxgau2HgC08A5YANRE\n6WthmhUc8Wq1Q5ggK4o21xoTo3yw68qA5qtK0DWSAh0bGQVIt3TU933b9OXC9CC/\nWAfaUjZG/PZQpOxQwAGX7FBbBia29dxQOYUHHvvOIhLomowOSdHWGNionMEkSRHV\nErrHxctDRZC9WN5RKOMU8qzAk4KR0bdlIThm9LtkQB4MAtP6ywuEw2CMIgit79wW\nmpYbCMfzAgMBAAECggEAA/VhGGgr0p8uPT7jeCFCzs8vgqR37wZWgutwZrgg+Kbk\nxJ9V8y/ZOUKG1fal7g++FkZ05nBdKiZKs9SAfbbNaHWJhGjKHoYgAhkMDIVoOViV\neK3DQxFWKpSqqHUeOzTdKEiJ09iNQGykuBa/11mYcV8YKtQ8d2sWqkWECD3J46+J\nCmCT72btiGrqa+Xm03YvEAen7JvHghm71nn+uKBTtoNv8x1qsZX2x1RbqrqJYVkd\n/ix3rDbTFIXIoWlglmcxgJIlsyDdsu039w7qQ7DtUVjeZyXxgRl17rAOa2E/BhQe\nqE4MXnY8EHa1t5j1YEHKr0+SOPZcK/1ksvx3PT7uQQKBgQDSnrk4Yql4Nft7TB5a\n13A6dlevA+qDogek5yfv/Hk4Kco0zyX0DbmWMbmfmZcVBDz/rEMg2Gr3olki3A1J\nz1j2v5ZYh950IzmCx6/3AfFhBaRtdtrhhy2Xlj4P9Ins+Qf6cKniMOhp5IJc2wIm\nSnHBrE9odysLOk2VpANOLsTSiQKBgQDGkU/lsODyV3CShg+BmRhkkmrwVS/D1zZT\n1KsQWc9D8XyD1b/OghzuF6rKsj9VbK1cbrBzjHJbVEU0iAlj0BB30jawSPRVa6Id\nhDdY9GNn8Iqb22S70JjKgPbaJbk8t+DVY+i4JNzWi4vALLPJOIsch3wa0Sm/0Dzs\nwRK7EpsXmwKBgQDGXAog2nq05lJUStoDwAbIaJAoGk4RbtY4LiPk1yjrBiCUH8uk\n0BBLLcWeVC5/8p/oQzptgqUrV9EPDaPOMeOdb86OzldplYsiaiKFRWUpdQDovxlh\nccg0jaEhsbL8ZYVoDhdRGbKpmDZWcUTS/yWnuzqGLkVxq5VKK0+ZoF5p0QKBgDKK\ngASdrdPhL7ULzFyXRB8tKWz8sciuOZTC17u0sE3B5IiF2mlMsuJjQcSP9BDhNYsG\nXYE7qUvXujmxunoeVmK5LdRW7WHkoIHUymWo5rhpAE7FW/F2Gb3Jb4t8+JYc02xd\nHrnoIBG3uR10A1rfOoFLduo4fODmtusoBYV6KeGrAoGBALN/Td3FnY6Xrq7CIE1K\n/2YD9fIoBmb3Ge2TevNUNUeD05/cNwdRzwPQKVZj0+rMW0881o8bcB8E09n2pNuU\nU65ZXQYbxjOkghtyA2t5MHqzo57I7hv/sOjPjqgKnd7wp3X+uWDcP0iOCVPm6LUS\nkOZK+xuOs4oqaf69oQ8nz3tt\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BBA52914-3208EA",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794149525600@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T14:52:05.780Z",
+    "validTo": "2027-11-08T14:52:05.780Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsg7VNWySOADj1e82rSS3\nJY12DMR+o1BEoRVaFWgDrnom0Y5y9D3kBIki+Z6OHgsFv6djUY39pn0LsGMg5e/O\nz1uXzc270hTBKzQx/MhF/y3rzTFk4fuTuib301p+kiB5tufvMLAvTDzQ+0QKPHD1\nFzv5D4iINDzSc28V+sS35mULbqRG9QN+x/1HhqcwOlccLdoCU/lsyP0jSm6jpdwr\nDGi128l+3OSkNiOkzvK51Qww5UdkE2d2xH8XeD8uZnNq3wslx2zDVLZOvxjXo4y3\nztVdiqcTTPlM5LwJ9aFtX16+R8tH1PowO7DEfLgyZLKWhbmnULwiYQ4jgnN0f400\nbwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "61f2bb7bf37b2db49041779fb1e76d128fe092a2e38dd309fcde93b10833771e",
+    "status": "ACTIVE",
+    "caSignature": "RommhHU/7/rF7F4OqQ2t1GNl46VtGjkdpgln/aRwdZCg62ce6qo9ApzTA9oEVfyV8KU6/IQWX/TX0aHeFLNpKyvVz1r0WzO5d9vJcuZtrIyPs63+J178aWFwu99ykUybjw3GBbIRxtrTxclbQ2qJXzY84flRcsBRT5i/clvOLSESgPJRjZeLFXg4jjVNe7TbCb3HjmXhRElyzzDKp77iFoVBX804ocXjMybxPEsh5WUhyF+4UYUXqGUzYfrt4QLfFV8UqcNRMfgdmCRTeul57Ma+Bnm7zlczzUAS3085kcE6lfUQuwPfeAXnqzgq66U80Kx6wMoz/TXo7Cy2ffA+2A==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCyDtU1bJI4AOPV\n7zatJLcljXYMxH6jUEShFVoVaAOueibRjnL0PeQEiSL5no4eCwW/p2NRjf2mfQuw\nYyDl787PW5fNzbvSFMErNDH8yEX/LevNMWTh+5O6JvfTWn6SIHm25+8wsC9MPND7\nRAo8cPUXO/kPiIg0PNJzbxX6xLfmZQtupEb1A37H/UeGpzA6Vxwt2gJT+WzI/SNK\nbqOl3CsMaLXbyX7c5KQ2I6TO8rnVDDDlR2QTZ3bEfxd4Py5mc2rfCyXHbMNUtk6/\nGNejjLfO1V2KpxNM+UzkvAn1oW1fXr5Hy0fU+jA7sMR8uDJkspaFuadQvCJhDiOC\nc3R/jTRvAgMBAAECggEAMcnnAWzOCB3rl3cv5UNmePgw4coSFS2NOzPCwEiY+vFK\nKH+6EiS6PTBxmLYmzCzN2zT9lyDqo+LEYXqeiN1BCYd1j8Uu90P5bdDHB4Wi2QNo\ns7RTnsMfoEZkNvPPf6HYFvaM0iL53soEr7XrXNJDHk+VSawmVeEKAeA2l6vpNmFk\nYnJaBZscd5G3agSyRyom4wLpMjX6zLGMXMElKSoWsrxZTIzZnxhZJTaJR/lUVlCg\nY/8Cmf/auUgyAzi29J3mlP/gorcUAoXUGALIhjIxkmLmcdO1cPaX9016ahU4QaTa\nSyUd+EVLU50OvvsnRlT2WRX8tiX5kFYp0DckyE7hoQKBgQDYvbaAFxqJ8Xj7UTNG\ncXocEYn81kR1Peb3d6Ds5z/n/EF2BI3/ablYMygjws9a6/lh+XE/HWLA0hxCaciY\nzZlv40hydxDL2qBLoLcFsjR1/2JOg3NKN/hEVTV5KoCuOgMlsCjHtpKIzGmKo57y\niVgtKqqpu0x/i2RSJn3zyoY0IQKBgQDST2H7waBs2SsfeY9fkkAF9GBVxc00Pu0r\na8xv0tPyXPbryXv3FhqigrYDKsr82UnPjFPj8kLdiOcXpM7T8FTHBl77x6nmZcwh\n3jbl4niXzJQ+8NIiWjdJD0ymzT4Qan+zjb7bbsLovKS9j1csUhBFt/Ol3BWyYOGa\ndBBsFrNWjwKBgCCBi254iJVprtBaZEtLV5oAE2blJ81BpHM28N627AG59oNhuX41\n+AM/YOTEId8sBvHnvFFP8fCjUnOvc9Ne+oUqXEI2k0FPn7zX9LsY9/8+dxr5YgAe\nltCAyw1KD5SRxMkRO3yAaEe2CJovYfZUHPJhNMlR+u4iFMCxXzCCDlChAoGALLlm\n+/P8WsmAKyxduhRO+zUx+2uaLP8ozrAZBLrQCd2NQS1S6IPR3Ddx35CNJGJNGQ8d\nk/8kCxqfEl8hAN8+GCkZr++RCQci9xzbjd2wiY+fAxeRiG6pDSdsxJgnF7SePZ/q\nM54FYxsi6ZD/F9TH0xvAe8gm8Q07TO5bw7C8KK8CgYBEOMgg7ioKHrQv3T74+Okq\nnsqKXH6A+UbAoHEz3pdTHuyN6ps8spATW0jgtktTU/GRfmAgilgv9rEOg91s45ph\nfcvnPIi8OwjUf8Dpq6LPJjlIf5QF9vmztjAGm6q/74q8LIxv4EaHsdf0ELR/s4aS\ndQuRnamzZY3Y0DogyrgZew==\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BBAAF66A-E61148",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794149905874@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T14:58:26.026Z",
+    "validTo": "2027-11-08T14:58:26.026Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApI/WifEb4yCgKqjd8yiP\nu8g42O314DxC2CZS/53/KWQ/iCIHdhLE18FddpuLyUAFXUhNpIcXMxCV5Akax0sQ\n0yPA3uALh19iWI2WZNy52O9mXZEH0YEthAP4lNmXpA7a4IsutVQ1owJUTyk/Yqi/\n0HHUJ7WOwp2/KIudpr0eY9/HeNcYupOtYUwgy1QwYCrvCBuVhNO5Xvfwyittf/zp\nWvu4528gydcmCOObcBC7U5L7u/kyE8yHV2Hgplw4kaJmiSmp0C0/OP7fLFwKaBqB\nl/DT45YdygWGNJ+Rs2mdcD+t+ZCHetItjDtxG9TCtzOgDTJm6WOzCma6KWzpG2GI\n+wIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "82afd946bc6878392440c0087a5d43a80d9e8ae423369dabe24eaccb1f76ffa9",
+    "status": "ACTIVE",
+    "caSignature": "h11yPHRR0l3RtzeQpTIrJD8gL5lsiKV3E9FdMYwykQmx4P9qRGQC2ri3HgsBBQN7kCzlsOf/0yn5qXOTFPEYrdxS/bQY4xsh3nv4i3gbXnZ9i79M4iC+JhOdUgTNI+Etga57+bSd70VLmPAi9Xn1pXVC8PwAJ/nTyPMhlkjbQebQWFq81VMuUiLZBocEnFcD8qhjw/0sa7bLpWFDj4i6DKitLlz+/0Y1LmXNlibz1l7uwtua+MeUEmlWp2eNvz5rEF3yFuWQH4HQivh5MQdoo4YVPBDd07mpVnY8+9bal9ZMHTPryW8Iol12dQpKA3p4n9cOB3MJmDAuXaYq5PUIbw==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCkj9aJ8RvjIKAq\nqN3zKI+7yDjY7fXgPELYJlL/nf8pZD+IIgd2EsTXwV12m4vJQAVdSE2khxczEJXk\nCRrHSxDTI8De4AuHX2JYjZZk3LnY72ZdkQfRgS2EA/iU2ZekDtrgiy61VDWjAlRP\nKT9iqL/QcdQntY7Cnb8oi52mvR5j38d41xi6k61hTCDLVDBgKu8IG5WE07le9/DK\nK21//Ola+7jnbyDJ1yYI45twELtTkvu7+TITzIdXYeCmXDiRomaJKanQLT84/t8s\nXApoGoGX8NPjlh3KBYY0n5GzaZ1wP635kId60i2MO3Eb1MK3M6ANMmbpY7MKZrop\nbOkbYYj7AgMBAAECggEAIuR80PLWvuoEDAeSSCSplV927khGgi1E3yABKUIPAG/J\nKMxOWLLSGg1eC/AfS6TPfl/+VoxuVt2FaryjeO5putsx4hAPYbzP1YbwBKLopR7d\nzakax0lkpUFSS/13McoUjtf0J26bkNzFk6NjVUACq+f23BSbGJjqF2bDHr+q2fIZ\npMsZeV/5BNYcmg13Wb06ayc6FkHdEf4BClNdyahc134FMERMSdu0WoCA6uECtzIu\n7YQm00pP9sBiJIXz7hkgHZF5xYd3ZDD31X9cHUqb3Pr+RTpt5ZurcbtmAS6Gzn0Q\narDriGurrSzssaLOZQ5RxTvxJRlmo9gSYBWhKG8QAQKBgQDhcWk8CQ4m1YIKxrPE\nBkwY2Egysxrr+dsBgvqU5bDGkFaStQ1tWW3NzB5CttsuiI1rc0JF7AHvMTA43B9K\nE9iJDllMqNe3ba52596LY/r5mL9Nl4kkHdYHbGU2o46VvXUKktvGR6ULjexcYxDD\n/QCwsNG9C8uHBptRbh8frgJp+wKBgQC63e2GinBn8x6CMT6vIQtql40i5wTvz5zO\nHIRC6z5PTZ0au5DHXpQeM9asqwZuuT7t4E/4i7HGQnwQ7ecAGjaqNyMOeISaAIMI\nNCVVOML0efuF/4wbbAvPTL6Pl6gvGp+fkuVGjfo2BYT832N10DgdbO0lpWVBuwMm\n2YRLc9otAQKBgQCOTL7HFVQocQZHdQrNRchMumBAGEt6/dgeSSWQTLdbboomyj9y\ncUtc5mWHaNJKugjB9Ru09PZ3m427pj3dzU8Vm8gEGmMnNgU0qsEPLQmi+KZv/KGk\n+Ww6fVIZvf1nSRISnYY5zsk/1NKHskRH4W/JF6Mb99D9Js9tA9yDa5u8dwKBgQCZ\n8swE03jXqsuvprJlxWuKXWDBKGJAz2H3zDaKixPCccbEh1I3bgvI9hweFKgwAB2A\nDBTWRwAmvg9IQzbUNsRiZxpSiad02Ica8xruoty6XOSC+I2M6e6w0iEMW30LkXuA\nE50gC0ffyZxOWBuwq+IPG/Yj1aceB9wI3ZrILqHIAQKBgFP1PSlRjFEnAMX48w3r\nglRQWvEjQdN94cD6p1jcF4CYRT5kbzfJTe7YdgI9kSIj21V062K3C09WFF1pVcec\njpKlwqWCSeI/lTg5A+dfvtQCMbZFl5dNdqT10IS8YGmLzvmtU6LIoe1Ixoj6ESOU\nICd8yYU3P8hj3XXcNsUY7FSo\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BBBAC4A2-69B485",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794150941721@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T15:15:41.858Z",
+    "validTo": "2027-11-08T15:15:41.858Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhsQLTzYWjeJ+AssW/v1N\nVsaHT11cnGagg08ASuQWEWNdUZgA641j7j9uYcowKhEfIzqxfqQQjfMFVgZW58by\nDFUzh66CfNMiOUtxY8rhkGW+AvlifQdP50lP8gOAg5bzRSU7UaOUB+sfuJr/ndTA\nM7TMcmewmEkZeYtB9RlPJSMmbcGMX02rycI15S5QgfCOxuq5YGriUTidgsB+iH6j\nNQ+LjNVwSZtI3JMlqeXX3Ge2IWcrx+sZb/lVOwgcmViComsjNKTbCHz4q5sojqCH\nqUY0KHQpZBEFXAhtqNu9MSsomB9JIE2uER0L6IBOtvG/v9D5loWRRykV7boqF8CQ\nDwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "a1e27661ae90cf7c01f2494a14e7b9d9dae120579df37ced91948ddc0a3a74ba",
+    "status": "ACTIVE",
+    "caSignature": "k4v7qTmlVD3uFYSWmfk67ZpfsndyhSSTr4MQdprJs62ovUcoSD751g6kvxJeJJUacmywjcuVKW9SLRILz8Fn2oM0MEAbnS+erHG2wEty9med430KpZohFoipnVd+RCaJqQCjoZUlFJO9+kzyyZw5C/7gizW+D+Ur9r9JZUOjwVnGZC/EJXGMktipC6QWuN1ORooNoxTIBfLY5xDz65Ut3GLrg6ZMPcbo5ChrCLl75aAIAySs0sM3Ux0BuuQNy/CDvCP2NBSaHh54CCsY6QnZTiugRAF7NynDGPe18HOmepTyw3sqRHc3ucvmPmBkk4qcxNCfbdFcvvTjtMcBLt1WVw==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCGxAtPNhaN4n4C\nyxb+/U1WxodPXVycZqCDTwBK5BYRY11RmADrjWPuP25hyjAqER8jOrF+pBCN8wVW\nBlbnxvIMVTOHroJ80yI5S3FjyuGQZb4C+WJ9B0/nSU/yA4CDlvNFJTtRo5QH6x+4\nmv+d1MAztMxyZ7CYSRl5i0H1GU8lIyZtwYxfTavJwjXlLlCB8I7G6rlgauJROJ2C\nwH6IfqM1D4uM1XBJm0jckyWp5dfcZ7YhZyvH6xlv+VU7CByZWIKiayM0pNsIfPir\nmyiOoIepRjQodClkEQVcCG2o270xKyiYH0kgTa4RHQvogE628b+/0PmWhZFHKRXt\nuioXwJAPAgMBAAECggEAPR/cNVBGCJKrLt8ojf0bv/kJ1EB3SeTudsA1VMKBE9/q\nqqB0AmK96YjRqv8Gu33KjrMHYHZPn+KTEAKOFlBQ5rEaTzcirjUhN7V1N5sElfbf\nqP+t4SGY50GERjO6bXTg4ALUFeJIuRK274c120Ns7cbaWCWZnmjBajR0dRPGpwPS\n3a9OMHZV8hpYPwHAPwPT64PvtKH+h31icJcB45t8OrxPhuRgq8vztrGUd/kl1aro\n5wxIVpxXTvqjxGCj9THsgBwMEwlsMXG7s+0q0p/kfg/GO8FynlUw30j258ryhZom\n68vwiH2BxwWA7Yza1G/nnfGvyBjttXhIWFX0sunHKQKBgQC8svC9qbmgrk9EUYAM\nJGWlzewHVbqUdh4pDEzKsnAcG1e8fw4btYvpg68Ti4W0YTKfdKU8C9DTjH40O9LF\nRpFS9FO9XWwde4BHdnONCRx8MKTZIY8mUX/MQ/NtH6La7SSrLE7lsMbwKj7tvmQh\nXRzH4UDnglVqbqziWQSPC33F5QKBgQC21MNSW8yjyCyjfH8aod8uh/OMndLNs3QB\nimlP3An/w+RZaIkgreQ6qXcA46s/eQfaGuPJus4QSqgR6HW3Cqjs4gb/mobRP4dk\nRu58AtF8REG456J/A4PAbF8vxsaClB0eVVq5gMj1lZLsqSA2iaZKClqFlq8QX25Y\njoO7TVBe4wKBgBkcMr76Y/JG39N2iPSUr1YWBe+f79krsq3BrkJW5mZHGTDDM4xq\nZzjmxhhyu5MaUBM6AXbxF5PfITgwMccAsfv4+V+8m9N8iMB5ubyt1rWL/5PJTHRL\n6hazgCQoTpKVdgi1N7aHBKIW7RLUAB0Ud+z9Q5bLGDS2j5j7QYkLfWwlAoGARFWr\nl2nGR+T2gjhzDVI5J5watJD8jHOpRTYlfHrCpfziqWQ/9J3p8t8KIqP1iqjC/YsV\nXn3arQ4qWV8oODzcvIUSlpB8GVOEWD+GvYUUJT0hz2mMO6rloJMg1KuX4JBZfc/r\nM/BlrBy2qIviBWBXbc8G3G1gi18P0DucEvKnun8CgYB8RcL8IpO3bUWeaqXZgf0T\nTxnDRIi72VyuPlgjLt112DXoXbGC25czC9NuuxcORrTWZ6sNL4GU6UnfiqqWwABp\nIuwKEWaqsJhvEVW3zg+zdEu4JxeTetHO4wj6d2qKAzIDKuUCM4f3pzs+fFXjIpY6\neQeCQ2Hg2/9kasUAwwjWow==\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BC032936-382BF0",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794155685918@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T16:34:46.198Z",
+    "validTo": "2027-11-08T16:34:46.198Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtYh7mzNAGJvmnQQeLa4j\nyYtFe6mrDbaV0rNPDLipXbt6NaM8U85PsfofOxMKUUyA3iJ7vvbq3eKrzhcUQc4E\nz6BHgqBanelKblSeN03CB+PsZUOLI9D3Q6TWaLcz351lH6jWMx3ISxUzD+O0YvdG\nvAkH6fWQ33FTy5f6k5bMAQEpev7kwApXhicB3j9OuWuY8Yg6PVJ9X0rYraOKEUMx\n2KmaLSAw6h5gRgcnScxfuzgDDIS4b4GbRnU1fYxZy3qdTG2vEZTVHXwUcdQDzUXs\nTysQF/QjXIJu4te5RkORhB4Zug9MoJuzBm/GKz6Rxr3vvzMMVcPzQQvd1c3H0OPG\njQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "126b3348576ce2c14060836f3ccb76b5fbfd8a538cf7385b201180178bdac22e",
+    "status": "ACTIVE",
+    "caSignature": "TzaOmDzIy7Pv1YlAqb8AyIHajqZqMueSLibb5E2x9PUkQwKpHnSY6v2l+oxjR0zDqCerRRCNoV2G19QVHwvJz4A4XFztrefl5aLjpVm0MqyyIpBQCF85ABEj/PjD2/uAsZixeQQ5PbgilGXQacL22rf6zvRZKFEDtRBiKyT2L2+7m14/yTvX2M7epHJkle93EJlKJRCWegzSJnBnBbRLat4vlyz0vTAumjArl9y7b6F7sAxAau/L6I7+LCQj2IDunSZCcYbK6xSdQbC+b4MlsPCLMZxDmKjnBfVSezEUx6YAUeo9vspr7DJwXDoOvqecpoNNE05kX7ByhAENtTp3RA==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC1iHubM0AYm+ad\nBB4triPJi0V7qasNtpXSs08MuKldu3o1ozxTzk+x+h87EwpRTIDeInu+9urd4qvO\nFxRBzgTPoEeCoFqd6UpuVJ43TcIH4+xlQ4sj0PdDpNZotzPfnWUfqNYzHchLFTMP\n47Ri90a8CQfp9ZDfcVPLl/qTlswBASl6/uTACleGJwHeP065a5jxiDo9Un1fStit\no4oRQzHYqZotIDDqHmBGBydJzF+7OAMMhLhvgZtGdTV9jFnLep1Mba8RlNUdfBRx\n1APNRexPKxAX9CNcgm7i17lGQ5GEHhm6D0ygm7MGb8YrPpHGve+/MwxVw/NBC93V\nzcfQ48aNAgMBAAECggEAKp0x6wJyavR6A+T6Ep4c74x+kKOJMIxqik4mYeWdeI/w\nhdPebwvw4GZHW45CL0iGvd6ZbwA2rUSvMQ9w5Wuv7G+DKfJro0MnAlRh2biqskB6\nd2EOMie1S89Pt8A98KHZob94HQLCSIHe/T1mVI8Yrz5tean4SsOnOJViMLBHDnrp\nrSQFvch2eceB+UXPCaphQGGwKmgBGs4jUxGMCGQV8tadx6RNZAaOJhvC07iPpUoQ\nwuXcB+zLfDgC3NFOILc8aQfSQI+Noo4uo2ajkQ9AwVnUznwSXTA/yVJzJlYiRIpe\nhgZkWS7UEsOC4Rb2/zM0njkeDY5NO9peyw9vaRLy7wKBgQD3d7WhP+LeWxxRbRz4\nupp5W8TntR7iswzzrfc8Lmx3dv9esz0UXbpMNU3JqlDicAKeFNm/KtK7Ye+NO0t8\nkcq46Dr7bOJhZ2zGxmte+aA9XohHB7qhUtgkij+sCkfa//XHhHkOt9erKn8dYiIo\n3403vkCpDwVrRlfLN0hT+okUnwKBgQC7ysxIGtZflHUMdylWFDnMqbUJOxA+Ze7m\n1YJWDrM+41lEkM68MlXhpr6gBHK9K1064puXUd1vZZl/zzvqJWNtviz5Cv7X8xDF\n19mUtz7ZuFMCkP8Ln07WMmJhIysJJfBXui9kLibxk5Q++kj+3HQ9NYaUhRjj+uBb\npUPbi/eJUwKBgGxyWXZAuPsYkmBcoMWfgPKN9MxV4yMVtCdVpXMKJR51V5P4mFvE\nd0/OTDiEGs4gqAT+vi24ZoEXehM6WOpOObiujKqCHPLykAjMC2Gjo0VBmBcInBD2\nbSIWM7EBEFw4r0ywER0SE8E+7lXCG5Yt4YT8KvnrS0SnnvG/WEL1F/2hAoGAIxoD\nGS87Bt6fCldzuI1LSIAoQLNzk9ZF04vxMtjIlGa2luRiYDcgam9ajlqGf+mNIaad\n4qkAtQPOr18zGc8nSKoVie+ONxtN9U0ldHDUJKoZig9EPQ3oFI2SagnCz5Dx3dQF\na7pcuScWvLbX0huu9on8v+IpBuQr77Vye6Ur/dUCgYAwGgNiM7QYy8c+ayYRTz7P\nEPl/bXC3Gj36oE511eZu+upgyLPcH9wN0iQTzUtolb5A1NmQyTfcLIAteU9x6se/\nVx23JI2ny9dKXa4R2u8q1kjN3+7FZz7ObHCoRju6uECm9VpOj0Px10JsI4o+1NHe\nTyASCxgU1aH0xi4UXOrIPg==\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BC07D6C2-6614DF",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794155992634@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T16:39:52.770Z",
+    "validTo": "2027-11-08T16:39:52.770Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAur2musqAzzrpBLjr2f/K\nq7CaFTOsah7EAljbCZLiakLVsz3STjawdJ0UEyk0JdXK7RWnzqVELGI0wBRTUCB3\n0ZjrMuPhtoK4aOHJVLgYLRs8qquwMAL5R7zxak9WpckOCZrtq541Va31XL8DJQGr\nTeKgmij0O9Gb2hOt8vL3qDcFzsMZph/rBxRq2wYk9eGd4TuxYF1jnll2Ro8aODo9\nJuJVHhgk+tGAOVJVvejmvoAvKlUNA1LJPAGY/ADwlNdTiZJfs8HMxuKGDNVj9VD4\nBlbxoPyuJIh5z38UGZy4aJPuAr0YHHOjb6BPdwhogEtyzlRhNrGWHtl8IN4SDDH+\nCQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "5c0da28f802d3922c1df4c954c03a442e7e0d0385eb984e2fdc9aaf9219e11eb",
+    "status": "ACTIVE",
+    "caSignature": "MFNVHef0DOmyc7vl1S6T2HzwcC94gjcaW9HGYM5CnZRlIZtmue+K5VsSso4q5LkayXbpAoshBJJ1lDWFviUeuwi5mf7hWhKQn4Uc4NU6OtrcWR1FMth5WCQfm1tRn0jT3clrk/jprIue0d76k8PA4pK9+QZ1kzI2B9ZhyvUiTB32tQFs4ghDsMEQUyPSL3Fa5u8l9iPvqkvOywvDyvjxBaYBd/3yH3+yQBWDoJSbaStIe8rexNKyVHttsgnezSvLwgqnH0lF+5F1FTomMpUJnJ3eaTbeuLfSHW7seG1+bQrLZcBi3WxLlJT446QGkCoVU6Bla9mT11aBQf2E3hLIlw==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6vaa6yoDPOukE\nuOvZ/8qrsJoVM6xqHsQCWNsJkuJqQtWzPdJONrB0nRQTKTQl1crtFafOpUQsYjTA\nFFNQIHfRmOsy4+G2grho4clUuBgtGzyqq7AwAvlHvPFqT1alyQ4Jmu2rnjVVrfVc\nvwMlAatN4qCaKPQ70ZvaE63y8veoNwXOwxmmH+sHFGrbBiT14Z3hO7FgXWOeWXZG\njxo4Oj0m4lUeGCT60YA5UlW96Oa+gC8qVQ0DUsk8AZj8APCU11OJkl+zwczG4oYM\n1WP1UPgGVvGg/K4kiHnPfxQZnLhok+4CvRgcc6NvoE93CGiAS3LOVGE2sZYe2Xwg\n3hIMMf4JAgMBAAECggEAGeMCgvBhjNiwxrvPziecc9KGeZvxMcDUETM6IgifpHVh\nZHiUd80zBudjighzNy988wLGgWn9ml1+zIXEyt3FXmPhbuuSNZfHcpqiK0Fd8JrO\n/SXRxcYTwnMZ0E/xRggqDwDQI7NJ13fHBLVh/TZPBfv9oYE94jD7du61dXFjDYle\nRpY0TIb42t/Klzl+TBtX0KB4ZYH4dlnpuxPj5szAMtItmhPvD/pfG2QLJp4N6D58\nNCjrYNvfTyKyvjP79T0f6KfXVgcr9nak85KBphkPn/lvVQeqPqttffQXDZaKamrV\n/dKKhHEVeP3gkixL8bcGXToCwxc29bIm0uGVpMrrkQKBgQDud7jbQ4qHHCcE6tZ4\nxDciNjCm0Nn+K+ZkkEaHiqaUm1sod9TMBtDNXyOuYXqhJoRuKhmt0XtSvrbsMLyS\n8uCYYWRgKxlKTPa6hdCJ6CU5pe8jND/9eFkwPGA72HnYApWxe/jdIVSZG2J1HIIe\nw9gZWLlRVoSdEY1quPUOcKE6FQKBgQDIeFyHEIVKKsLdMDuwqE6KGKYT42PH8wt0\niJ37Zbtclp6ikYlzf+VVyTbzevEsbArYSURC00vc3Gvmj/WaUo4SmbeX11/IHXql\nu/P+scTCfVfK3HbUDh0UZDciX1rWrZZNo+qD4PRv6OaKaQpFnyyXapsIvmP5uxHW\nQjlrkzV1JQKBgQDWF5pZEFxQTNAjNAr1RYQSLQCk46Cy9wrTgkwv6CUCCjBfNqZP\nvla76wyHxHBqOcBvf1CqowXLFfn4NxE2BOPrKpUJWehMsqhYcUb2aPrytKzruD8y\n+1dnXO0xDXrmmft26sxVC1V+V/2fEscng8CBkQxfoANTWKzUAdXQ7wFwuQKBgFku\nimMfq1xCR6wkv/kn9sCilId2ejZCXk86U6W6LS7UZsAFpLM4K2sNd5+7irzrV6u+\ndFqSK0aW3H2Wf3lmzoNh1PX8v0SEMMK4KaSdqt2m6z5483gEy1T9/DUTXJLyaFIj\n4LlIgxWh86WRcxtj42984nlyUYGQgi/iCC9eLsLtAoGAB95Aaz6BbLG01rhc79A8\nTmk7LMjSOr1uH1y6WxwAdvVsJARqdZ8AShpdAcNaSDddaVXDDHLJN4tHIk/WiE+Y\nFXU5NfFzuqZW58Wg4UrBBq4JsyC81A79o9eaZu5ZhBAMrKBVaLv1bs0AfzFG0Aer\n23U3iEqmnEqikzC5Y412Ap0=\n-----END PRIVATE KEY-----\n"
+  },
+  {
+    "serialNumber": "POL-1A1BC557603-F12B40",
+    "subject": {
+      "commonName": "Marcos Paredes",
+      "role": "Inspector de Contrainteligencia",
+      "department": "Inteligencia y Ciberseguridad",
+      "organization": "Gobierno Institucional",
+      "email": "oficial.1794161079179@polibio.gob",
+      "clearanceLevel": 4
+    },
+    "issuer": "Polibio Sovereign Root CA - Autoridad Certificadora Institucional",
+    "validFrom": "2026-11-08T18:04:39.811Z",
+    "validTo": "2027-11-08T18:04:39.811Z",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi8Sw2lnZaYNDx5j7UPGG\n0GiDY1CEfvvvzysGMuO/BMuStin2murqdzmWsMgBGyp0fara2bH+kjrjr9Ik+LNU\nqklfEUZEEFhsMP7leSRjl7bBGwjoq6l8lNRALkTipAnOgddidV7EB8eMSsiVKo39\nBwQ25qsmMg/nJLOquVI7iVc1GSMZNoNX4hvkHbaUF1UncBNSpxQ7pJm62a8fqblQ\nogo893lX2iyS8THtEsb1GWY+6lc1IDOklbXv+vp3QtTXEv+CtArmhEVhAe+tyAuI\nmX6ASgom/rRF2ZvY1DI5Td6I7qdbiul1q4mcL806Gh6P1k1tUQda8U3av57MnSeH\niQIDAQAB\n-----END PUBLIC KEY-----\n",
+    "thumbprint": "e5cf37c102b0d5cdfb7b5058bcc1cf91cb329f1023efe8db89998f40157d6fa1",
+    "status": "ACTIVE",
+    "caSignature": "IMzbwsrqucbV9vM8A6d7TlRam5pvLmEPiNst9YPzsW85g9b9o6qlu9J1i6HdYkGXMJgSoAv3vqaFnyWJb9fg72YZ5hHIsg29iaEMOo6oZpc+PDVn/2Gqcpxgh17VEqQLHmmf5qceM5/In/t9iUcjg/nXHgg/KW8yepbB4qm6BJMjByha3IXmI1SEJQOEcpT4PbUqPcHGez4uCWKknqR8J8AFSR/sD2tgmR6gRZAbYqQ8Sr6cWnhCEpIf1zpxfohfy5pX0gvLrCrgBbL7OnOJX1zzStPnopmlRBE07/lpHUiL1/fkYjYhIIeCiVEjl2N6KBJ9tBZj4CDSzJ4A3YKjWQ==",
+    "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCLxLDaWdlpg0PH\nmPtQ8YbQaINjUIR+++/PKwYy478Ey5K2Kfaa6up3OZawyAEbKnR9qtrZsf6SOuOv\n0iT4s1SqSV8RRkQQWGww/uV5JGOXtsEbCOirqXyU1EAuROKkCc6B12J1XsQHx4xK\nyJUqjf0HBDbmqyYyD+cks6q5UjuJVzUZIxk2g1fiG+QdtpQXVSdwE1KnFDukmbrZ\nrx+puVCiCjz3eVfaLJLxMe0SxvUZZj7qVzUgM6SVte/6+ndC1NcS/4K0CuaERWEB\n763IC4iZfoBKCib+tEXZm9jUMjlN3ojup1uK6XWriZwvzToaHo/WTW1RB1rxTdq/\nnsydJ4eJAgMBAAECggEAE0z0BxMFPNbNk1CC0+imbz0fd6V0xnxP31HXp0tf42+h\nMNqWnUn3WsNvFbZowLGaKIhhdFJqDxNmwa7JQDazaFh9cks7tu4e8p0gXxwxTJAG\nFo+iYaIj/AFbY4hLq89W3wM5K3AMre5WZzVPs/KrkD56vlvACIW9q4nL949tfUeD\nWco527w/RWKTsG662pGUAiJANOl0Wz8YSW4xpvs+eavkxEPeZ2+KdN2LQCzp8jI6\nTLvkWpKDeNPmKlDxY7HZc90RDMTQQysHyyIKVb4blrperbYUr6DAe/UyfHLy3Eg0\nuUgtosXAnR0Cp/QxVqgmo+RsD0kEt1qJN5P1mzxL6QKBgQDFQUalbN73wyv1dRO6\nozm3Fio/SPXD+YmhJDfW8HPiWDQYDeCF6YeTT9sqREI4O4fHNdQQN9Cs5arIYzaq\nBJhZOMJfvEFOtwjeCXwOo2i1x8aYyd8IjklO1GUUB2o1Zi75NbMfdpgw3HaHatB6\nZZI+N5iiRavbHIbXZzC2AoFrewKBgQC1ZKF0d7gXbtMpd75r428KL4dcmU48sppT\nSXOTe2jrH2UnAFJsIBy2ozSzJLvICXusobleUV1PDrXs3MEmq2PkQremvBrrBgAt\nB3LYO6Y8pYjoWNPeoZjX/1bVf9sZtT9m8loLAJcZZEW4zvocH8V6oqLqvAJk8p0E\nwa6bPNnXywKBgCwzBT56F7gSvp3gnwwaGQuiZtMJaTCBkMpP0EdUV9MnCn09VssK\n2fszUJu28dOh2znTIPKFXzfuuobuXEhagTy00DEdgNC/iLggDfFFwmfBHQoNafGD\n2H9WblO/mZffjrT+yGVLcKy6KcEMOSzD57ITSRtLW0fcq4ZGtA6EnzVTAoGAJwgO\nTdds/23TdjrT+Lcpr5FmmSBL23e7CWzmt7d4bg+FXo0NL0MBqrMXpeyjk3mm6RCr\nqIXthBNwRhWCYmXCyt0oU3JqgGP8KbROnATJ0ob0HLrwbBltoBzLfIlUhgWgLPC9\nO1zXJpmS/x9aZi7X+XmBgO0PvtUNwHZEsha38V0CgYEAgj8t7gUkQRSyauzZ793f\nBPE/Yme6LQvspiAcRFzhf08H0JMgLm8jWoK1QqIasNzEoavMaQmEReMhFPfQTp+i\n+D72NlL4+gQyKi/ipsHVDjHsX3L82nJyl6/h88zyRoUcLjPKMKi5/XPSmd1xbvES\nJvkkNOstBMsdljuexjzM+Sg=\n-----END PRIVATE KEY-----\n"
+  }
+]

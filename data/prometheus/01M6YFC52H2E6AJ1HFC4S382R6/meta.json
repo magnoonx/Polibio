@@ -1,0 +1,18 @@
+{
+	"ulid": "01M6YFC52H2E6AJ1HFC4S382R6",
+	"minTime": 1794160801884,
+	"maxTime": 1794168000000,
+	"stats": {
+		"numSamples": 43200,
+		"numFloatSamples": 43200,
+		"numSeries": 30,
+		"numChunks": 365
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01M6YFC52H2E6AJ1HFC4S382R6"
+		]
+	},
+	"version": 1
+}

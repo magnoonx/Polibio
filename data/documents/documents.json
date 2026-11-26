@@ -1,0 +1,1624 @@
+[
+  {
+    "id": "DOC-2026-OF-001",
+    "correlativeNumber": "OF-2026-POL-0104",
+    "type": "OFICIO",
+    "title": "Adopción de Protocolo Criptográfico y Blockchain Polibio en la Administración Central",
+    "subject": "Instrucción de despliegue de infraestructura soberana y firma digital",
+    "recipient": "Ciudadanos Ministros y Directores Generales de Organismos del Estado",
+    "author": {
+      "name": "Dra. Elena Vasquez",
+      "role": "Directora General de Despacho",
+      "department": "Dirección Superior"
+    },
+    "body": "Por medio de la presente comunicación oficial, me dirijo a ustedes para notificar el inicio formal del despliegue del Sistema Polibio en todas las dependencias ministeriales.\n\nA partir de la fecha, todo oficio, memorando y circular con clasificación de seguridad deberá ser firmado criptográficamente con los certificados emitidos por la Autoridad Certificadora Institucional (Root CA) y registrado en el Libro Mayor Blockchain para garantizar su inmutabilidad, trazabilidad y soberanía del dato.\n\nSe instruye coordinar con la Dirección de Tecnologías la habilitación de los certificados para el personal con facultades de firma.",
+    "confidentialityLevel": 2,
+    "status": "DESPACHADO",
+    "createdAt": "2026-11-04T16:00:51.571Z",
+    "updatedAt": "2026-11-07T17:07:09.999Z",
+    "signatures": [],
+    "auditHistory": [
+      {
+        "action": "CREADO",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-04T16:00:51.572Z"
+      },
+      {
+        "action": "APROBADO",
+        "by": "Consultoría Jurídica",
+        "date": "2026-11-05T16:00:51.572Z"
+      },
+      {
+        "action": "CAMBIO_ESTADO_APROBADO",
+        "by": "Dra. Elena Vasquez (Directora General de Despacho)",
+        "date": "2026-11-07T17:07:04.010Z"
+      },
+      {
+        "action": "CAMBIO_ESTADO_DESPACHADO",
+        "by": "Dra. Elena Vasquez (Directora General de Despacho)",
+        "date": "2026-11-07T17:07:09.999Z"
+      }
+    ]
+  },
+  {
+    "id": "DOC-2026-MEM-002",
+    "correlativeNumber": "MEM-2026-POL-0058",
+    "type": "MEMORANDO",
+    "title": "Asignación de Partida Presupuestaria Extraordinaria para Servidores GPU de IA Local",
+    "subject": "Dotación de clúster on-premise para procesamiento de LLMs soberanos",
+    "recipient": "Dirección de Administración y Finanzas",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación y Presupuesto",
+      "department": "Planificación"
+    },
+    "body": "Se solicita con carácter de máxima prioridad la liberación de fondos correspondientes a la adquisición de servidores equipados con aceleradores Tensor Core para el alojamiento 100% on-premise de modelos de lenguaje de código abierto.\n\nEsta medida obedece al requerimiento de Soberanía Absoluta del Dato, impidiendo cualquier procesamiento en servidores extranjeros o nubes comerciales.",
+    "confidentialityLevel": 4,
+    "status": "FIRMADO",
+    "createdAt": "2026-11-06T04:00:51.572Z",
+    "updatedAt": "2026-11-06T15:00:51.572Z",
+    "signatures": [
+      {
+        "signer": {
+          "commonName": "Lic. Carlos Mendoza",
+          "role": "Director de Planificación y Presupuesto",
+          "department": "Planificación"
+        },
+        "algorithm": "SHA256withRSA",
+        "signedAt": "2026-11-06T15:00:51.572Z",
+        "thumbprint": "0A894B129CF4400192EA8917FEBA9012A34CDE67",
+        "rootCaTrusted": true
+      }
+    ],
+    "auditHistory": [
+      {
+        "action": "CREADO",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-06T04:00:51.572Z"
+      },
+      {
+        "action": "CLASIFICADO_NIVEL_4",
+        "by": "Oficial de Seguridad",
+        "date": "2026-11-06T04:54:11.572Z"
+      },
+      {
+        "action": "FIRMADO_DIGITALMENTE",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-06T15:00:51.572Z"
+      }
+    ]
+  },
+  {
+    "id": "DOC-1794068050472",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "INFORME ULTRA SECRETO: Auditoría de infraestructura nuclear y redes soberanas.",
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-07T16:14:10.588Z",
+    "updatedAt": "2026-11-07T16:14:10.588Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-07T16:14:10.588Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "/NUKcSiMMYyedc/a",
+      "authTag": "Ub/8X5oKY+yPY6nq4Xc+Xw==",
+      "encryptedPayload": "u0pUvnGCypyI3u0w8majzmu1K4iccs/h7HpZJkOpdzGtYiOXxn4MRPzDF0NYPJGzNJDYUr3nez0D2pdaFsQ4Ol/OjD1lD5BmTVCD9TdGiA==",
+      "keyEnvelope": {
+        "encryptedDek": "9IOjMQW9fIxCy14cLLIQxL6oYy58WHS6n3XCgC9YouE=",
+        "dekAuthTag": "kK1vVgC7nQve/uN3R8EJKg==",
+        "envelopeLevel": "Nivel 4: Confidencial"
+      },
+      "encryptedAt": "2026-11-07T16:14:10.593Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B6C9F2A6-8ED472",
+      "txHash": "8e2012c82378fbaaf0d818b009c795c7fdf1b6560ec077620a20223e8435a3c9",
+      "blockIndex": 1,
+      "notarizedAt": "2026-11-07T16:14:10.598Z"
+    }
+  },
+  {
+    "id": "DOC-1794068244604",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-07T16:17:24.689Z",
+    "updatedAt": "2026-11-07T16:17:24.689Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-07T16:17:24.689Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "l6JQiVS9Opf7a/Ea",
+      "authTag": "D/zUdBoi0gl49D31pTef/A==",
+      "encryptedPayload": "ZefStkrjEuOodRdne45Ez8KJ21dUbwJsnfpKKlI+m6vNYJ6k22mxDPI2CZVrdxDb6bRogydPGjG2ZkEjnR4IRPYSNRo+f5Yekw7YcZpQDg==",
+      "keyEnvelope": {
+        "encryptedDek": "ZIAYgFMurtekk0ThHEEbt4FwlWWzjCxt3t9z+OV2YaU=",
+        "dekAuthTag": "3tgms3hCBRuOIsVG2pkVtw==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-07T16:17:24.694Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B6CCE8DD-A516E8",
+      "txHash": "abc1cb8086f486729bf08776b01534737ca3b316c508fd2b0171dc7a7debfd84",
+      "blockIndex": 2,
+      "notarizedAt": "2026-11-07T16:17:24.701Z"
+    }
+  },
+  {
+    "id": "DOC-1794074206655",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Despliegue Soberano PostgreSQL y Docker en Polibio",
+    "subject": "Verificacion de persistencia hibrida y RLS",
+    "recipient": "Consejo de Ministros",
+    "author": {
+      "name": "Dra. Elena Vasquez",
+      "role": "Directora General",
+      "department": "Despacho"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 3]",
+    "confidentialityLevel": 3,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-07T17:56:46.665Z",
+    "updatedAt": "2026-11-07T17:56:46.665Z",
+    "signatures": [],
+    "documentHash": "d7d1879ed418415d3aa6d5986869ea2956b649287ce8a9679b930f15be2cab59",
+    "documentHash512": "033242c8911f5eba43661c40e4e5a6740b7d488ed712455864ac2de52f7fc284cf741afac868cdd6499a8e41e5d2b53b17187f7621ee93dd3b905dc4c80e21ba",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-07T17:56:46.665Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 3,
+      "classificationCode": "RESERVADO",
+      "algorithm": "AES-256-GCM",
+      "iv": "2KNxorbG3ZufPXs1",
+      "authTag": "VPUonaWr09YUrVHswDR+zg==",
+      "encryptedPayload": "1CYhLIitMsSyuGe99h6CWIAf2vOdXB4lzee61xn1J1oh3NhDVCovA4LRa34ov12xwLYGszxPZ++LD83dRoU7KaVABN1e8rbjMf8e64mWF/SQLukuQCCvRzQaYvEqBho/gyiKjzc=",
+      "keyEnvelope": {
+        "encryptedDek": "Lwb/9OTJx6eaYEQLe87z+2oFP8JpQ6RT2dXyuIbNk6Q=",
+        "dekAuthTag": "FNn3JdcBPvLzL5ybO1quhQ==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 3: Reservado",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-07T17:56:46.671Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B727E1DB-91F2DA",
+      "txHash": "c60dc5f4cb5cae4e676439044d909f78236996b3e693592c0a55dfec0bf71556",
+      "blockIndex": 9,
+      "notarizedAt": "2026-11-07T17:56:46.682Z"
+    }
+  },
+  {
+    "id": "DOC-1794074697459",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Despliegue Soberano PostgreSQL y Docker en Polibio",
+    "subject": "Verificacion de persistencia hibrida y RLS",
+    "recipient": "Consejo de Ministros",
+    "author": {
+      "name": "Dra. Elena Vasquez",
+      "role": "Directora General",
+      "department": "Despacho"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 3]",
+    "confidentialityLevel": 3,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-07T18:04:57.577Z",
+    "updatedAt": "2026-11-07T18:04:57.577Z",
+    "signatures": [],
+    "documentHash": "d7d1879ed418415d3aa6d5986869ea2956b649287ce8a9679b930f15be2cab59",
+    "documentHash512": "033242c8911f5eba43661c40e4e5a6740b7d488ed712455864ac2de52f7fc284cf741afac868cdd6499a8e41e5d2b53b17187f7621ee93dd3b905dc4c80e21ba",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-07T18:04:57.577Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 3,
+      "classificationCode": "RESERVADO",
+      "algorithm": "AES-256-GCM",
+      "iv": "zFJ71pvs45QoKEJ5",
+      "authTag": "t3LLZ+lsfwoq+vZGz00elw==",
+      "encryptedPayload": "T66Fl3mBppSjX0ZsgJV3UMtcxqYgBk2hqcIiFN57P/I66HzN2f9ddtLXqje//w7OtoDZ0ZI2dZHvwwpFW6r6qDWa+/JLY8VM5HtlZ+IfHp4/JLGno7bdC/0oMRNtHPZHP0qLtng=",
+      "keyEnvelope": {
+        "encryptedDek": "LTB+gD+f0KEiVekZg2gEFpif3yJA3I5Pqd9OQ/bGlio=",
+        "dekAuthTag": "f3yjOhUu3efiR53IB5DEaQ==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 3: Reservado",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-07T18:04:57.585Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B72F5F7C-1A6BFB",
+      "txHash": "5445735f8c1bb50fb4ddf3f2ba0efd4f95e6143598c8a3d03ca907bfd48ceb09",
+      "blockIndex": 11,
+      "notarizedAt": "2026-11-07T18:04:57.596Z"
+    }
+  },
+  {
+    "id": "DOC-1794075384109",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+    "subject": "Resguardo de bóvedas criptográficas",
+    "recipient": "Comando Estratégico Operacional",
+    "author": {
+      "name": "Lic. Andrés Valenzuela",
+      "role": "Director de Ciberseguridad",
+      "department": "Tecnologías Soberanas"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "FIRMADO",
+    "createdAt": "2026-11-07T18:16:24.133Z",
+    "updatedAt": "2026-11-07T18:16:24.554Z",
+    "signatures": [
+      {
+        "signature": "ZycyR1Gqh5whRdgNMuU29lloysxYthO9b6sbaYvXljnls52LznmGPAbS5Ggrs8ZfFgzlCv7zRdbKNjx7KzO4L7WXLTOvyBm8o+lJt51KkXwmWzQ9pmOwwWdcEdbrCLyIeiGYu0mpRlP1qLINxT44ANvXMbOgP3XhQ5SQrWpqloA8VHtDinFv1ohIdTRSD7Ljld+Hzx044sa6YUpFEOYp09pEdm5giJPC3xGX/aHZyEUf37UedqwnJScsxCfPc0JvjX3LBvrszgpu1+mc/xz6BUy7PwFVQysioD/HPJia57UHw6FXKXS/umbNas/h628wCNOiv3+8GqthXhZSQxRzNQ==",
+        "algorithm": "SHA256withRSA",
+        "signedAt": "2026-11-07T18:16:24.513Z",
+        "signer": {
+          "role": "Director de Seguridad de la Información",
+          "department": "Tecnología y Ciberseguridad",
+          "thumbprint": "72ff75920f72d19b2c87a94dad56a6af897f70b3ab38981d11493f20b81ea8be",
+          "clearanceLevel": 4
+        },
+        "rootCaFingerprint": "388aea805c10a69f43d7edf87ee56e626cb8decafb696d381a5b1a1b665c3ad0",
+        "verified": true,
+        "rootCaTrusted": true
+      }
+    ],
+    "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+    "documentHash512": "751579883920dab4efe7781ffdb3f69b7aae8e8a85fbabe1782819f535c9a2d2944aae3f78ceeb56a27adc3c3b50e08b29d45dae2bce9344b65383a56a3c599d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Andrés Valenzuela",
+        "date": "2026-11-07T18:16:24.134Z"
+      },
+      {
+        "action": "FIRMADO_DIGITALMENTE",
+        "date": "2026-11-07T18:16:24.554Z",
+        "thumbprint": "72ff75920f72d19b2c87a94dad56a6af897f70b3ab38981d11493f20b81ea8be"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "TYA3b5FWbDtouDeR",
+      "authTag": "OkBGI3MQBXbzwYSpTH/lKg==",
+      "encryptedPayload": "mzFy7IGkZhNGmwnejSHrcX6Gq+aPxwJUUaeXX7ziBp7hEuqrYm5yiF9r+W6syZR0d/BxOE9jD+Jcpjl9STaCKHg2B1u4LJcuDaQuYuSkJ3halM7IThC0OfWXtKANlQ8=",
+      "keyEnvelope": {
+        "encryptedDek": "1y81+OgqfGjBczsJV83bfl+9GDWMI0Z8aRoJaslr/CE=",
+        "dekAuthTag": "dzlZVJ9b92/8/r5K4yo2MA==",
+        "recipientEncryptedDek": "XCzgz1/grpdKSwCYF647x/B9xWZWYqMKJU4XitXY5nI96lBhDAprdZv+5mR+p471jogSEyxk9vxHLGGPJzfmd07cdJE648n5iezKz6rs7+sea/vIYTcvi+r3zDbNbZhTQDzczCsg6REBBK/SBmgjua/xQYU4kYE//ERAEGfZwY7kJvqPlgqY5C2TfLzJ8Bqi8a2I1uJx17Pk1rsTeUw3o2QNm4G2X4NdZw3PxyIQR0EZuAfYJziatBr0iYNOrdk468cURhliw0Uh6GpxnVoupF7f+Q6UDLxdATYge14RzjTZhb6GVeMSwLJKfiWnNYa54fbeNvN+TtUkD1eJqJj4Gg==",
+        "recipientInfo": {
+          "role": "Director de Seguridad de la Información",
+          "thumbprint": "72ff75920f72d19b2c87a94dad56a6af897f70b3ab38981d11493f20b81ea8be"
+        },
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "DUAL_ENVELOPE_RSA_AND_MASTER"
+      },
+      "encryptedAt": "2026-11-07T18:16:24.145Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B739DAF5-9244D1",
+      "txHash": "1f50e7a8fe10778750e408ba1d0db0720c8bb0d3c7cf29df2276aff62e024db7",
+      "blockIndex": 14,
+      "notarizedAt": "2026-11-07T18:16:24.565Z"
+    }
+  },
+  {
+    "id": "DOC-1794078033351",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+    "subject": "Resguardo de bóvedas criptográficas",
+    "recipient": "Comando Estratégico Operacional",
+    "author": {
+      "name": "Lic. Andrés Valenzuela",
+      "role": "Director de Ciberseguridad",
+      "department": "Tecnologías Soberanas"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "FIRMADO",
+    "createdAt": "2026-11-07T19:00:33.612Z",
+    "updatedAt": "2026-11-07T19:00:33.959Z",
+    "signatures": [
+      {
+        "signature": "mYLokeKjk7ZWuKzH/qMQwGffTEWg081D0K8mo7VUEzmd04oHn06Si0E6axmFQIB77c5l4UKNMY3HfF7NaB+WemdXiBddlVWRrvKCpiW+7y/RMDs5crqOZrf9tjCqGPAvwwiUcGcPYxkfVKGHtvDVIH2/enqk2yon2wII+qKNdzNfSbxyUlkTYSGYGJBJcffZ7Vvi7vkjYVfn2OU57Z++aYKetsWMN0yP2t3UVuu/WI16gzcAXVjPgIzy8fI93a8Z5F47X3VSWmdRq6D/UtBljTjI6zLUDgn2yhVsxrALmYOuRJez/7g9nU38ZaFhjKbsPGB6PfSmLijKKnWp5f/YTQ==",
+        "algorithm": "SHA256withRSA",
+        "signedAt": "2026-11-07T19:00:33.949Z",
+        "signer": {
+          "role": "Director de Seguridad de la Información",
+          "department": "Tecnología y Ciberseguridad",
+          "thumbprint": "65258ee4dac2dbd7c32cc9e52ab8a779f92024ae169a86e4e80864f7c5f3cdc8",
+          "clearanceLevel": 4
+        },
+        "rootCaFingerprint": "388aea805c10a69f43d7edf87ee56e626cb8decafb696d381a5b1a1b665c3ad0",
+        "verified": true,
+        "rootCaTrusted": true
+      }
+    ],
+    "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+    "documentHash512": "751579883920dab4efe7781ffdb3f69b7aae8e8a85fbabe1782819f535c9a2d2944aae3f78ceeb56a27adc3c3b50e08b29d45dae2bce9344b65383a56a3c599d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Andrés Valenzuela",
+        "date": "2026-11-07T19:00:33.612Z"
+      },
+      {
+        "action": "FIRMADO_DIGITALMENTE",
+        "date": "2026-11-07T19:00:33.959Z",
+        "thumbprint": "65258ee4dac2dbd7c32cc9e52ab8a779f92024ae169a86e4e80864f7c5f3cdc8"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "Gbv/RfPBVd8dfwuY",
+      "authTag": "8nRi2ET61Dc+hmKqiCRMsg==",
+      "encryptedPayload": "aiTJjEJoFV7NEvHRi6xpmOXvcrsT7vjsFpVvgx0iHMtiK0xPRGKzGNCqCMv5PWwVblySK7jiD+Vd3SXQSCYt7BCyxMRf496ceEfUKTjvYmol1aoXlSLxH6/hZZo8F3Q=",
+      "keyEnvelope": {
+        "encryptedDek": "SOAeMYhXZ+9uuadkmV0bFxOW2Pc2U4S+Tv8TyqF4I5g=",
+        "dekAuthTag": "5hVVjabVDUimQA5Zdf0iXw==",
+        "recipientEncryptedDek": "K4uxO3onOQlQuvz0Em/5jrblXsmZPEDrBTA72QTaCEdZ0FzPnd3EVZHxAJXJott1DONYVyxwGVNJe6byB31L18+YZbjeg3y8rm2jyOmHgr3KWWFlQLEH/HLTefdXZYk4pN3wrqu9iVRa61scV7e5IqALx6yGkxmW+u4Xp1eCzuZZ74xZ8FlJLz7b46ywVQh6hc6XY6DKLItghxtBtEMAJY2lhINPg77ry56PHpU8qFmGrQY4z2bu6iuf21Y6eyasF7PON+u0duWFv8Gl/zWA75Kmi9tK7nnsBJVBYu0efXgJ5SD1aY/lzMLAZGE4w9IjvjzbgA3oKgXfMq32rGlySw==",
+        "recipientInfo": {
+          "role": "Director de Seguridad de la Información",
+          "thumbprint": "65258ee4dac2dbd7c32cc9e52ab8a779f92024ae169a86e4e80864f7c5f3cdc8"
+        },
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "DUAL_ENVELOPE_RSA_AND_MASTER"
+      },
+      "encryptedAt": "2026-11-07T19:00:33.628Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B7624834-A4A0D0",
+      "txHash": "a80057243e5ff7ffe9e431a81a41e747e10dfeaa6aa33075833552ea1bf116e0",
+      "blockIndex": 17,
+      "notarizedAt": "2026-11-07T19:00:33.972Z"
+    }
+  },
+  {
+    "id": "DOC-1794079820835",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+    "subject": "Resguardo de bóvedas criptográficas",
+    "recipient": "Comando Estratégico Operacional",
+    "author": {
+      "name": "Lic. Andrés Valenzuela",
+      "role": "Director de Ciberseguridad",
+      "department": "Tecnologías Soberanas"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "FIRMADO",
+    "createdAt": "2026-11-07T19:30:20.877Z",
+    "updatedAt": "2026-11-07T19:30:21.282Z",
+    "signatures": [
+      {
+        "signature": "RLN6oauLFRSfTKUhFhKtmPIXSm6EbYSq1CY5ue07CcJmdaTX5/JoGgyJPV/oNcGmoljgnRtefZrsa+CxGa/hzZ/tPL0z1lDAuvsucpUP16fy47FsFFKWkkEG5G6BgyBz4NGCukquPG3Xlur4tF3z11SnW5zlgDNlDdeEItgaPQQMZCyYhqGv1B7R6qtc0e4oQy8hvEC4ZPeQ0EEcRGemEI0XvEe0RFCBuuJQTYwvdNjWPzvYnITbgb99u0SJ7UaF7DIMU1ZTYyiftxVmG6ZUAeRI7CuigGt+E+IhuFbpPrMA9FSH9cNGXAPpKhi7y6ODK+NoeeWLF3e9xlV5Se6uuA==",
+        "algorithm": "SHA256withRSA",
+        "signedAt": "2026-11-07T19:30:21.277Z",
+        "signer": {
+          "role": "Director de Seguridad de la Información",
+          "department": "Tecnología y Ciberseguridad",
+          "thumbprint": "0d139ee2d0fdcfed074577a408ebf99484e81ed3f0507b09ca3f9febaf53f3f5",
+          "clearanceLevel": 4
+        },
+        "rootCaFingerprint": "388aea805c10a69f43d7edf87ee56e626cb8decafb696d381a5b1a1b665c3ad0",
+        "verified": true,
+        "rootCaTrusted": true
+      }
+    ],
+    "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+    "documentHash512": "751579883920dab4efe7781ffdb3f69b7aae8e8a85fbabe1782819f535c9a2d2944aae3f78ceeb56a27adc3c3b50e08b29d45dae2bce9344b65383a56a3c599d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Andrés Valenzuela",
+        "date": "2026-11-07T19:30:20.877Z"
+      },
+      {
+        "action": "FIRMADO_DIGITALMENTE",
+        "date": "2026-11-07T19:30:21.282Z",
+        "thumbprint": "0d139ee2d0fdcfed074577a408ebf99484e81ed3f0507b09ca3f9febaf53f3f5"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "WCnBJytcEVMkVx6c",
+      "authTag": "ieLsTOqs6eClGFOZ07VPQA==",
+      "encryptedPayload": "ftZvjd2vQq3cv0PfGNlqklTSBAQ+hGM1jjepWQDZ3hNgSbXn/aeKKDdbKLYbcuf+MaFF12r/17S1cWmKF/LGDxX4FIiVhffPNrH/opCDDbvBWjfdSXYZTK2pYWui/ws=",
+      "keyEnvelope": {
+        "encryptedDek": "y91AFMgtEfmyFdZpNIvJjWBOFZGTNuglQusbTqgS8tY=",
+        "dekAuthTag": "thiAzBCUm1fMTHZUchXOWg==",
+        "recipientEncryptedDek": "D03tyuD00HUBNppXFOqXSfRRqcMCWojcOfLi+IY2ayeTrDubePA48fcR8DZapB3tFJ/dzPvjF2XcFQx1xmP/r64p5QNLLmewY4NpWVviYhkkPoHo5lMM3iwW2mlfwal+IDtIdqdtamB19MXErUGk6xRVW9iTnnjEYFGHS5X7qs49L+QEdrhI3SsoJwlESMO8yrC5jBjwRfR5pdJZbwSWjObJ00M6zsLW6oOpyKsxgmQtt2njcAfcXwzJ0MMtEJFMSfapKBompUHgX5LFjSCAq1jzdOfBJat8Donn+caLp9ZpsEqvft4MVQ0Kk8W/fIDiwZU2wonjVbuO4HWtwjNXkA==",
+        "recipientInfo": {
+          "role": "Director de Seguridad de la Información",
+          "thumbprint": "0d139ee2d0fdcfed074577a408ebf99484e81ed3f0507b09ca3f9febaf53f3f5"
+        },
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "DUAL_ENVELOPE_RSA_AND_MASTER"
+      },
+      "encryptedAt": "2026-11-07T19:30:20.903Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B77D8DEA-D80F7A",
+      "txHash": "45f6a00311af1e5eb23596e34f24e0cca9ab726211d02d86e9833423233a4743",
+      "blockIndex": 20,
+      "notarizedAt": "2026-11-07T19:30:21.290Z"
+    }
+  },
+  {
+    "id": "DOC-1794080099750",
+    "correlativeNumber": "OF-2026-POL-0106",
+    "type": "OFICIO",
+    "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+    "subject": "Resguardo de bóvedas criptográficas",
+    "recipient": "Comando Estratégico Operacional",
+    "author": {
+      "name": "Lic. Andrés Valenzuela",
+      "role": "Director de Ciberseguridad",
+      "department": "Tecnologías Soberanas"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "FIRMADO",
+    "createdAt": "2026-11-07T19:34:59.767Z",
+    "updatedAt": "2026-11-07T19:35:00.010Z",
+    "signatures": [
+      {
+        "signature": "OObMVJOTCCRjTdwfcmRNtWQKaS8GiKrOx52xOKKo44ttRHe99lkqHaGbhvZXLzuuF+xd1j5EjZP5gVxscFWXSJdsqHP0DRFl8WVQgyiTu4A8nTpy6Rgz4UQjvdSR+HGYYRVryrBxgMV1iBYZmjTSxnU7jl34LQ7pKfo3nOwQYi7aATQoio2x1mm5JP6bHnHlsK8TFfPclHROGvrgIKnAFnVrfV5DPXnRseJsecp9v6QpnRa9yoii9SvBUX+hAMBgrj3JkLYhCLBwOWZZ7lWLiD9GYQ7RBjXqJ172GsABun6pFzysit4qQIvNsRli8oXoCxXGQdNew26R/q6ztn3HOg==",
+        "algorithm": "SHA256withRSA",
+        "signedAt": "2026-11-07T19:35:00.005Z",
+        "signer": {
+          "role": "Director de Seguridad de la Información",
+          "department": "Tecnología y Ciberseguridad",
+          "thumbprint": "bbb05e9d20f0998a4094b92feca0b547101debfd853708978cc5f8ae0baf4876",
+          "clearanceLevel": 4
+        },
+        "rootCaFingerprint": "388aea805c10a69f43d7edf87ee56e626cb8decafb696d381a5b1a1b665c3ad0",
+        "verified": true,
+        "rootCaTrusted": true
+      }
+    ],
+    "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+    "documentHash512": "751579883920dab4efe7781ffdb3f69b7aae8e8a85fbabe1782819f535c9a2d2944aae3f78ceeb56a27adc3c3b50e08b29d45dae2bce9344b65383a56a3c599d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Andrés Valenzuela",
+        "date": "2026-11-07T19:34:59.767Z"
+      },
+      {
+        "action": "FIRMADO_DIGITALMENTE",
+        "date": "2026-11-07T19:35:00.010Z",
+        "thumbprint": "bbb05e9d20f0998a4094b92feca0b547101debfd853708978cc5f8ae0baf4876"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "d3TWHjzORp2hTtZe",
+      "authTag": "DUQjzHgig6m/+SyZV05Qlg==",
+      "encryptedPayload": "2LCo9tR6HpjOl5BcezyH+nYqIyhzoPrpXpwzYu7tGYGzmS34/BtdpVrRBkxkVWbAkuYDwd0f12sX6QRKqk/AotKgjXraLt5JhpkO/GnziOXl6qaisN5e6KH8SPdCDew=",
+      "keyEnvelope": {
+        "encryptedDek": "FSFj8DZMIFp5ZgTsGz/Bo89JYpSGTDSRlPLgvAy5mHg=",
+        "dekAuthTag": "ijE3LFwHhxjLUFNftMjsAw==",
+        "recipientEncryptedDek": "pT09FugznoohKdnviQlCf/+8yYOE/bR+GV6/FvjMzF72nS2OUuDWzZ4ZP2qbrR0GmPx014TYJClR/PKZdHuUFg+dfsKjM09/OyztAkV42p2ODUuqFxJVTng7HedZRy88jWgcFWdt49+A+E16Eqxo58Wy6A++dAEhk2f2rDJq7gw7cNvnSEXNbSgvkjJfpbjsKEptUzEB0UkuyYMZxCTUAsUBMbYGGd0RAuIx1dmfpmrKucKIYMMRHeZaoY1O5lLEz8bnz/2q5LmvV7MJtBkmSJ042llea3fAxIr1FH648jds4uEEZlEMlZ2n6sivf+z+ZFkoDOWfO3P3BMNo3O9PXQ==",
+        "recipientInfo": {
+          "role": "Director de Seguridad de la Información",
+          "thumbprint": "bbb05e9d20f0998a4094b92feca0b547101debfd853708978cc5f8ae0baf4876"
+        },
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "DUAL_ENVELOPE_RSA_AND_MASTER"
+      },
+      "encryptedAt": "2026-11-07T19:34:59.778Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1B781CEAB-326C21",
+      "txHash": "fa91c6f8c241d395e90ea04b863a1ced62bba04278168f9740f0319ecd6f101d",
+      "blockIndex": 23,
+      "notarizedAt": "2026-11-07T19:35:00.011Z"
+    }
+  },
+  {
+    "id": "DOC-1794149510290",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T14:51:50.361Z",
+    "updatedAt": "2026-11-08T14:51:50.361Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T14:51:50.361Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "xdUBhLOA1V1TzIJP",
+      "authTag": "/aEo3f8w2IbprT985hFSZQ==",
+      "encryptedPayload": "L1YfZiDzwfnDXD7VbgUI73GLO9YhQRsvuTmWvi63WgJM921e3zaE5nDaKKLYx23bj1jLs0swg7pyCFDouSQCD9bCoG5SQmV0KnyXlt/OCg==",
+      "keyEnvelope": {
+        "encryptedDek": "VUgM9hlaIJB8KjFgDvdHprc75uGdJrMIQqcXA7UKllo=",
+        "dekAuthTag": "1C3XSbOSWCTSFYTlwftoFA==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T14:51:50.367Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BBA4ECE5-33CAF5",
+      "txHash": "84091c0152e665a4f74bf748388dcbdc9a6b20d1ea50618d0ac4578e098c591c",
+      "blockIndex": 24,
+      "notarizedAt": "2026-11-08T14:51:50.373Z"
+    }
+  },
+  {
+    "id": "DOC-1794149526865",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T14:52:06.930Z",
+    "updatedAt": "2026-11-08T14:52:06.930Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T14:52:06.930Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "7hRGRrRv3deiaAgH",
+      "authTag": "GvCIfpWn3HKjlMDoiR7ADg==",
+      "encryptedPayload": "Wz0dUgLzKkdvmuXG1dO20i1sSZ1GYiKW98G3oPM63vJym3N8wZ5Uiqf+tlwnxxE5qODvtzP88CsxC5uKL5BXBmAwq2dCVk4KHWCS+I9EFw==",
+      "keyEnvelope": {
+        "encryptedDek": "ZLHFhYgHRe/CKW7kDp/vTebsCPP/J+fxjICmt4opmZ0=",
+        "dekAuthTag": "clYT2lS145bduVHTererzg==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T14:52:06.935Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BBA52D9D-96B7A3",
+      "txHash": "fe3862c7fb368158786c4b8e6c632f8da89d336a8ed64384d66a00f3df20c70a",
+      "blockIndex": 26,
+      "notarizedAt": "2026-11-08T14:52:06.941Z"
+    }
+  },
+  {
+    "id": "DOC-1794149907112",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T14:58:27.178Z",
+    "updatedAt": "2026-11-08T14:58:27.178Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T14:58:27.178Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "ZFbJIQq19f9RAk2o",
+      "authTag": "6CUo61PgXs2dLX4dVou4Hg==",
+      "encryptedPayload": "zpkESqHRDx5hoz1hZiTwMgJj6HyTmpdlcF0wSHFFx7x8ECFJJW+Lg8y41TnUODMqaLPOlUsMJ6W1a1tl4beHYLqRPhDftmg1y1Qwwg33ww==",
+      "keyEnvelope": {
+        "encryptedDek": "TuWLFNJZZoBcXs7HmjwoRL2eaJLxkOd+y1IaIe0+PJ0=",
+        "dekAuthTag": "CyvW+sxPwPZr8c4sAGw8ag==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T14:58:27.182Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BBAAFAF3-AF6572",
+      "txHash": "0206a6e4bd0255311b69bcbd404e24f11c336e1a9d80884f128235f8c8e5bbce",
+      "blockIndex": 28,
+      "notarizedAt": "2026-11-08T14:58:27.187Z"
+    }
+  },
+  {
+    "id": "DOC-1794150942274",
+    "correlativeNumber": "OF-2026-POL-0105",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T15:15:42.278Z",
+    "updatedAt": "2026-11-08T15:15:42.278Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T15:15:42.278Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "Y5t1Mz6E7N8YXLZi",
+      "authTag": "fhhvV8+1vGWnkNPg2wPnjA==",
+      "encryptedPayload": "oBvfzG4lZg7JS4Sx3Bmh3mIeT+pM5KGQ8CKa8y7TeEqKVAS+n1QyxC3vPAahm6fJa6qkyVtVuJGEzRhCifZCktGMu7HNHWjSrKQnHRDcMw==",
+      "keyEnvelope": {
+        "encryptedDek": "MSYiEtDCdFOkV3YXHvi5xclCGEznOKeP58TulIXZmdQ=",
+        "dekAuthTag": "AlugZEiKCGtK7lys3zptNg==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T15:15:42.281Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BBBAC64E-4B7AC7",
+      "txHash": "30982f79665ba764cce0b30e3810ddf46493a31c08643bfaa3adce77967e3635",
+      "blockIndex": 31,
+      "notarizedAt": "2026-11-08T15:15:42.286Z"
+    }
+  },
+  {
+    "id": "DOC-1794155514203",
+    "correlativeNumber": "OF-2026-PLAN-DIR-076",
+    "type": "OFICIO",
+    "title": "Instrucción E2E de Despliegue de Diagramación y Correlativos Soberanos",
+    "subject": "Prueba de validación de correlativo autoincremental",
+    "recipient": "Dirección General de Auditoría",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación",
+      "department": "Planificación"
+    },
+    "body": "Por medio del presente oficio se certifica la asignación correcta del correlativo autoincremental y el membrete diagramado.",
+    "templateSnapshot": {
+      "id": "tpl-planificacion",
+      "department": "Planificación",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "LARGE",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "MINISTERIO DE PLANIFICACIÓN",
+        "line3": "DIRECCIÓN DE PROYECTOS ESTRATÉGICOS",
+        "line4": "Despacho de la Dirección",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Planificación Soberana y Desarrollo Integral de la Nación",
+        "address": "Torre Ministerial de Planificación, Av. Este 6, Esq. Camejo, Piso 8, Caracas",
+        "contactInfo": "Tel: +58-212-555-0200 • presupuestos@polibio.gob • www.polibio.gob",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-PLAN-DIR-",
+        "paddingDigits": 3,
+        "currentSequence": 75,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-PLAN-",
+          "MEMORANDO": "MEM-2026-PLAN-",
+          "CIRCULAR": "CIR-2026-PLAN-",
+          "RESOLUCION": "RES-2026-PLAN-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Lic. Mariana Silva",
+      "updatedAt": "2026-11-08T16:31:54.162Z"
+    },
+    "confidentialityLevel": 2,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T16:31:54.497Z",
+    "updatedAt": "2026-11-08T16:31:54.497Z",
+    "signatures": [],
+    "documentHash": "ca9eb744698182cd8c29fd0cce08a15e0739f9dc7b38c715e3df28b8f45a8847",
+    "documentHash512": "ae5ba3016dc2ef625c8cbf2e6bf662f1cf7f2b58c5a073c7b1b555e3407e415208e37f290a58ffbe5aa37f881b2cc031b9aace49a370f07b5cf29f5d4c17f759",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T16:31:54.497Z"
+      }
+    ],
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC008AA5-611388",
+      "txHash": "25a3bd32961a0815b0715c32ec4ac5ff0c791e86fbfb3109762001b8e419fe50",
+      "blockIndex": 33,
+      "notarizedAt": "2026-11-08T16:31:54.533Z"
+    }
+  },
+  {
+    "id": "DOC-1794155688122",
+    "correlativeNumber": "OF-2026-DIRSUP-105",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "templateSnapshot": {
+      "id": "tpl-direccion-superior",
+      "department": "Dirección Superior",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "MEDIUM",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "DESPACHO DE LA DIRECCIÓN SUPERIOR",
+        "line3": "SECRETARÍA GENERAL DE GOBIERNO",
+        "line4": "Despacho de la Directora General",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Año de la Soberanía Tecnológica, Independencia y Criptografía de Estado",
+        "address": "Palacio de Gobierno, Av. Urdaneta, Esq. Bolero, Caracas • Distrito Capital",
+        "contactInfo": "Tel: +58-212-555-0100 • Correo: despacho@polibio.gob • Gaceta Oficial N° 42.980",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-DIRSUP-",
+        "paddingDigits": 3,
+        "currentSequence": 105,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-DIRSUP-",
+          "MEMORANDO": "MEM-2026-DIRSUP-",
+          "CIRCULAR": "CIR-2026-DIRSUP-",
+          "RESOLUCION": "RES-2026-DIRSUP-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Dra. Elena Vasquez",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T16:34:48.362Z",
+    "updatedAt": "2026-11-08T16:34:48.362Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T16:34:48.362Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "qAB5A290JVoBilBK",
+      "authTag": "NgpCb6CQ7VrU4RNWCqle9g==",
+      "encryptedPayload": "VlkYIsl/4YsUGjbZZMZe4B2C9Z8AK/2wkB1diBnKK3BlNmnS/6VCJ62SvPehqcMbIW0vgGi+Wlo1JglX+ZWLnwIKxkcgazsyyc+XIOXYhQ==",
+      "keyEnvelope": {
+        "encryptedDek": "1BQOMnO0kV2aV4QOMJ4e1zkqzHiYRyFu3EFt8JNwsLE=",
+        "dekAuthTag": "bwTbNnHyxhfh7kqxBTMh6Q==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T16:34:48.388Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC0331D7-671E8E",
+      "txHash": "c3be0453fd0e872272359a9c51aad03ec4d776427eb971a7a326a99869d0f5a8",
+      "blockIndex": 34,
+      "notarizedAt": "2026-11-08T16:34:48.407Z"
+    }
+  },
+  {
+    "id": "DOC-1794155981342",
+    "correlativeNumber": "OF-2026-PLAN-DIR-076",
+    "type": "OFICIO",
+    "title": "Instrucción E2E de Despliegue de Diagramación y Correlativos Soberanos",
+    "subject": "Prueba de validación de correlativo autoincremental",
+    "recipient": "Dirección General de Auditoría",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación",
+      "department": "Planificación"
+    },
+    "body": "Por medio del presente oficio se certifica la asignación correcta del correlativo autoincremental y el membrete diagramado.",
+    "templateSnapshot": {
+      "id": "tpl-planificacion",
+      "department": "Planificación",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "LARGE",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "MINISTERIO DE PLANIFICACIÓN",
+        "line3": "DIRECCIÓN DE PROYECTOS ESTRATÉGICOS",
+        "line4": "Despacho de la Dirección",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Planificación Soberana y Desarrollo Integral de la Nación",
+        "address": "Torre Ministerial de Planificación, Av. Este 6, Esq. Camejo, Piso 8, Caracas",
+        "contactInfo": "Tel: +58-212-555-0200 • presupuestos@polibio.gob • www.polibio.gob",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-PLAN-DIR-",
+        "paddingDigits": 3,
+        "currentSequence": 75,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-PLAN-",
+          "MEMORANDO": "MEM-2026-PLAN-",
+          "CIRCULAR": "CIR-2026-PLAN-",
+          "RESOLUCION": "RES-2026-PLAN-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Lic. Mariana Silva",
+      "updatedAt": "2026-11-08T16:39:41.302Z"
+    },
+    "confidentialityLevel": 2,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T16:39:41.550Z",
+    "updatedAt": "2026-11-08T16:39:41.550Z",
+    "signatures": [],
+    "documentHash": "ca9eb744698182cd8c29fd0cce08a15e0739f9dc7b38c715e3df28b8f45a8847",
+    "documentHash512": "ae5ba3016dc2ef625c8cbf2e6bf662f1cf7f2b58c5a073c7b1b555e3407e415208e37f290a58ffbe5aa37f881b2cc031b9aace49a370f07b5cf29f5d4c17f759",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T16:39:41.550Z"
+      }
+    ],
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC07AAFA-F91638",
+      "txHash": "ed20ae7f7febce0261bd85f6601027dd91d7a634bafa79538bb90a7b58241f16",
+      "blockIndex": 36,
+      "notarizedAt": "2026-11-08T16:39:41.562Z"
+    }
+  },
+  {
+    "id": "DOC-1794155993792",
+    "correlativeNumber": "OF-2026-DIRSUP-106",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "templateSnapshot": {
+      "id": "tpl-direccion-superior",
+      "department": "Dirección Superior",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "MEDIUM",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "DESPACHO DE LA DIRECCIÓN SUPERIOR",
+        "line3": "SECRETARÍA GENERAL DE GOBIERNO",
+        "line4": "Despacho de la Directora General",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Año de la Soberanía Tecnológica, Independencia y Criptografía de Estado",
+        "address": "Palacio de Gobierno, Av. Urdaneta, Esq. Bolero, Caracas • Distrito Capital",
+        "contactInfo": "Tel: +58-212-555-0100 • Correo: despacho@polibio.gob • Gaceta Oficial N° 42.980",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-DIRSUP-",
+        "paddingDigits": 3,
+        "currentSequence": 106,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-DIRSUP-",
+          "MEMORANDO": "MEM-2026-DIRSUP-",
+          "CIRCULAR": "CIR-2026-DIRSUP-",
+          "RESOLUCION": "RES-2026-DIRSUP-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Dra. Elena Vasquez",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T16:39:54.010Z",
+    "updatedAt": "2026-11-08T16:39:54.010Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T16:39:54.010Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "SVB7vpy+6cTwMHE6",
+      "authTag": "KtxiDsNasw93ZRc48T7zNw==",
+      "encryptedPayload": "MZr+KMMTF198UuVvw2i9ONsbFRjongf4uD7NGvmU3626UWmoaQy1zikYZ+JAPpeMYECoe8qGKr/qnjKaYPmToJ/L5N59SFsBXAartqDfIQ==",
+      "keyEnvelope": {
+        "encryptedDek": "j1uD8x2gqr3nHmCF/leOwM8AR2RD1TO9ItoBloXAfVg=",
+        "dekAuthTag": "AZTNuy7AoBQxzwEEAHBAsg==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T16:39:54.045Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC07DBC2-D7BA1D",
+      "txHash": "cfe568d66f32ca12f3b869ac7986f00a5845984e653bce2e28e6045fd4b80c17",
+      "blockIndex": 37,
+      "notarizedAt": "2026-11-08T16:39:54.050Z"
+    }
+  },
+  {
+    "id": "DOC-1794159264651",
+    "correlativeNumber": "OF-2026-DIRSUP-107",
+    "type": "OFICIO",
+    "title": "Informe Técnico con Diagrama Criptográfico",
+    "subject": "Despliegue de Enlace con Topología Segura",
+    "recipient": "Dirección General de Ciberdefensa",
+    "author": {
+      "name": "Dra. Elena Vasquez",
+      "role": "Directora de Criptografía",
+      "department": "Dirección de Tecnología y Ciberdefensa"
+    },
+    "body": "Estimadas autoridades,\n\nPor medio del presente remitimos el informe técnico con la arquitectura aprobada.\n\n![Topología del Enlace Soberano|width=450px|align=center|border=framed](/api/docs/uploads/1794159264588_organigrama_seguridad.png)\n\nQuedamos a su disposición para la auditoría técnica.\n\nAtentamente,\nEquipo de Operaciones Criptográficas.",
+    "templateSnapshot": {
+      "id": "tpl-direccion-superior",
+      "department": "Dirección Superior",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "MEDIUM",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "DESPACHO DE LA DIRECCIÓN SUPERIOR",
+        "line3": "SECRETARÍA GENERAL DE GOBIERNO",
+        "line4": "Despacho de la Directora General",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Año de la Soberanía Tecnológica, Independencia y Criptografía de Estado",
+        "address": "Palacio de Gobierno, Av. Urdaneta, Esq. Bolero, Caracas • Distrito Capital",
+        "contactInfo": "Tel: +58-212-555-0100 • Correo: despacho@polibio.gob • Gaceta Oficial N° 42.980",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-DIRSUP-",
+        "paddingDigits": 3,
+        "currentSequence": 108,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-DIRSUP-",
+          "MEMORANDO": "MEM-2026-DIRSUP-",
+          "CIRCULAR": "CIR-2026-DIRSUP-",
+          "RESOLUCION": "RES-2026-DIRSUP-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Dra. Elena Vasquez",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    "confidentialityLevel": 2,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T17:34:24.950Z",
+    "updatedAt": "2026-11-08T17:34:24.950Z",
+    "signatures": [],
+    "documentHash": "17bff380e5f97097db648d8761528bcf634d48bd80583707db5f8f836da40e5d",
+    "documentHash512": "0798ec346f2862b077e7c61d1011f7bf1d62f209bfd2e70b6be71d07e4183401e97dc8998282287ab0cd6a65c94c534288260161c242c6c091933f3df3b49bcb",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-08T17:34:24.950Z"
+      }
+    ],
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC39C4C8-FEE089",
+      "txHash": "94a8066de8048b52bc134cb5bf57e15507f71cac07ba8c1b18934b1c97b5cb97",
+      "blockIndex": 39,
+      "notarizedAt": "2026-11-08T17:34:24.968Z"
+    }
+  },
+  {
+    "id": "DOC-1794159449665",
+    "correlativeNumber": "OF-2026-DIRSUP-108",
+    "type": "OFICIO",
+    "title": "Informe Técnico con Diagrama Criptográfico",
+    "subject": "Despliegue de Enlace con Topología Segura",
+    "recipient": "Dirección General de Ciberdefensa",
+    "author": {
+      "name": "Dra. Elena Vasquez",
+      "role": "Directora de Criptografía",
+      "department": "Dirección de Tecnología y Ciberdefensa"
+    },
+    "body": "Estimadas autoridades,\n\nPor medio del presente remitimos el informe técnico con la arquitectura aprobada.\n\n![Topología del Enlace Soberano|width=450px|align=center|border=framed](/api/docs/uploads/1794159449329_organigrama_seguridad.png)\n\nQuedamos a su disposición para la auditoría técnica.\n\nAtentamente,\nEquipo de Operaciones Criptográficas.",
+    "templateSnapshot": {
+      "id": "tpl-direccion-superior",
+      "department": "Dirección Superior",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "MEDIUM",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "DESPACHO DE LA DIRECCIÓN SUPERIOR",
+        "line3": "SECRETARÍA GENERAL DE GOBIERNO",
+        "line4": "Despacho de la Directora General",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Año de la Soberanía Tecnológica, Independencia y Criptografía de Estado",
+        "address": "Palacio de Gobierno, Av. Urdaneta, Esq. Bolero, Caracas • Distrito Capital",
+        "contactInfo": "Tel: +58-212-555-0100 • Correo: despacho@polibio.gob • Gaceta Oficial N° 42.980",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-DIRSUP-",
+        "paddingDigits": 3,
+        "currentSequence": 108,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-DIRSUP-",
+          "MEMORANDO": "MEM-2026-DIRSUP-",
+          "CIRCULAR": "CIR-2026-DIRSUP-",
+          "RESOLUCION": "RES-2026-DIRSUP-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Dra. Elena Vasquez",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    "confidentialityLevel": 2,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T17:37:29.820Z",
+    "updatedAt": "2026-11-08T17:37:29.820Z",
+    "signatures": [],
+    "documentHash": "8ce8a109f7a350aaa094370ee942238f90d5d2824eea42c4cd50107c9c879151",
+    "documentHash512": "16b683f5ae26296778d922c27823e2efe9084f37abaff472e0f2aa108dbc322778226b7d9537732e40697df68ec1d40b7bd2a38f00ca6e182d4b5033b26091b9",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-08T17:37:29.820Z"
+      }
+    ],
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC3C96E4-778FFD",
+      "txHash": "c3204a043cf681066e6612a097bb1142323a4c3a42f5698374c7ebb80197d8a4",
+      "blockIndex": 40,
+      "notarizedAt": "2026-11-08T17:37:29.828Z"
+    }
+  },
+  {
+    "id": "DOC-1794160601725",
+    "correlativeNumber": "OF-2026-DIRE-002",
+    "type": "OFICIO",
+    "title": "Informe Técnico con Diagrama Criptográfico",
+    "subject": "Despliegue de Enlace con Topología Segura",
+    "recipient": "Dirección General de Ciberdefensa",
+    "author": {
+      "name": "Dra. Elena Vasquez",
+      "role": "Directora de Criptografía",
+      "department": "Dirección de Tecnología y Ciberdefensa"
+    },
+    "body": "Estimadas autoridades,\n\nPor medio del presente remitimos el informe técnico con la arquitectura aprobada.\n\n![Topología del Enlace Soberano|width=450px|align=center|border=framed](/api/docs/uploads/1794160601319_organigrama_seguridad.png)\n\nQuedamos a su disposición para la auditoría técnica.\n\nAtentamente,\nEquipo de Operaciones Criptográficas.",
+    "templateSnapshot": {
+      "id": "tpl-1a1bc3c9b98",
+      "department": "Dirección de Tecnología y Ciberdefensa",
+      "minClearanceToEdit": 2,
+      "logoConfig": {
+        "placement": "LEFT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "",
+        "logoSize": "MEDIUM",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "",
+        "line3": "DIRECCIÓN DE TECNOLOGÍA Y CIBERDEFENSA",
+        "line4": "",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "",
+        "address": "",
+        "contactInfo": "",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-DIRE-",
+        "paddingDigits": 3,
+        "currentSequence": 2,
+        "typeOverrides": {}
+      },
+      "updatedBy": "Funcionario",
+      "updatedAt": "2026-11-08T17:37:31.032Z"
+    },
+    "confidentialityLevel": 2,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T17:56:42.188Z",
+    "updatedAt": "2026-11-08T17:56:42.188Z",
+    "signatures": [],
+    "documentHash": "4799ada6d4c77a6f23e660c9a996053b9bcb48c70496dd2f283142b7809b6a6f",
+    "documentHash512": "2ec6e22b3b00d4d843c036a896e79cdb415e0ce7c5d2502ab3f0a47c91829ca3d53e63341839312c52ed839ec5a75676a5b251179b3d6bf2afcb8c999c8ce211",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-08T17:56:42.188Z"
+      }
+    ],
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC4E2C61-D67111",
+      "txHash": "94b6f13a1779b0ebf8054af0ed3c84fb826ed82fd21f19e8d11305eeca814669",
+      "blockIndex": 41,
+      "notarizedAt": "2026-11-08T17:56:42.209Z"
+    }
+  },
+  {
+    "id": "DOC-1794160630583",
+    "correlativeNumber": "OF-2026-PLAN-DIR-076",
+    "type": "OFICIO",
+    "title": "Instrucción E2E de Despliegue de Diagramación y Correlativos Soberanos",
+    "subject": "Prueba de validación de correlativo autoincremental",
+    "recipient": "Dirección General de Auditoría",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación",
+      "department": "Planificación"
+    },
+    "body": "Por medio del presente oficio se certifica la asignación correcta del correlativo autoincremental y el membrete diagramado.",
+    "templateSnapshot": {
+      "id": "tpl-planificacion",
+      "department": "Planificación",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "LARGE",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "MINISTERIO DE PLANIFICACIÓN",
+        "line3": "DIRECCIÓN DE PROYECTOS ESTRATÉGICOS",
+        "line4": "Despacho de la Dirección",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Planificación Soberana y Desarrollo Integral de la Nación",
+        "address": "Torre Ministerial de Planificación, Av. Este 6, Esq. Camejo, Piso 8, Caracas",
+        "contactInfo": "Tel: +58-212-555-0200 • presupuestos@polibio.gob • www.polibio.gob",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-PLAN-DIR-",
+        "paddingDigits": 3,
+        "currentSequence": 75,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-PLAN-",
+          "MEMORANDO": "MEM-2026-PLAN-",
+          "CIRCULAR": "CIR-2026-PLAN-",
+          "RESOLUCION": "RES-2026-PLAN-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Lic. Mariana Silva",
+      "updatedAt": "2026-11-08T17:57:10.375Z"
+    },
+    "confidentialityLevel": 2,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T17:57:10.667Z",
+    "updatedAt": "2026-11-08T17:57:10.667Z",
+    "signatures": [],
+    "documentHash": "ca9eb744698182cd8c29fd0cce08a15e0739f9dc7b38c715e3df28b8f45a8847",
+    "documentHash512": "ae5ba3016dc2ef625c8cbf2e6bf662f1cf7f2b58c5a073c7b1b555e3407e415208e37f290a58ffbe5aa37f881b2cc031b9aace49a370f07b5cf29f5d4c17f759",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T17:57:10.667Z"
+      }
+    ],
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC4E9B94-056DC7",
+      "txHash": "00165180eec2569c01f23ce79a0c249216613dfeae63a17924e599ec2b5a2ba9",
+      "blockIndex": 42,
+      "notarizedAt": "2026-11-08T17:57:10.676Z"
+    }
+  },
+  {
+    "id": "DOC-1794161083133",
+    "correlativeNumber": "OF-2026-DIRSUP-109",
+    "type": "OFICIO",
+    "title": "Inspección de Seguridad Soberana Criptográfica",
+    "subject": "Auditoría clasificada",
+    "recipient": "Comando de Operaciones Especiales",
+    "author": {
+      "name": "Lic. Carlos Mendoza",
+      "role": "Director de Planificación"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 4]",
+    "templateSnapshot": {
+      "id": "tpl-direccion-superior",
+      "department": "Dirección Superior",
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": "MEDIUM",
+        "customPrimaryUrl": "",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+        "line2": "DESPACHO DE LA DIRECCIÓN SUPERIOR",
+        "line3": "SECRETARÍA GENERAL DE GOBIERNO",
+        "line4": "Despacho de la Directora General",
+        "dividerStyle": "TRICOLOR",
+        "fontFamily": "PLUS_JAKARTA"
+      },
+      "footerConfig": {
+        "motto": "2026: Año de la Soberanía Tecnológica, Independencia y Criptografía de Estado",
+        "address": "Palacio de Gobierno, Av. Urdaneta, Esq. Bolero, Caracas • Distrito Capital",
+        "contactInfo": "Tel: +58-212-555-0100 • Correo: despacho@polibio.gob • Gaceta Oficial N° 42.980",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-DIRSUP-",
+        "paddingDigits": 3,
+        "currentSequence": 109,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-DIRSUP-",
+          "MEMORANDO": "MEM-2026-DIRSUP-",
+          "CIRCULAR": "CIR-2026-DIRSUP-",
+          "RESOLUCION": "RES-2026-DIRSUP-"
+        }
+      },
+      "minClearanceToEdit": 2,
+      "updatedBy": "Dra. Elena Vasquez",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    "confidentialityLevel": 4,
+    "status": "BORRADOR",
+    "createdAt": "2026-11-08T18:04:43.518Z",
+    "updatedAt": "2026-11-08T18:04:43.518Z",
+    "signatures": [],
+    "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+    "documentHash512": "c18e83887dd39ee6c87b8d51b8cf0e7322e8197b8de2074490424a536d70e636972191f20bea343fd05ef1be12298b355f9ca2b4714c8ced0df44551cbd2ca5d",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Lic. Carlos Mendoza",
+        "date": "2026-11-08T18:04:43.518Z"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 4,
+      "classificationCode": "CONFIDENCIAL",
+      "algorithm": "AES-256-GCM",
+      "iv": "nDxPwrZR3rUgyr9j",
+      "authTag": "YUM8bC/GlsiAN7NZfk4zKA==",
+      "encryptedPayload": "TNvQY3ZcURydNAu1BzJwQRkx3XQYlOlVrNvuKT/I5TGW/bQ6WfHlUiLm1qr3Ulu5CofAikw5JcqcVB6KEMr8N63LAoBAQkWr9mZayQh9Fw==",
+      "keyEnvelope": {
+        "encryptedDek": "KiNfgBr684eGu+t6XkiEHv2WY3Nhd4SByFfh43SICNM=",
+        "dekAuthTag": "Kt5CKyy8sOqn9tGen4QyXg==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 4: Confidencial",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T18:04:43.553Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC5584AA-C1E277",
+      "txHash": "842975f985765fcd64764443e88b5dbfaff3f084a34047eeaa6cd89fd3299fef",
+      "blockIndex": 43,
+      "notarizedAt": "2026-11-08T18:04:43.562Z"
+    }
+  },
+  {
+    "id": "DOC-1794161826416",
+    "correlativeNumber": "OF-2026-DIRE-003",
+    "type": "OFICIO",
+    "title": "Protocolo Criptográfico",
+    "subject": "Solicitud",
+    "recipient": "RRHH",
+    "author": {
+      "name": "Dra. Elena Vasquez",
+      "role": "Directora General de Despacho",
+      "department": "Dirección de Tecnología y Ciberdefensa"
+    },
+    "body": "[DOCUMENTO CIFRADO EN REPOSO CON AES-256-GCM - Requiere Nivel 3]",
+    "templateSnapshot": {
+      "id": "tpl-1a1bc3c9b98",
+      "department": "Dirección de Tecnología y Ciberdefensa",
+      "minClearanceToEdit": 2,
+      "logoConfig": {
+        "placement": "SPLIT",
+        "primaryLogo": "ESCUDO_NACIONAL",
+        "secondaryLogo": "POLIBIO_SHIELD",
+        "logoSize": 40,
+        "customPrimaryUrl": "/api/docs/uploads/1794161543922_UC_logo.png",
+        "customSecondaryUrl": ""
+      },
+      "headerConfig": {
+        "line1": "UNIVERSIDAD DE CARABOBO",
+        "line2": "DIRECCIÓN DE INFORMÁTICA",
+        "line3": "DIRECCIÓN DE TECNOLOGÍA Y CIBERDEFENSA",
+        "line4": "",
+        "dividerStyle": "DOUBLE",
+        "fontFamily": "serif"
+      },
+      "footerConfig": {
+        "motto": "\"Integridad Criptográfica, Soberanía Tecnológica\"",
+        "address": "Av. Libertador, Edif. Sede Principal, Piso 4",
+        "contactInfo": "dtc@polibio.gob.ve • Tlf: +58 212 555-0100",
+        "showPageNumber": true
+      },
+      "correlativeConfig": {
+        "prefixPattern": "OF-2026-DIRE-",
+        "paddingDigits": 3,
+        "currentSequence": 2,
+        "typeOverrides": {
+          "OFICIO": "OF-2026-DIRE-",
+          "MEMORANDO": "MEM-2026-DIRE-",
+          "CIRCULAR": "CIR-2026-DIRE-",
+          "RESOLUCION": "RES-2026-DIRE-"
+        }
+      },
+      "updatedBy": "Dra. Elena Vasquez",
+      "updatedAt": "2026-11-08T18:13:39.152Z"
+    },
+    "confidentialityLevel": 3,
+    "status": "FIRMADO",
+    "createdAt": "2026-11-08T18:17:06.443Z",
+    "updatedAt": "2026-11-08T18:25:06.954Z",
+    "signatures": [
+      {
+        "signature": "RpzZevtc05IYf/nvgE/DSKsZkRFiR4qi22S1n/AHzsnDWlNQBag7BBpBkxR6LB+020MOVfl3ybwLckjMEBkzCbijNTIy+CFvti38lVYKZTm2wG/o+wJnN0lMdPGUYVOz32/Z9NQ9vfJ0m3KdTWkBajX+jU7E+zLwwphhX0NiCPyVbODMeCmsajcZo+2ozjtoKIaOmefTm80DKBFTuBWjAJrLl9B6Lce5sD9/0olUASgyACd3FiCb4YhIuQXYXTbG7lum3E5ARTqdSsN9/y58+Dab5eJ5VduaXgAljJuw5mcOPmXkOd6+s4lFwAY8yDnqTmCPl0WDLObn50asN8RkEg==",
+        "algorithm": "SHA256withRSA",
+        "signedAt": "2026-11-08T18:25:06.923Z",
+        "signer": {
+          "commonName": "Dra. Elena Vasquez",
+          "role": "Directora General de Despacho",
+          "department": "Dirección Superior",
+          "thumbprint": "939789f83a0b826a3a7019789fc272b13071d2ec41a9dfeedf7a382b821f75c1",
+          "clearanceLevel": 5
+        },
+        "rootCaFingerprint": "388aea805c10a69f43d7edf87ee56e626cb8decafb696d381a5b1a1b665c3ad0",
+        "verified": true,
+        "rootCaTrusted": true
+      }
+    ],
+    "documentHash": "26ddfe8b4601934a79766f7822d519186fb2e6affeaa2abd067d4bd5804f8953",
+    "documentHash512": "a6b078e32bbcaacea97387c745923c1074e26775a76f8c468ff02ca2ceac3d1f719399f660fd2b3611ede339995c001c247386d1c86777bfe928161f27dc1da9",
+    "auditHistory": [
+      {
+        "action": "CREACION_BORRADOR",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-08T18:17:06.443Z"
+      },
+      {
+        "action": "FIRMADO_DIGITALMENTE",
+        "by": "Dra. Elena Vasquez",
+        "date": "2026-11-08T18:25:06.954Z",
+        "thumbprint": "939789f83a0b826a3a7019789fc272b13071d2ec41a9dfeedf7a382b821f75c1"
+      }
+    ],
+    "envelope": {
+      "encrypted": true,
+      "confidentialityLevel": 3,
+      "classificationCode": "RESERVADO",
+      "algorithm": "AES-256-GCM",
+      "iv": "3vM8/ctFBSm9xian",
+      "authTag": "6vmwelyKodlyaTdH7PSumQ==",
+      "encryptedPayload": "ra2STY01o08gwcqsiCCcmv63bDc3DTUDPQ==",
+      "keyEnvelope": {
+        "encryptedDek": "fX9jHjySW2Y+ezEKOofs7QZTTpkqLcREk3ihjJS+Lxk=",
+        "dekAuthTag": "T7OWLYPiQgQgzV6rdESJCA==",
+        "recipientEncryptedDek": null,
+        "recipientInfo": null,
+        "envelopeLevel": "Nivel 3: Reservado",
+        "escrowType": "MASTER_KEY_ESCROW"
+      },
+      "encryptedAt": "2026-11-08T18:17:06.446Z"
+    },
+    "blockchainNotarization": {
+      "txId": "TX-1A1BC682FA2-AC8CEE",
+      "txHash": "4ec1f2c9710bde2a5448e7d94bcf5b6040aeba4657d2afa13e784644a068e454",
+      "blockIndex": 48,
+      "notarizedAt": "2026-11-08T18:25:06.978Z"
+    }
+  }
+]

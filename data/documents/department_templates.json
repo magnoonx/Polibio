@@ -1,0 +1,242 @@
+[
+  {
+    "id": "tpl-direccion-superior",
+    "department": "Dirección Superior",
+    "logoConfig": {
+      "placement": "SPLIT",
+      "primaryLogo": "ESCUDO_NACIONAL",
+      "secondaryLogo": "POLIBIO_SHIELD",
+      "logoSize": "MEDIUM",
+      "customPrimaryUrl": "",
+      "customSecondaryUrl": ""
+    },
+    "headerConfig": {
+      "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+      "line2": "DESPACHO DE LA DIRECCIÓN SUPERIOR",
+      "line3": "SECRETARÍA GENERAL DE GOBIERNO",
+      "line4": "Despacho de la Directora General",
+      "dividerStyle": "TRICOLOR",
+      "fontFamily": "PLUS_JAKARTA"
+    },
+    "footerConfig": {
+      "motto": "2026: Año de la Soberanía Tecnológica, Independencia y Criptografía de Estado",
+      "address": "Palacio de Gobierno, Av. Urdaneta, Esq. Bolero, Caracas • Distrito Capital",
+      "contactInfo": "Tel: +58-212-555-0100 • Correo: despacho@polibio.gob • Gaceta Oficial N° 42.980",
+      "showPageNumber": true
+    },
+    "correlativeConfig": {
+      "prefixPattern": "OF-2026-DIRSUP-",
+      "paddingDigits": 3,
+      "currentSequence": 109,
+      "typeOverrides": {
+        "OFICIO": "OF-2026-DIRSUP-",
+        "MEMORANDO": "MEM-2026-DIRSUP-",
+        "CIRCULAR": "CIR-2026-DIRSUP-",
+        "RESOLUCION": "RES-2026-DIRSUP-"
+      }
+    },
+    "minClearanceToEdit": 2,
+    "updatedBy": "Dra. Elena Vasquez",
+    "updatedAt": "2026-01-15T08:00:00.000Z"
+  },
+  {
+    "id": "tpl-planificacion",
+    "department": "Planificación",
+    "logoConfig": {
+      "placement": "SPLIT",
+      "primaryLogo": "ESCUDO_NACIONAL",
+      "secondaryLogo": "POLIBIO_SHIELD",
+      "logoSize": "LARGE",
+      "customPrimaryUrl": "",
+      "customSecondaryUrl": ""
+    },
+    "headerConfig": {
+      "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+      "line2": "MINISTERIO DE PLANIFICACIÓN",
+      "line3": "DIRECCIÓN DE PROYECTOS ESTRATÉGICOS",
+      "line4": "Despacho de la Dirección",
+      "dividerStyle": "TRICOLOR",
+      "fontFamily": "PLUS_JAKARTA"
+    },
+    "footerConfig": {
+      "motto": "2026: Planificación Soberana y Desarrollo Integral de la Nación",
+      "address": "Torre Ministerial de Planificación, Av. Este 6, Esq. Camejo, Piso 8, Caracas",
+      "contactInfo": "Tel: +58-212-555-0200 • presupuestos@polibio.gob • www.polibio.gob",
+      "showPageNumber": true
+    },
+    "correlativeConfig": {
+      "prefixPattern": "OF-2026-PLAN-DIR-",
+      "paddingDigits": 3,
+      "currentSequence": 76,
+      "typeOverrides": {
+        "OFICIO": "OF-2026-PLAN-",
+        "MEMORANDO": "MEM-2026-PLAN-",
+        "CIRCULAR": "CIR-2026-PLAN-",
+        "RESOLUCION": "RES-2026-PLAN-"
+      }
+    },
+    "minClearanceToEdit": 2,
+    "updatedBy": "Lic. Mariana Silva",
+    "updatedAt": "2026-11-08T17:57:10.375Z"
+  },
+  {
+    "id": "tpl-consultoria-juridica",
+    "department": "Consultoría Jurídica",
+    "logoConfig": {
+      "placement": "CENTER",
+      "primaryLogo": "ESCUDO_NACIONAL",
+      "secondaryLogo": "",
+      "logoSize": "MEDIUM",
+      "customPrimaryUrl": "",
+      "customSecondaryUrl": ""
+    },
+    "headerConfig": {
+      "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+      "line2": "CONSULTORÍA JURÍDICA GENERAL DEL ESTADO",
+      "line3": "DIRECCIÓN DE DICTÁMENES, DECRETOS Y CONTRATOS PÚBLICOS",
+      "line4": "Despacho del Consultor Adjunto",
+      "dividerStyle": "SOLID",
+      "fontFamily": "SERIF_OFFICIAL"
+    },
+    "footerConfig": {
+      "motto": "2026: En estricta primacía constitucional y legalidad administrativa",
+      "address": "Edif. Central de Consultoría, Calle Ppal. de El Silencio, Piso 4, Caracas",
+      "contactInfo": "Tel: +58-212-555-0300 • juridico@polibio.gob • Gaceta Oficial",
+      "showPageNumber": true
+    },
+    "correlativeConfig": {
+      "prefixPattern": "DICT-2026-CJ-",
+      "paddingDigits": 3,
+      "currentSequence": 12,
+      "typeOverrides": {
+        "OFICIO": "OF-2026-CJ-",
+        "MEMORANDO": "MEM-2026-CJ-",
+        "CIRCULAR": "CIR-2026-CJ-",
+        "RESOLUCION": "RES-2026-CJ-"
+      }
+    },
+    "minClearanceToEdit": 2,
+    "updatedBy": "Abg. Roberto Gomez",
+    "updatedAt": "2026-06-10T10:00:00.000Z"
+  },
+  {
+    "id": "tpl-administracion-general",
+    "department": "Administración General",
+    "logoConfig": {
+      "placement": "LEFT",
+      "primaryLogo": "POLIBIO_SHIELD",
+      "secondaryLogo": "",
+      "logoSize": "SMALL",
+      "customPrimaryUrl": "",
+      "customSecondaryUrl": ""
+    },
+    "headerConfig": {
+      "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+      "line2": "DIRECCIÓN GENERAL DE ADMINISTRACIÓN Y SERVICIOS",
+      "line3": "DIVISIÓN DE GESTIÓN DOCUMENTAL, ARCHIVO Y CORRESPONDENCIA",
+      "line4": "Unidad de Correspondencia Oficial",
+      "dividerStyle": "SOLID",
+      "fontFamily": "PLUS_JAKARTA"
+    },
+    "footerConfig": {
+      "motto": "2026: Eficacia, Transparencia y Servicio Público Institucional",
+      "address": "Edif. Administrativo Central, Av. Urdaneta, Piso 2, Caracas",
+      "contactInfo": "Tel: +58-212-555-0400 • correspondencia@polibio.gob",
+      "showPageNumber": true
+    },
+    "correlativeConfig": {
+      "prefixPattern": "MEM-2026-ADM-",
+      "paddingDigits": 2,
+      "currentSequence": 37,
+      "typeOverrides": {
+        "OFICIO": "OF-2026-ADM-",
+        "MEMORANDO": "MEM-2026-ADM-",
+        "CIRCULAR": "CIR-2026-ADM-",
+        "RESOLUCION": "RES-2026-ADM-"
+      }
+    },
+    "minClearanceToEdit": 2,
+    "updatedBy": "Lic. Mariana Silva",
+    "updatedAt": "2026-09-01T11:00:00.000Z"
+  },
+  {
+    "id": "tpl-atencion-al-ciudadano",
+    "department": "Atención al Ciudadano",
+    "logoConfig": {
+      "placement": "CENTER",
+      "primaryLogo": "GOBIERNO_DIGITAL",
+      "secondaryLogo": "",
+      "logoSize": "MEDIUM",
+      "customPrimaryUrl": "",
+      "customSecondaryUrl": ""
+    },
+    "headerConfig": {
+      "line1": "REPÚBLICA BOLIVARIANA DE VENEZUELA",
+      "line2": "OFICINA DE ATENCIÓN AL CIUDADANO Y PARTICIPACIÓN POPULAR",
+      "line3": "VENTANILLA ÚNICA DE TRÁMITES Y ATENCIÓN PÚBLICA",
+      "line4": "Taquilla Digital de Notificaciones",
+      "dividerStyle": "TRICOLOR",
+      "fontFamily": "PLUS_JAKARTA"
+    },
+    "footerConfig": {
+      "motto": "2026: Participación Soberana y Gobierno Digital al Servicio del Pueblo",
+      "address": "Planta Baja, Edif. Sede Central, Av. Universidad, Caracas",
+      "contactInfo": "Línea Gratuita: 0800-POLIBIO (7654246) • atencion@polibio.gob",
+      "showPageNumber": true
+    },
+    "correlativeConfig": {
+      "prefixPattern": "OAC-2026-PUB-",
+      "paddingDigits": 3,
+      "currentSequence": 1,
+      "typeOverrides": {
+        "OFICIO": "OF-2026-OAC-",
+        "MEMORANDO": "MEM-2026-OAC-",
+        "CIRCULAR": "CIR-2026-OAC-",
+        "RESOLUCION": "RES-2026-OAC-"
+      }
+    },
+    "minClearanceToEdit": 2,
+    "updatedBy": "SYSTEM",
+    "updatedAt": "2026-01-10T12:00:00.000Z"
+  },
+  {
+    "id": "tpl-1a1bc3c9b98",
+    "department": "Dirección de Tecnología y Ciberdefensa",
+    "minClearanceToEdit": 2,
+    "logoConfig": {
+      "placement": "SPLIT",
+      "primaryLogo": "ESCUDO_NACIONAL",
+      "secondaryLogo": "POLIBIO_SHIELD",
+      "logoSize": 40,
+      "customPrimaryUrl": "/api/docs/uploads/1794161543922_UC_logo.png",
+      "customSecondaryUrl": ""
+    },
+    "headerConfig": {
+      "line1": "UNIVERSIDAD DE CARABOBO",
+      "line2": "DIRECCIÓN DE INFORMÁTICA",
+      "line3": "DIRECCIÓN DE TECNOLOGÍA Y CIBERDEFENSA",
+      "line4": "",
+      "dividerStyle": "DOUBLE",
+      "fontFamily": "serif"
+    },
+    "footerConfig": {
+      "motto": "\"Integridad Criptográfica, Soberanía Tecnológica\"",
+      "address": "Av. Libertador, Edif. Sede Principal, Piso 4",
+      "contactInfo": "dtc@polibio.gob.ve • Tlf: +58 212 555-0100",
+      "showPageNumber": true
+    },
+    "correlativeConfig": {
+      "prefixPattern": "OF-2026-DIRE-",
+      "paddingDigits": 3,
+      "currentSequence": 3,
+      "typeOverrides": {
+        "OFICIO": "OF-2026-DIRE-",
+        "MEMORANDO": "MEM-2026-DIRE-",
+        "CIRCULAR": "CIR-2026-DIRE-",
+        "RESOLUCION": "RES-2026-DIRE-"
+      }
+    },
+    "updatedBy": "Dra. Elena Vasquez",
+    "updatedAt": "2026-11-08T18:13:39.152Z"
+  }
+]

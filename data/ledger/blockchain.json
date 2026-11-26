@@ -1,0 +1,1479 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-01-01T00:00:00.000Z",
+    "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "merkleRoot": "80ad0c5c00a1370c89cc02c416613f6d0d8547f59b8a30ee8b7e7fd88574b0d3",
+    "nonce": 0,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-GENESIS-00000000",
+        "type": "GENESIS_INITIALIZATION",
+        "documentId": "SYSTEM-ROOT",
+        "action": "INITIALIZE_SOVEREIGN_LEDGER",
+        "details": {
+          "system": "Polibio Enterprise Sovereign Blockchain",
+          "description": "Libro mayor inmutable y de no-repudio para documentos oficiales de Estado",
+          "consensus": "Proof-of-Authority (PoA) Criptográfica"
+        },
+        "operator": "ROOT_SECURITY_OFFICER",
+        "timestamp": "2026-01-01T00:00:00.000Z",
+        "txHash": "80ad0c5c00a1370c89cc02c416613f6d0d8547f59b8a30ee8b7e7fd88574b0d3"
+      }
+    ],
+    "hash": "0403386ece2b21e05808723cacc49e975c84180945c79c10be3a5c37ea49fbb3"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-11-07T16:14:10.600Z",
+    "previousHash": "0403386ece2b21e05808723cacc49e975c84180945c79c10be3a5c37ea49fbb3",
+    "merkleRoot": "8e2012c82378fbaaf0d818b009c795c7fdf1b6560ec077620a20223e8435a3c9",
+    "nonce": 416525,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6C9F2A6-8ED472",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794068050472",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO"
+        },
+        "timestamp": "2026-11-07T16:14:10.598Z",
+        "txHash": "8e2012c82378fbaaf0d818b009c795c7fdf1b6560ec077620a20223e8435a3c9"
+      }
+    ],
+    "hash": "6ae9b35470e83efc01c85d2f7336300d5b6343f63168242efa6c0ea5fc5eb9a2"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-11-07T16:17:24.702Z",
+    "previousHash": "6ae9b35470e83efc01c85d2f7336300d5b6343f63168242efa6c0ea5fc5eb9a2",
+    "merkleRoot": "abc1cb8086f486729bf08776b01534737ca3b316c508fd2b0171dc7a7debfd84",
+    "nonce": 361739,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6CCE8DD-A516E8",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794068244604",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-07T16:17:24.701Z",
+        "txHash": "abc1cb8086f486729bf08776b01534737ca3b316c508fd2b0171dc7a7debfd84"
+      }
+    ],
+    "hash": "ae5ab93b46a0f87b20a82d2b8a3a7e88b3fbdb3b8dd74cc5cfa682801a9fe301"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-11-07T16:17:24.716Z",
+    "previousHash": "ae5ab93b46a0f87b20a82d2b8a3a7e88b3fbdb3b8dd74cc5cfa682801a9fe301",
+    "merkleRoot": "cd8021b5aa4b59f504feba5f435fedb31677ec7ec96cfd95e306ded3f9128a30",
+    "nonce": 820175,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6CCE8EC-0F203A",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794068244604",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T16:17:24.716Z",
+        "txHash": "cd8021b5aa4b59f504feba5f435fedb31677ec7ec96cfd95e306ded3f9128a30"
+      }
+    ],
+    "hash": "d943c32a3580efaed68033d4b2e9f5a6f1f5d8a8b51aab61abd0fb87892329e2"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-11-07T16:58:13.662Z",
+    "previousHash": "d943c32a3580efaed68033d4b2e9f5a6f1f5d8a8b51aab61abd0fb87892329e2",
+    "merkleRoot": "0ee3533d57317b212ecc8ec8794c96fbe05b3dc7825c2488d0feed6c4d108e96",
+    "nonce": 972819,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6F2471C-FC5011",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-2026-MEM-002",
+        "documentNumber": "MEM-2026-POL-0058",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 3",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 3,
+          "title": "Asignación de Partida Presupuestaria Extraordinaria para Servidores GPU de IA Local",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T16:58:13.660Z",
+        "txHash": "0ee3533d57317b212ecc8ec8794c96fbe05b3dc7825c2488d0feed6c4d108e96"
+      }
+    ],
+    "hash": "dd64d81e492698ca3467983438c4311aa4145847bc41902198d78305e90e3586"
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-11-07T17:00:55.092Z",
+    "previousHash": "dd64d81e492698ca3467983438c4311aa4145847bc41902198d78305e90e3586",
+    "merkleRoot": "837e82ed3b6f0e371e84615b5657699baddb4ea2e42b08dc74c1f1f1a65ee473",
+    "nonce": 52457,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6F4BDB4-E3FE24",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-2026-OF-001",
+        "documentNumber": "OF-2026-POL-0104",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 2,
+          "userClearance": 1,
+          "title": "Adopción de Protocolo Criptográfico y Blockchain Polibio en la Administración Central",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T17:00:55.092Z",
+        "txHash": "837e82ed3b6f0e371e84615b5657699baddb4ea2e42b08dc74c1f1f1a65ee473"
+      }
+    ],
+    "hash": "95b7582ff153da1beb10ffbdb4b93a1fd33e97c7f1b8dda3f7851eb51071fd59"
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-11-07T17:06:07.265Z",
+    "previousHash": "95b7582ff153da1beb10ffbdb4b93a1fd33e97c7f1b8dda3f7851eb51071fd59",
+    "merkleRoot": "bcb2cfe3523981d824249bab18f6e1ff7b0f03b70e0849466df35ffb02348536",
+    "nonce": 523176,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6F98121-9A68D0",
+        "type": "DOCUMENT_EXPORT_PRINT",
+        "documentId": "DOC-2026-OF-001",
+        "documentNumber": "OF-2026-POL-0104",
+        "documentHash": "",
+        "action": "DOCUMENT_PRINTED_PDF_EXPORT",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez (Directora General de Despacho, Clearance Nivel 5)",
+        "details": {
+          "timestamp": "2026-11-07T17:06:07.260Z",
+          "reason": "Exportación a copia física o PDF con marca de agua forense",
+          "classification": 2
+        },
+        "timestamp": "2026-11-07T17:06:07.265Z",
+        "txHash": "bcb2cfe3523981d824249bab18f6e1ff7b0f03b70e0849466df35ffb02348536"
+      }
+    ],
+    "hash": "3a7c262f6067adb7115a5b9156462bd686e62f624b2181cf80f9cb75a1e9d470"
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-11-07T17:07:04.015Z",
+    "previousHash": "3a7c262f6067adb7115a5b9156462bd686e62f624b2181cf80f9cb75a1e9d470",
+    "merkleRoot": "4112271dbe0d53df4cc304de701789e6a17647895507c131ffc5e2e10264d18d",
+    "nonce": 901638,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6FA5ECE-1696F0",
+        "type": "DOCUMENT_STATUS_CHANGE",
+        "documentId": "DOC-2026-OF-001",
+        "documentNumber": "OF-2026-POL-0104",
+        "documentHash": "",
+        "action": "STATUS_CHANGED_TO_APROBADO",
+        "confidentialityLevel": 1,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez (Directora General de Despacho)",
+        "details": {},
+        "timestamp": "2026-11-07T17:07:04.014Z",
+        "txHash": "4112271dbe0d53df4cc304de701789e6a17647895507c131ffc5e2e10264d18d"
+      }
+    ],
+    "hash": "72ee7b1d0cdfe1c09de1995f57e416081ab70cf77d705a083a235430a79fe92e"
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-11-07T17:07:10.003Z",
+    "previousHash": "72ee7b1d0cdfe1c09de1995f57e416081ab70cf77d705a083a235430a79fe92e",
+    "merkleRoot": "3bc0da8ffe4b891f87acceac5cf658a132d66f3a198e8c4c08d7398b9090d6b7",
+    "nonce": 343006,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B6FA7632-6454A5",
+        "type": "DOCUMENT_STATUS_CHANGE",
+        "documentId": "DOC-2026-OF-001",
+        "documentNumber": "OF-2026-POL-0104",
+        "documentHash": "",
+        "action": "STATUS_CHANGED_TO_DESPACHADO",
+        "confidentialityLevel": 1,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez (Directora General de Despacho)",
+        "details": {},
+        "timestamp": "2026-11-07T17:07:10.002Z",
+        "txHash": "3bc0da8ffe4b891f87acceac5cf658a132d66f3a198e8c4c08d7398b9090d6b7"
+      }
+    ],
+    "hash": "ba9e027d954546d6e019a2f560c98a3cf7ac72c0bb38cb353e45ddb272801363"
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-11-07T17:56:46.684Z",
+    "previousHash": "ba9e027d954546d6e019a2f560c98a3cf7ac72c0bb38cb353e45ddb272801363",
+    "merkleRoot": "c60dc5f4cb5cae4e676439044d909f78236996b3e693592c0a55dfec0bf71556",
+    "nonce": 9831,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B727E1DB-91F2DA",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794074206655",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "d7d1879ed418415d3aa6d5986869ea2956b649287ce8a9679b930f15be2cab59",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 3,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez",
+        "details": {
+          "title": "Despliegue Soberano PostgreSQL y Docker en Polibio",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-07T17:56:46.682Z",
+        "txHash": "c60dc5f4cb5cae4e676439044d909f78236996b3e693592c0a55dfec0bf71556"
+      }
+    ],
+    "hash": "6db112f01ea060b2f83f942cdbf7fb6c34938a15fc7783aac82104bbffd27e42"
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-11-07T17:59:14.978Z",
+    "previousHash": "6db112f01ea060b2f83f942cdbf7fb6c34938a15fc7783aac82104bbffd27e42",
+    "merkleRoot": "fb820003d097fccc1085e557cae27ad3fb95c58b99f813e7200093449ef1fea4",
+    "nonce": 613617,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B72A2521-2E8323",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794068244604",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 3",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 3,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T17:59:14.977Z",
+        "txHash": "fb820003d097fccc1085e557cae27ad3fb95c58b99f813e7200093449ef1fea4"
+      }
+    ],
+    "hash": "7c3db72d06c5ca9b84a8be08c761401365fc3b0488a2b6a2cbf507f3babf170d"
+  },
+  {
+    "index": 11,
+    "timestamp": "2026-11-07T18:04:57.598Z",
+    "previousHash": "7c3db72d06c5ca9b84a8be08c761401365fc3b0488a2b6a2cbf507f3babf170d",
+    "merkleRoot": "5445735f8c1bb50fb4ddf3f2ba0efd4f95e6143598c8a3d03ca907bfd48ceb09",
+    "nonce": 217807,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B72F5F7C-1A6BFB",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794074697459",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "d7d1879ed418415d3aa6d5986869ea2956b649287ce8a9679b930f15be2cab59",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 3,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez",
+        "details": {
+          "title": "Despliegue Soberano PostgreSQL y Docker en Polibio",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-07T18:04:57.596Z",
+        "txHash": "5445735f8c1bb50fb4ddf3f2ba0efd4f95e6143598c8a3d03ca907bfd48ceb09"
+      }
+    ],
+    "hash": "7d56c33b152cb0d100bb331c2daf3792facf3c7d921a21968807a257fda9e6bb"
+  },
+  {
+    "index": 12,
+    "timestamp": "2026-11-07T18:16:24.168Z",
+    "previousHash": "7d56c33b152cb0d100bb331c2daf3792facf3c7d921a21968807a257fda9e6bb",
+    "merkleRoot": "802ad660f1a4d6426764cfa1598d0644ff0310e5e647e46368dd3fc09c543068",
+    "nonce": 445663,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B739D966-442550",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794075384109",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Andrés Valenzuela",
+        "details": {
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-07T18:16:24.166Z",
+        "txHash": "802ad660f1a4d6426764cfa1598d0644ff0310e5e647e46368dd3fc09c543068"
+      }
+    ],
+    "hash": "57fa966c2ec40f066ae0c2ab1c0052dbe0661b0dd9244dba5a4239edd9491cc7"
+  },
+  {
+    "index": 13,
+    "timestamp": "2026-11-07T18:16:24.378Z",
+    "previousHash": "57fa966c2ec40f066ae0c2ab1c0052dbe0661b0dd9244dba5a4239edd9491cc7",
+    "merkleRoot": "5153c5cca426f61818f2b87ac6e1434be4a42b98344986a9df183a446011c3cb",
+    "nonce": 396780,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B739DA39-364B8E",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794075384109",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T18:16:24.377Z",
+        "txHash": "5153c5cca426f61818f2b87ac6e1434be4a42b98344986a9df183a446011c3cb"
+      }
+    ],
+    "hash": "9636267d80195e245dabd301a67f83dfb8f0691bf13e60fb8bb70e977a80b7ad"
+  },
+  {
+    "index": 14,
+    "timestamp": "2026-11-07T18:16:24.565Z",
+    "previousHash": "9636267d80195e245dabd301a67f83dfb8f0691bf13e60fb8bb70e977a80b7ad",
+    "merkleRoot": "1f50e7a8fe10778750e408ba1d0db0720c8bb0d3c7cf29df2276aff62e024db7",
+    "nonce": 105099,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B739DAF5-9244D1",
+        "type": "DOCUMENT_SIGN",
+        "documentId": "DOC-1794075384109",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DIGITAL_SIGNATURE_APPLIED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": "72ff75920f72d19b2c87a94dad56a6af897f70b3ab38981d11493f20b81ea8be",
+        "operator": "Sistema Polibio",
+        "details": {
+          "signatureAlgorithm": "SHA256withRSA",
+          "verified": true
+        },
+        "timestamp": "2026-11-07T18:16:24.565Z",
+        "txHash": "1f50e7a8fe10778750e408ba1d0db0720c8bb0d3c7cf29df2276aff62e024db7"
+      }
+    ],
+    "hash": "3451c8abf0a29ac38e9fb4ac92bd235195e7d1c144622b7880b50b4d4b5888fd"
+  },
+  {
+    "index": 15,
+    "timestamp": "2026-11-07T19:00:33.662Z",
+    "previousHash": "3451c8abf0a29ac38e9fb4ac92bd235195e7d1c144622b7880b50b4d4b5888fd",
+    "merkleRoot": "30a896d32c1bc4946b68f6d7b6d7acabccb80deff7bb96244e914ffb2b277bb6",
+    "nonce": 809993,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B76246FD-D2F465",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794078033351",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Andrés Valenzuela",
+        "details": {
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-07T19:00:33.661Z",
+        "txHash": "30a896d32c1bc4946b68f6d7b6d7acabccb80deff7bb96244e914ffb2b277bb6"
+      }
+    ],
+    "hash": "3ae2bfcddd5cf728e9398a300aa876b857faacf40e29de2ecf4f516afee406e8"
+  },
+  {
+    "index": 16,
+    "timestamp": "2026-11-07T19:00:33.847Z",
+    "previousHash": "3ae2bfcddd5cf728e9398a300aa876b857faacf40e29de2ecf4f516afee406e8",
+    "merkleRoot": "7852c513878936b73c6b4f77018595b3a65d98fb29813abf432951bd1c99302e",
+    "nonce": 588309,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B76247B6-0C9F82",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794078033351",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T19:00:33.846Z",
+        "txHash": "7852c513878936b73c6b4f77018595b3a65d98fb29813abf432951bd1c99302e"
+      }
+    ],
+    "hash": "7e5b832d29ed1d8cf06ceade4af1803f54e01741e1932498df3889ba5fedf35c"
+  },
+  {
+    "index": 17,
+    "timestamp": "2026-11-07T19:00:33.973Z",
+    "previousHash": "7e5b832d29ed1d8cf06ceade4af1803f54e01741e1932498df3889ba5fedf35c",
+    "merkleRoot": "a80057243e5ff7ffe9e431a81a41e747e10dfeaa6aa33075833552ea1bf116e0",
+    "nonce": 517075,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B7624834-A4A0D0",
+        "type": "DOCUMENT_SIGN",
+        "documentId": "DOC-1794078033351",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DIGITAL_SIGNATURE_APPLIED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": "65258ee4dac2dbd7c32cc9e52ab8a779f92024ae169a86e4e80864f7c5f3cdc8",
+        "operator": "Sistema Polibio",
+        "details": {
+          "signatureAlgorithm": "SHA256withRSA",
+          "verified": true
+        },
+        "timestamp": "2026-11-07T19:00:33.972Z",
+        "txHash": "a80057243e5ff7ffe9e431a81a41e747e10dfeaa6aa33075833552ea1bf116e0"
+      }
+    ],
+    "hash": "29b6689c282f4c81d49fbfec545d823f3b44cf7378f17170d846519ce5cf59c4"
+  },
+  {
+    "index": 18,
+    "timestamp": "2026-11-07T19:30:20.948Z",
+    "previousHash": "29b6689c282f4c81d49fbfec545d823f3b44cf7378f17170d846519ce5cf59c4",
+    "merkleRoot": "3134341e12c4f760d68725433d8f266582972ed574e2bd9b7b3d1d8e70e4f9cd",
+    "nonce": 515880,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B77D8C84-17750F",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794079820835",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Andrés Valenzuela",
+        "details": {
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-07T19:30:20.932Z",
+        "txHash": "3134341e12c4f760d68725433d8f266582972ed574e2bd9b7b3d1d8e70e4f9cd"
+      }
+    ],
+    "hash": "a8ba7911b1b056a3d8d8a720f4e1d2341ce95a3186ec8bc1329534ebe8745862"
+  },
+  {
+    "index": 19,
+    "timestamp": "2026-11-07T19:30:21.170Z",
+    "previousHash": "a8ba7911b1b056a3d8d8a720f4e1d2341ce95a3186ec8bc1329534ebe8745862",
+    "merkleRoot": "13b6dc840d9582274de6815a7539180b06d9f8e5b963c545400fd1031195dfa4",
+    "nonce": 352645,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B77D8D71-318269",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794079820835",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T19:30:21.169Z",
+        "txHash": "13b6dc840d9582274de6815a7539180b06d9f8e5b963c545400fd1031195dfa4"
+      }
+    ],
+    "hash": "5148ebdfe09bbd75375cd2235031e662730bdaa2606add8826b640856b38b865"
+  },
+  {
+    "index": 20,
+    "timestamp": "2026-11-07T19:30:21.290Z",
+    "previousHash": "5148ebdfe09bbd75375cd2235031e662730bdaa2606add8826b640856b38b865",
+    "merkleRoot": "45f6a00311af1e5eb23596e34f24e0cca9ab726211d02d86e9833423233a4743",
+    "nonce": 615835,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B77D8DEA-D80F7A",
+        "type": "DOCUMENT_SIGN",
+        "documentId": "DOC-1794079820835",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DIGITAL_SIGNATURE_APPLIED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": "0d139ee2d0fdcfed074577a408ebf99484e81ed3f0507b09ca3f9febaf53f3f5",
+        "operator": "Sistema Polibio",
+        "details": {
+          "signatureAlgorithm": "SHA256withRSA",
+          "verified": true
+        },
+        "timestamp": "2026-11-07T19:30:21.290Z",
+        "txHash": "45f6a00311af1e5eb23596e34f24e0cca9ab726211d02d86e9833423233a4743"
+      }
+    ],
+    "hash": "0b64437e66075cc8138d442af8d1ad7f2fc04b192f306cd1f7f67e9b6dc51c91"
+  },
+  {
+    "index": 21,
+    "timestamp": "2026-11-07T19:34:59.793Z",
+    "previousHash": "0b64437e66075cc8138d442af8d1ad7f2fc04b192f306cd1f7f67e9b6dc51c91",
+    "merkleRoot": "67c8ed6a25bd66853d42f55d7f20b791284ebe5acbff73cda1b11a84de385720",
+    "nonce": 281652,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B781CDD1-8E647F",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794080099750",
+        "documentNumber": "OF-2026-POL-0106",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Andrés Valenzuela",
+        "details": {
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-07T19:34:59.793Z",
+        "txHash": "67c8ed6a25bd66853d42f55d7f20b791284ebe5acbff73cda1b11a84de385720"
+      }
+    ],
+    "hash": "86f178bf198db1455e72503f3bbe2565acf5d004ca738ec10dd146fc362a0793"
+  },
+  {
+    "index": 22,
+    "timestamp": "2026-11-07T19:34:59.879Z",
+    "previousHash": "86f178bf198db1455e72503f3bbe2565acf5d004ca738ec10dd146fc362a0793",
+    "merkleRoot": "a5266171845156f0403fb9240d9063452c89ccab817a1eca5f42ec645881a48f",
+    "nonce": 671308,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B781CE27-7E2A91",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794080099750",
+        "documentNumber": "OF-2026-POL-0106",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Auditoría Forense de Red y Ciberdefensa Nacional",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-07T19:34:59.879Z",
+        "txHash": "a5266171845156f0403fb9240d9063452c89ccab817a1eca5f42ec645881a48f"
+      }
+    ],
+    "hash": "a3460fbb14f969ad999276796e8d3e9619480ba0f9db6df7a684cfc235d7e933"
+  },
+  {
+    "index": 23,
+    "timestamp": "2026-11-07T19:35:00.011Z",
+    "previousHash": "a3460fbb14f969ad999276796e8d3e9619480ba0f9db6df7a684cfc235d7e933",
+    "merkleRoot": "fa91c6f8c241d395e90ea04b863a1ced62bba04278168f9740f0319ecd6f101d",
+    "nonce": 294120,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1B781CEAB-326C21",
+        "type": "DOCUMENT_SIGN",
+        "documentId": "DOC-1794080099750",
+        "documentNumber": "OF-2026-POL-0106",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DIGITAL_SIGNATURE_APPLIED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": "bbb05e9d20f0998a4094b92feca0b547101debfd853708978cc5f8ae0baf4876",
+        "operator": "Sistema Polibio",
+        "details": {
+          "signatureAlgorithm": "SHA256withRSA",
+          "verified": true
+        },
+        "timestamp": "2026-11-07T19:35:00.011Z",
+        "txHash": "fa91c6f8c241d395e90ea04b863a1ced62bba04278168f9740f0319ecd6f101d"
+      }
+    ],
+    "hash": "42ab9a95c31e28fe195bff8a11b45a4c42564977f40bf54f90ffbe254fea7b23"
+  },
+  {
+    "index": 24,
+    "timestamp": "2026-11-08T14:51:50.374Z",
+    "previousHash": "42ab9a95c31e28fe195bff8a11b45a4c42564977f40bf54f90ffbe254fea7b23",
+    "merkleRoot": "84091c0152e665a4f74bf748388dcbdc9a6b20d1ea50618d0ac4578e098c591c",
+    "nonce": 141287,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBA4ECE5-33CAF5",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794149510290",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T14:51:50.373Z",
+        "txHash": "84091c0152e665a4f74bf748388dcbdc9a6b20d1ea50618d0ac4578e098c591c"
+      }
+    ],
+    "hash": "2a1df7c2022f8aa34aea3332ea40939476cbdc3b51659cfb861491fe44cb1ea4"
+  },
+  {
+    "index": 25,
+    "timestamp": "2026-11-08T14:51:50.395Z",
+    "previousHash": "2a1df7c2022f8aa34aea3332ea40939476cbdc3b51659cfb861491fe44cb1ea4",
+    "merkleRoot": "cfbeb94a36d0de0537134e9d2dc9ce05855e7a73276bcf20f5e2896985084256",
+    "nonce": 556009,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBA4ECFB-20AB90",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794149510290",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T14:51:50.394Z",
+        "txHash": "cfbeb94a36d0de0537134e9d2dc9ce05855e7a73276bcf20f5e2896985084256"
+      }
+    ],
+    "hash": "5b1ab3bc24701e7de9503da9225c88e75e2160ee4b8ee2784807eeb165f6e037"
+  },
+  {
+    "index": 26,
+    "timestamp": "2026-11-08T14:52:06.942Z",
+    "previousHash": "5b1ab3bc24701e7de9503da9225c88e75e2160ee4b8ee2784807eeb165f6e037",
+    "merkleRoot": "fe3862c7fb368158786c4b8e6c632f8da89d336a8ed64384d66a00f3df20c70a",
+    "nonce": 918091,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBA52D9D-96B7A3",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794149526865",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T14:52:06.941Z",
+        "txHash": "fe3862c7fb368158786c4b8e6c632f8da89d336a8ed64384d66a00f3df20c70a"
+      }
+    ],
+    "hash": "38e0da71f6a084fd7f06c3ea07104ae7890895ea9f8629546e7b1879f0356179"
+  },
+  {
+    "index": 27,
+    "timestamp": "2026-11-08T14:52:06.955Z",
+    "previousHash": "38e0da71f6a084fd7f06c3ea07104ae7890895ea9f8629546e7b1879f0356179",
+    "merkleRoot": "ff1e3a41ceb0511244dee125382a9e1a9a34a3cf4240118a1701c5aa31e39e9d",
+    "nonce": 933419,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBA52DAB-2B0ABD",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794149526865",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T14:52:06.955Z",
+        "txHash": "ff1e3a41ceb0511244dee125382a9e1a9a34a3cf4240118a1701c5aa31e39e9d"
+      }
+    ],
+    "hash": "edb2150d7dc21623c09f34d8bc66a9824fb1e518d833b7241d0e5bb4e33831d2"
+  },
+  {
+    "index": 28,
+    "timestamp": "2026-11-08T14:58:27.189Z",
+    "previousHash": "edb2150d7dc21623c09f34d8bc66a9824fb1e518d833b7241d0e5bb4e33831d2",
+    "merkleRoot": "0206a6e4bd0255311b69bcbd404e24f11c336e1a9d80884f128235f8c8e5bbce",
+    "nonce": 783785,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBAAFAF3-AF6572",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794149907112",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T14:58:27.187Z",
+        "txHash": "0206a6e4bd0255311b69bcbd404e24f11c336e1a9d80884f128235f8c8e5bbce"
+      }
+    ],
+    "hash": "6798ca5dba4a9cf36aaf92040290f1c33b24e9ba03f0c24b74d62e98fad605f1"
+  },
+  {
+    "index": 29,
+    "timestamp": "2026-11-08T14:58:27.204Z",
+    "previousHash": "6798ca5dba4a9cf36aaf92040290f1c33b24e9ba03f0c24b74d62e98fad605f1",
+    "merkleRoot": "e1dc6a8ccc580dfd209bb3d0f71a92f2f7278d377a9c4cfbd8c95463f87dd0fa",
+    "nonce": 154726,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBAAFB03-6324AB",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794149907112",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T14:58:27.203Z",
+        "txHash": "e1dc6a8ccc580dfd209bb3d0f71a92f2f7278d377a9c4cfbd8c95463f87dd0fa"
+      }
+    ],
+    "hash": "f537e5f1a9be16121fe023c7d27279f90fbb2c343bc41252cfa53ab6454ebd71"
+  },
+  {
+    "index": 30,
+    "timestamp": "2026-11-08T15:03:25.217Z",
+    "previousHash": "f537e5f1a9be16121fe023c7d27279f90fbb2c343bc41252cfa53ab6454ebd71",
+    "merkleRoot": "4f30ff549007c6ddce16ad3b7a03af90881018e6789351bda2712cef17f15db6",
+    "nonce": 98139,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBAF871F-A67A75",
+        "type": "DOCUMENT_EXPORT_PRINT",
+        "documentId": "DOC-1794080099750",
+        "documentNumber": "OF-2026-POL-0106",
+        "documentHash": "5e913c7999e01a66f79d2ad7d9b5c3e105408e5bde10ae2f6cb543f016db49ff",
+        "action": "DOCUMENT_PRINTED_PDF_EXPORT",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez (Directora General de Despacho, Clearance Nivel 5)",
+        "details": {
+          "timestamp": "2026-11-08T15:03:25.192Z",
+          "reason": "Exportación a copia física o PDF con marca de agua forense",
+          "classification": 4
+        },
+        "timestamp": "2026-11-08T15:03:25.215Z",
+        "txHash": "4f30ff549007c6ddce16ad3b7a03af90881018e6789351bda2712cef17f15db6"
+      }
+    ],
+    "hash": "cf6d2f8c2ca830ba37883b508aa51df5f814f464b04df4acc37229a8252e678c"
+  },
+  {
+    "index": 31,
+    "timestamp": "2026-11-08T15:15:42.286Z",
+    "previousHash": "cf6d2f8c2ca830ba37883b508aa51df5f814f464b04df4acc37229a8252e678c",
+    "merkleRoot": "30982f79665ba764cce0b30e3810ddf46493a31c08643bfaa3adce77967e3635",
+    "nonce": 169478,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBBAC64E-4B7AC7",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794150942274",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T15:15:42.286Z",
+        "txHash": "30982f79665ba764cce0b30e3810ddf46493a31c08643bfaa3adce77967e3635"
+      }
+    ],
+    "hash": "6a048e3e47e756d430110396a89332e9c225f8a7225322984ed83fb2ff654d96"
+  },
+  {
+    "index": 32,
+    "timestamp": "2026-11-08T15:15:42.295Z",
+    "previousHash": "6a048e3e47e756d430110396a89332e9c225f8a7225322984ed83fb2ff654d96",
+    "merkleRoot": "af563926e825e14e67ed659adaaa17c6cfb32c21b6741930b1cfefd352afb0b6",
+    "nonce": 478423,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BBBAC657-5F79D1",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794150942274",
+        "documentNumber": "OF-2026-POL-0105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T15:15:42.295Z",
+        "txHash": "af563926e825e14e67ed659adaaa17c6cfb32c21b6741930b1cfefd352afb0b6"
+      }
+    ],
+    "hash": "024f81ad2c7ac0182b619703d986a23837893bfefaa8f5360b8b75336fbb87e6"
+  },
+  {
+    "index": 33,
+    "timestamp": "2026-11-08T16:31:54.560Z",
+    "previousHash": "024f81ad2c7ac0182b619703d986a23837893bfefaa8f5360b8b75336fbb87e6",
+    "merkleRoot": "25a3bd32961a0815b0715c32ec4ac5ff0c791e86fbfb3109762001b8e419fe50",
+    "nonce": 332634,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC008AA5-611388",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794155514203",
+        "documentNumber": "OF-2026-PLAN-DIR-076",
+        "documentHash": "ca9eb744698182cd8c29fd0cce08a15e0739f9dc7b38c715e3df28b8f45a8847",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Instrucción E2E de Despliegue de Diagramación y Correlativos Soberanos",
+          "type": "OFICIO",
+          "encryptedAtRest": false
+        },
+        "timestamp": "2026-11-08T16:31:54.533Z",
+        "txHash": "25a3bd32961a0815b0715c32ec4ac5ff0c791e86fbfb3109762001b8e419fe50"
+      }
+    ],
+    "hash": "dc96d24eddec49c6b051b9bd30534b1dd49db12675dfe41d343ff20994f010d5"
+  },
+  {
+    "index": 34,
+    "timestamp": "2026-11-08T16:34:48.421Z",
+    "previousHash": "dc96d24eddec49c6b051b9bd30534b1dd49db12675dfe41d343ff20994f010d5",
+    "merkleRoot": "c3be0453fd0e872272359a9c51aad03ec4d776427eb971a7a326a99869d0f5a8",
+    "nonce": 548850,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC0331D7-671E8E",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794155688122",
+        "documentNumber": "OF-2026-DIRSUP-105",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T16:34:48.407Z",
+        "txHash": "c3be0453fd0e872272359a9c51aad03ec4d776427eb971a7a326a99869d0f5a8"
+      }
+    ],
+    "hash": "4999b8b2c337fb07549902325bc674271058383e731f514110f2becb15d22683"
+  },
+  {
+    "index": 35,
+    "timestamp": "2026-11-08T16:34:48.622Z",
+    "previousHash": "4999b8b2c337fb07549902325bc674271058383e731f514110f2becb15d22683",
+    "merkleRoot": "c8028ac335493edf53f485b75c17787f244425f5c3fffebe3c314dccd6d7ce73",
+    "nonce": 882397,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC0332AD-43E01B",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794155688122",
+        "documentNumber": "OF-2026-DIRSUP-105",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T16:34:48.621Z",
+        "txHash": "c8028ac335493edf53f485b75c17787f244425f5c3fffebe3c314dccd6d7ce73"
+      }
+    ],
+    "hash": "35f7089747835dcac1e89bccf449b4cbe399727514475971bdf17bab8fe2c5e5"
+  },
+  {
+    "index": 36,
+    "timestamp": "2026-11-08T16:39:41.562Z",
+    "previousHash": "35f7089747835dcac1e89bccf449b4cbe399727514475971bdf17bab8fe2c5e5",
+    "merkleRoot": "ed20ae7f7febce0261bd85f6601027dd91d7a634bafa79538bb90a7b58241f16",
+    "nonce": 623361,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC07AAFA-F91638",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794155981342",
+        "documentNumber": "OF-2026-PLAN-DIR-076",
+        "documentHash": "ca9eb744698182cd8c29fd0cce08a15e0739f9dc7b38c715e3df28b8f45a8847",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Instrucción E2E de Despliegue de Diagramación y Correlativos Soberanos",
+          "type": "OFICIO",
+          "encryptedAtRest": false
+        },
+        "timestamp": "2026-11-08T16:39:41.562Z",
+        "txHash": "ed20ae7f7febce0261bd85f6601027dd91d7a634bafa79538bb90a7b58241f16"
+      }
+    ],
+    "hash": "94c41dfff8c5d7ccab18214ec51dbe639080dbcd2d52cca83ea8b4bfc3eb8211"
+  },
+  {
+    "index": 37,
+    "timestamp": "2026-11-08T16:39:54.050Z",
+    "previousHash": "94c41dfff8c5d7ccab18214ec51dbe639080dbcd2d52cca83ea8b4bfc3eb8211",
+    "merkleRoot": "cfe568d66f32ca12f3b869ac7986f00a5845984e653bce2e28e6045fd4b80c17",
+    "nonce": 103416,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC07DBC2-D7BA1D",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794155993792",
+        "documentNumber": "OF-2026-DIRSUP-106",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T16:39:54.050Z",
+        "txHash": "cfe568d66f32ca12f3b869ac7986f00a5845984e653bce2e28e6045fd4b80c17"
+      }
+    ],
+    "hash": "3a9cd304ae4dd7f1a07e596d8f172e50cab1ca38d46003391e7618f54bcf2a60"
+  },
+  {
+    "index": 38,
+    "timestamp": "2026-11-08T16:39:54.197Z",
+    "previousHash": "3a9cd304ae4dd7f1a07e596d8f172e50cab1ca38d46003391e7618f54bcf2a60",
+    "merkleRoot": "5b402c7228865f7e28709239a04829be0009fe55eb302ced76a76e1c60a1fcdc",
+    "nonce": 679186,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC07DC54-8E6E4B",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794155993792",
+        "documentNumber": "OF-2026-DIRSUP-106",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T16:39:54.196Z",
+        "txHash": "5b402c7228865f7e28709239a04829be0009fe55eb302ced76a76e1c60a1fcdc"
+      }
+    ],
+    "hash": "5427752a3139f78c00ebc555362cb879922a200b1000bf0cac0b433fa659f04d"
+  },
+  {
+    "index": 39,
+    "timestamp": "2026-11-08T17:34:24.975Z",
+    "previousHash": "5427752a3139f78c00ebc555362cb879922a200b1000bf0cac0b433fa659f04d",
+    "merkleRoot": "94a8066de8048b52bc134cb5bf57e15507f71cac07ba8c1b18934b1c97b5cb97",
+    "nonce": 792793,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC39C4C8-FEE089",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794159264651",
+        "documentNumber": "OF-2026-DIRSUP-107",
+        "documentHash": "17bff380e5f97097db648d8761528bcf634d48bd80583707db5f8f836da40e5d",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez",
+        "details": {
+          "title": "Informe Técnico con Diagrama Criptográfico",
+          "type": "OFICIO",
+          "encryptedAtRest": false
+        },
+        "timestamp": "2026-11-08T17:34:24.968Z",
+        "txHash": "94a8066de8048b52bc134cb5bf57e15507f71cac07ba8c1b18934b1c97b5cb97"
+      }
+    ],
+    "hash": "1acae206bf8bf7b9d47282b311b5888da7358b26306ae5837c56da1c59086303"
+  },
+  {
+    "index": 40,
+    "timestamp": "2026-11-08T17:37:29.833Z",
+    "previousHash": "1acae206bf8bf7b9d47282b311b5888da7358b26306ae5837c56da1c59086303",
+    "merkleRoot": "c3204a043cf681066e6612a097bb1142323a4c3a42f5698374c7ebb80197d8a4",
+    "nonce": 827400,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC3C96E4-778FFD",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794159449665",
+        "documentNumber": "OF-2026-DIRSUP-108",
+        "documentHash": "8ce8a109f7a350aaa094370ee942238f90d5d2824eea42c4cd50107c9c879151",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez",
+        "details": {
+          "title": "Informe Técnico con Diagrama Criptográfico",
+          "type": "OFICIO",
+          "encryptedAtRest": false
+        },
+        "timestamp": "2026-11-08T17:37:29.828Z",
+        "txHash": "c3204a043cf681066e6612a097bb1142323a4c3a42f5698374c7ebb80197d8a4"
+      }
+    ],
+    "hash": "3950664dd70df19d660070d00bb6d1dfce6bb16e0cfd5cf4cb752e505a45f9c6"
+  },
+  {
+    "index": 41,
+    "timestamp": "2026-11-08T17:56:42.210Z",
+    "previousHash": "3950664dd70df19d660070d00bb6d1dfce6bb16e0cfd5cf4cb752e505a45f9c6",
+    "merkleRoot": "94b6f13a1779b0ebf8054af0ed3c84fb826ed82fd21f19e8d11305eeca814669",
+    "nonce": 745299,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC4E2C61-D67111",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794160601725",
+        "documentNumber": "OF-2026-DIRE-002",
+        "documentHash": "4799ada6d4c77a6f23e660c9a996053b9bcb48c70496dd2f283142b7809b6a6f",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez",
+        "details": {
+          "title": "Informe Técnico con Diagrama Criptográfico",
+          "type": "OFICIO",
+          "encryptedAtRest": false
+        },
+        "timestamp": "2026-11-08T17:56:42.209Z",
+        "txHash": "94b6f13a1779b0ebf8054af0ed3c84fb826ed82fd21f19e8d11305eeca814669"
+      }
+    ],
+    "hash": "c5ca239d927537920b62f976e24a416138e3f512da55f2e4d8fa6ffae33872a0"
+  },
+  {
+    "index": 42,
+    "timestamp": "2026-11-08T17:57:10.676Z",
+    "previousHash": "c5ca239d927537920b62f976e24a416138e3f512da55f2e4d8fa6ffae33872a0",
+    "merkleRoot": "00165180eec2569c01f23ce79a0c249216613dfeae63a17924e599ec2b5a2ba9",
+    "nonce": 827765,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC4E9B94-056DC7",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794160630583",
+        "documentNumber": "OF-2026-PLAN-DIR-076",
+        "documentHash": "ca9eb744698182cd8c29fd0cce08a15e0739f9dc7b38c715e3df28b8f45a8847",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 2,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Instrucción E2E de Despliegue de Diagramación y Correlativos Soberanos",
+          "type": "OFICIO",
+          "encryptedAtRest": false
+        },
+        "timestamp": "2026-11-08T17:57:10.676Z",
+        "txHash": "00165180eec2569c01f23ce79a0c249216613dfeae63a17924e599ec2b5a2ba9"
+      }
+    ],
+    "hash": "5133691cbcf663652693a965b070be27e1674e85861ec61b7789858b9ec21338"
+  },
+  {
+    "index": 43,
+    "timestamp": "2026-11-08T18:04:43.562Z",
+    "previousHash": "5133691cbcf663652693a965b070be27e1674e85861ec61b7789858b9ec21338",
+    "merkleRoot": "842975f985765fcd64764443e88b5dbfaff3f084a34047eeaa6cd89fd3299fef",
+    "nonce": 203023,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC5584AA-C1E277",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794161083133",
+        "documentNumber": "OF-2026-DIRSUP-109",
+        "documentHash": "4e019636c603bbed26dcd3c2737d5c93813ff222f1addefe494ad253e78518d2",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Lic. Carlos Mendoza",
+        "details": {
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T18:04:43.562Z",
+        "txHash": "842975f985765fcd64764443e88b5dbfaff3f084a34047eeaa6cd89fd3299fef"
+      }
+    ],
+    "hash": "7faff8f127140f2b0ad60eac63a3d487cbc544f765947f09b2b09beca91c7887"
+  },
+  {
+    "index": 44,
+    "timestamp": "2026-11-08T18:04:43.828Z",
+    "previousHash": "7faff8f127140f2b0ad60eac63a3d487cbc544f765947f09b2b09beca91c7887",
+    "merkleRoot": "a9618ef415e26757f1a66f4821a33ded72c8e58376822b2f9e0ea5a8bb463e84",
+    "nonce": 876767,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC5585B0-AE07BC",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794161083133",
+        "documentNumber": "OF-2026-DIRSUP-109",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 4,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 1",
+        "details": {
+          "attemptedLevel": 4,
+          "userClearance": 1,
+          "title": "Inspección de Seguridad Soberana Criptográfica",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T18:04:43.824Z",
+        "txHash": "a9618ef415e26757f1a66f4821a33ded72c8e58376822b2f9e0ea5a8bb463e84"
+      }
+    ],
+    "hash": "25da5763281d98aa70457d2d8c25b60957ddf94677d361e8ad34fce169b9bdff"
+  },
+  {
+    "index": 45,
+    "timestamp": "2026-11-08T18:17:06.449Z",
+    "previousHash": "25da5763281d98aa70457d2d8c25b60957ddf94677d361e8ad34fce169b9bdff",
+    "merkleRoot": "955090bd094337f161bbff4b96272cc36598f08f3895338a93a7a9ffba3884c7",
+    "nonce": 405508,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC60DA91-986C76",
+        "type": "DOCUMENT_CREATE",
+        "documentId": "DOC-1794161826416",
+        "documentNumber": "OF-2026-DIRE-003",
+        "documentHash": "26ddfe8b4601934a79766f7822d519186fb2e6affeaa2abd067d4bd5804f8953",
+        "action": "DOCUMENT_CREATED",
+        "confidentialityLevel": 3,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez",
+        "details": {
+          "title": "Protocolo Criptográfico",
+          "type": "OFICIO",
+          "encryptedAtRest": true
+        },
+        "timestamp": "2026-11-08T18:17:06.449Z",
+        "txHash": "955090bd094337f161bbff4b96272cc36598f08f3895338a93a7a9ffba3884c7"
+      }
+    ],
+    "hash": "3b01e11ca85a739da0b40447032a691a5bb61d7169e4548a4d3c28ca45dacf53"
+  },
+  {
+    "index": 46,
+    "timestamp": "2026-11-08T18:17:22.807Z",
+    "previousHash": "3b01e11ca85a739da0b40447032a691a5bb61d7169e4548a4d3c28ca45dacf53",
+    "merkleRoot": "dc6fd52d1f2e81cfd467172f463a09a1acf77979a1755fb33bb1d621ad59f0de",
+    "nonce": 406924,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC611A77-AE476D",
+        "type": "DOCUMENT_EXPORT_PRINT",
+        "documentId": "DOC-1794161826416",
+        "documentNumber": "OF-2026-DIRE-003",
+        "documentHash": "26ddfe8b4601934a79766f7822d519186fb2e6affeaa2abd067d4bd5804f8953",
+        "action": "DOCUMENT_PRINTED_PDF_EXPORT",
+        "confidentialityLevel": 3,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez (Directora General de Despacho, Clearance Nivel 5)",
+        "details": {
+          "timestamp": "2026-11-08T18:17:22.783Z",
+          "reason": "Exportación a copia física o PDF con marca de agua forense",
+          "classification": 3
+        },
+        "timestamp": "2026-11-08T18:17:22.807Z",
+        "txHash": "dc6fd52d1f2e81cfd467172f463a09a1acf77979a1755fb33bb1d621ad59f0de"
+      }
+    ],
+    "hash": "ceb53e3d33d5cf80e2a708b2243d75d47cbba763ea9b934a1dabfc3c5e096ec4"
+  },
+  {
+    "index": 47,
+    "timestamp": "2026-11-08T18:23:02.186Z",
+    "previousHash": "ceb53e3d33d5cf80e2a708b2243d75d47cbba763ea9b934a1dabfc3c5e096ec4",
+    "merkleRoot": "5af65da42b3b3608232fc1b09e31cd38860d124d620a32ebc4ebac567c6463ee",
+    "nonce": 569481,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC664829-52671E",
+        "type": "DOCUMENT_EXPORT_PRINT",
+        "documentId": "DOC-1794161826416",
+        "documentNumber": "OF-2026-DIRE-003",
+        "documentHash": "26ddfe8b4601934a79766f7822d519186fb2e6affeaa2abd067d4bd5804f8953",
+        "action": "DOCUMENT_PRINTED_PDF_EXPORT",
+        "confidentialityLevel": 3,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez (Directora General de Despacho, Clearance Nivel 5)",
+        "details": {
+          "timestamp": "2026-11-08T18:23:02.124Z",
+          "reason": "Exportación a copia física o PDF con marca de agua forense",
+          "classification": 3
+        },
+        "timestamp": "2026-11-08T18:23:02.185Z",
+        "txHash": "5af65da42b3b3608232fc1b09e31cd38860d124d620a32ebc4ebac567c6463ee"
+      }
+    ],
+    "hash": "ff4314ea0aacafc61a0f22679286ced68dc0011d78dee14d72ec493a7e0e5649"
+  },
+  {
+    "index": 48,
+    "timestamp": "2026-11-08T18:25:06.978Z",
+    "previousHash": "ff4314ea0aacafc61a0f22679286ced68dc0011d78dee14d72ec493a7e0e5649",
+    "merkleRoot": "4ec1f2c9710bde2a5448e7d94bcf5b6040aeba4657d2afa13e784644a068e454",
+    "nonce": 142206,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC682FA2-AC8CEE",
+        "type": "DOCUMENT_SIGN",
+        "documentId": "DOC-1794161826416",
+        "documentNumber": "OF-2026-DIRE-003",
+        "documentHash": "26ddfe8b4601934a79766f7822d519186fb2e6affeaa2abd067d4bd5804f8953",
+        "action": "DIGITAL_SIGNATURE_APPLIED",
+        "confidentialityLevel": 3,
+        "signerThumbprint": "939789f83a0b826a3a7019789fc272b13071d2ec41a9dfeedf7a382b821f75c1",
+        "operator": "Dra. Elena Vasquez",
+        "details": {
+          "signatureAlgorithm": "SHA256withRSA",
+          "verified": true
+        },
+        "timestamp": "2026-11-08T18:25:06.978Z",
+        "txHash": "4ec1f2c9710bde2a5448e7d94bcf5b6040aeba4657d2afa13e784644a068e454"
+      }
+    ],
+    "hash": "747e7645053e15efe2cf286ed273c28f7deabc2680e1d65312ed7f54b8946758"
+  },
+  {
+    "index": 49,
+    "timestamp": "2026-11-08T18:28:35.969Z",
+    "previousHash": "747e7645053e15efe2cf286ed273c28f7deabc2680e1d65312ed7f54b8946758",
+    "merkleRoot": "895887f579b637d09d836c0e02ebb14f78af24694c31a7ab93e64a8054ae95e0",
+    "nonce": 980703,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1BC6B6001-453C25",
+        "type": "SECURITY_ACCESS_DENIED",
+        "documentId": "DOC-1794161826416",
+        "documentNumber": "OF-2026-DIRE-003",
+        "documentHash": "",
+        "action": "MLS_ACCESS_REJECTED",
+        "confidentialityLevel": 3,
+        "signerThumbprint": null,
+        "operator": "Funcionario Clearance Nivel 2",
+        "details": {
+          "attemptedLevel": 3,
+          "userClearance": 2,
+          "title": "Protocolo Criptográfico",
+          "violation": "Intento de lectura no autorizado (Bell-LaPadula No-Read-Up)"
+        },
+        "timestamp": "2026-11-08T18:28:35.969Z",
+        "txHash": "895887f579b637d09d836c0e02ebb14f78af24694c31a7ab93e64a8054ae95e0"
+      }
+    ],
+    "hash": "4744e54a8dc9cb790832a6974d2ec314a80da3bb8a487983b9ab4fa74e737be0"
+  },
+  {
+    "index": 50,
+    "timestamp": "2026-11-12T23:43:24.202Z",
+    "previousHash": "4744e54a8dc9cb790832a6974d2ec314a80da3bb8a487983b9ab4fa74e737be0",
+    "merkleRoot": "d6386aab6037189285783ef4de281a47d7e8c1345b49af4255ea070ad7f62deb",
+    "nonce": 122406,
+    "validator": "Polibio-Node-Sovereign-01",
+    "transactions": [
+      {
+        "txId": "TX-1A1D2250623-A0F827",
+        "type": "DOCUMENT_EXPORT_PRINT",
+        "documentId": "DOC-1794161826416",
+        "documentNumber": "OF-2026-DIRE-003",
+        "documentHash": "26ddfe8b4601934a79766f7822d519186fb2e6affeaa2abd067d4bd5804f8953",
+        "action": "DOCUMENT_PRINTED_PDF_EXPORT",
+        "confidentialityLevel": 3,
+        "signerThumbprint": null,
+        "operator": "Dra. Elena Vasquez (Directora General de Despacho, Clearance Nivel 5)",
+        "details": {
+          "timestamp": "2026-11-12T23:43:24.150Z",
+          "reason": "Exportación a copia física o PDF con marca de agua forense",
+          "classification": 3
+        },
+        "timestamp": "2026-11-12T23:43:24.194Z",
+        "txHash": "d6386aab6037189285783ef4de281a47d7e8c1345b49af4255ea070ad7f62deb"
+      }
+    ],
+    "hash": "acc1f4d710f0a78fe3b5cc37628dd05bec48ef5f2463aec0c3cc014443a9d601"
+  }
+]

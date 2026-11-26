@@ -1,0 +1,18 @@
+{
+	"ulid": "01M790TNP033G736J1S1T94QT9",
+	"minTime": 1794168000000,
+	"maxTime": 1794175200000,
+	"stats": {
+		"numSamples": 25230,
+		"numFloatSamples": 25230,
+		"numSeries": 30,
+		"numChunks": 240
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01M790TNP033G736J1S1T94QT9"
+		]
+	},
+	"version": 1
+}

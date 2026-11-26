@@ -1,0 +1,229 @@
+services:
+  # -------------------------------------------------------------
+  # Base de Datos Relacional y Seguridad a Nivel de Fila (RLS)
+  # -------------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: polibio-postgres
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_PORT:-15432}:5432"
+    environment:
+      - POSTGRES_DB=polibio_db
+      - POSTGRES_USER=polibio_admin
+      - POSTGRES_PASSWORD=polibio_secure_password_2026
+    volumes:
+      - ./config/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./data/postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U polibio_admin -d polibio_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Capa Perimetral: API Gateway & Frontend
+  # -------------------------------------------------------------
+  polibio-gateway:
+    image: polibio-gateway:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["node", "services/gateway/index.js"]
+    container_name: polibio-gateway
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - DOC_SERVICE_HOST=polibio-doc-service
+      - CRYPTO_SERVICE_HOST=polibio-crypto-service
+      - LEDGER_SERVICE_HOST=polibio-ledger-service
+      - AI_SERVICE_HOST=polibio-ai-service
+      - TELEMETRY_SERVICE_HOST=polibio-telemetry-service
+    depends_on:
+      - polibio-doc-service
+      - polibio-crypto-service
+      - polibio-ledger-service
+      - polibio-ai-service
+      - polibio-telemetry-service
+    volumes:
+      - ./services/gateway:/app/services/gateway
+      - ./config:/app/config
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Microservicio de Documentación y Comunicaciones Oficiales
+  # -------------------------------------------------------------
+  polibio-doc-service:
+    image: polibio-doc-service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["node", "services/doc-service/index.js"]
+    container_name: polibio-doc-service
+    restart: unless-stopped
+    ports:
+      - "8002:8002"
+    environment:
+      - DATABASE_URL=postgres://polibio_admin:polibio_secure_password_2026@postgres:5432/polibio_db
+      - CRYPTO_SERVICE_URL=http://polibio-crypto-service:8003
+      - LEDGER_SERVICE_URL=http://polibio-ledger-service:8004
+      - TELEMETRY_SERVICE_URL=http://polibio-telemetry-service:8006
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./services/doc-service:/app/services/doc-service
+      - ./services/shared:/app/services/shared
+      - ./data/documents:/app/data/documents
+      - ./config:/app/config
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Microservicio Criptográfico y PKI Institucional
+  # -------------------------------------------------------------
+  polibio-crypto-service:
+    image: polibio-crypto-service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["node", "services/crypto-service/index.js"]
+    container_name: polibio-crypto-service
+    restart: unless-stopped
+    ports:
+      - "8003:8003"
+    environment:
+      - DATABASE_URL=postgres://polibio_admin:polibio_secure_password_2026@postgres:5432/polibio_db
+      - LEDGER_SERVICE_URL=http://polibio-ledger-service:8004
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./services/crypto-service:/app/services/crypto-service
+      - ./services/shared:/app/services/shared
+      - ./data/pki:/app/data/pki
+      - ./data/users:/app/data/users
+      - ./config:/app/config
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Microservicio de Blockchain y Libro Mayor Inmutable (Ledger)
+  # -------------------------------------------------------------
+  polibio-ledger-service:
+    image: polibio-ledger-service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["node", "services/ledger-service/index.js"]
+    container_name: polibio-ledger-service
+    restart: unless-stopped
+    ports:
+      - "8004:8004"
+    environment:
+      - DATABASE_URL=postgres://polibio_admin:polibio_secure_password_2026@postgres:5432/polibio_db
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./services/ledger-service:/app/services/ledger-service
+      - ./services/shared:/app/services/shared
+      - ./data/ledger:/app/data/ledger
+      - ./config:/app/config
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Microservicio de IA Soberana (Orquestador On-Premise)
+  # -------------------------------------------------------------
+  polibio-ai-service:
+    image: polibio-ai-service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["node", "services/ai-service/index.js"]
+    container_name: polibio-ai-service
+    restart: unless-stopped
+    ports:
+      - "8005:8005"
+    environment:
+      - OLLAMA_HOST=http://ollama-local:11434
+      - DEFAULT_MODEL=qwen2.5:0.5b
+    depends_on:
+      - ollama-local
+    volumes:
+      - ./services/ai-service:/app/services/ai-service
+      - ./services/shared:/app/services/shared
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Motor de Inferencia LLM Soberano Local (Ollama On-Premise)
+  # -------------------------------------------------------------
+  ollama-local:
+    image: ollama/ollama:latest
+    container_name: polibio-ollama-local
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./data/ollama:/root/.ollama
+    # Descomentar si se cuenta con GPU NVIDIA en el servidor local:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Microservicio de Telemetría Centralizada & Métricas en Vivo
+  # -------------------------------------------------------------
+  polibio-telemetry-service:
+    image: polibio-telemetry-service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["node", "services/telemetry-service/index.js"]
+    container_name: polibio-telemetry-service
+    restart: unless-stopped
+    ports:
+      - "8006:8006"
+    environment:
+      - PORT=8006
+      - GATEWAY_HOST=polibio-gateway
+      - DOC_HOST=polibio-doc-service
+      - CRYPTO_HOST=polibio-crypto-service
+      - LEDGER_HOST=polibio-ledger-service
+      - AI_HOST=polibio-ai-service
+    networks:
+      - polibio-mesh
+
+  # -------------------------------------------------------------
+  # Colector de Métricas Prometheus
+  # -------------------------------------------------------------
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: polibio-prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./data/prometheus:/prometheus
+    networks:
+      - polibio-mesh
+
+networks:
+  polibio-mesh:
+    driver: bridge
+
